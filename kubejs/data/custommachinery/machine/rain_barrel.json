@@ -1,0 +1,45 @@
+{
+  "name": {
+    "text": {
+      "translate": "Rain Barrel"
+    }
+  },
+  "appearance": {
+    "custommachinery:mining_level": "minecraft:needs_stone_tool",
+    "custommachinery:tool_type": [
+      "minecraft:mineable/axe",
+      "minecraft:mineable/pickaxe"
+    ]
+  },
+  "components": [
+    {
+      "type": "custommachinery:fluid",
+      "id": "output",
+      "mode": "output",
+      "capacity": 4000,
+      "max_input": 0,
+      "config": {
+        "TOP": "NONE",
+        "BOTTOM": "NONE",
+        "FRONT": "NONE",
+        "RIGHT": "NONE",
+        "BACK": "NONE",
+        "LEFT": "NONE",
+        "enabled": false
+      }
+    }
+  ],
+  "gui": [
+    {
+      "type": "custommachinery:background",
+      "width": 256,
+      "height": 192
+    },
+    {
+      "type": "custommachinery:fluid",
+      "id": "output",
+      "x": 119,
+      "y": 74
+    }
+  ]
+}

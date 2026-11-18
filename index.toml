@@ -77,8 +77,8 @@ file = "kubejs/data/custommachinery/machine/clay_kiln.json"
 hash = "91855a5fa8a728441ce5233f035cffa28d752a2d99200317f82d55764c798bdd"
 
 [[files]]
-file = "kubejs/server_scripts/debug/materials_inventory.js"
-hash = "db42b352b7c11a4b1463f56d11c0a06480759cda057f5015eaf2bb411f986779"
+file = "kubejs/data/custommachinery/machine/rain_barrel.json"
+hash = "1ab211cb7112570a83b16dc5aea5dbbc152995dab61a0b43934567b47ed08c1d"
 
 [[files]]
 file = "kubejs/server_scripts/gamerules.js"
@@ -93,8 +93,16 @@ file = "kubejs/server_scripts/tier0/kiln_recipes.js"
 hash = "06ceea08f038d72cee7e18003bcec7c7662ac0ec2b4b77dd3a3fdc9d237452ee"
 
 [[files]]
+file = "kubejs/server_scripts/tier0/mining_tiers.js"
+hash = "5c8cfda60acf5158820f10e790742d72e2df9a793046cd8c10eb5763db0e7f5b"
+
+[[files]]
 file = "kubejs/server_scripts/tier0/productive_metalworks.js"
 hash = "116c72b3571d16e8add59f43f81c4e8981c70cea3293cde0c81d03c495c4a144"
+
+[[files]]
+file = "kubejs/server_scripts/tier0/rain_barrel.js"
+hash = "d969e252eb7ecdf43657fe3dd737ea784a50cda22db78651bbf1d444f079272e"
 
 [[files]]
 file = "kubejs/server_scripts/tier0/remove_furnace.js"
@@ -212,6 +220,11 @@ metafile = true
 [[files]]
 file = "mods/ferritecore.pw.toml"
 hash = "dff824171060c79b327a4880c2f0546c727a041a489ef3af643ec2dcd9cd0c48"
+metafile = true
+
+[[files]]
+file = "mods/ftb-chunks-forge.pw.toml"
+hash = "fe87173e15a7e2a7543c553708cc3f49a346bcb686cec4977fce6c3efafe4521"
 metafile = true
 
 [[files]]
