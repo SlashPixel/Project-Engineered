@@ -30,3 +30,4 @@ emi.json
 !config/almostunified/
 
 kubejs/config/web_server.json
+patchouli_data.json
