@@ -27,6 +27,7 @@ packwiz.json
 
 !config/almostunified/
 !config/ceramicbucket-server.toml
+!config/silentgear-common.toml
 !config/remi/
 
 kubejs/config/web_server.json
