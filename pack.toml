@@ -1,0 +1,13 @@
+name = "Project: Engineered"
+author = "SlashPixel"
+version = "0.0.1"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "cd54ae4d9ceb85283aef34bfe78c31d8f7cc9adf86d46f53dd27422245adf4de"
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.267"

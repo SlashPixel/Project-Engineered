@@ -1,0 +1,180 @@
+hash-format = "sha256"
+
+[[files]]
+file = "icon.png"
+hash = "ad50c63d2a5a5c7aad90c99f1ec8da1382da516600149be9b6a340e782834c21"
+
+[[files]]
+file = "kubejs/README.txt"
+hash = "989f3737ae4621b8ff6730bce4cbeeee756921e7e510e0c281c8a350501d98af"
+
+[[files]]
+file = "kubejs/client_scripts/jsconfig.json"
+hash = "074d0711e4acb8ad4f0421127c8df1e8eb73c060bf0417bb159fc05239dbdcb8"
+
+[[files]]
+file = "kubejs/config/client.json"
+hash = "0aeb4cb329b896e33a0777a1683b0b813a6f2f0adc5bc2cf3e6d10e18e442fef"
+
+[[files]]
+file = "kubejs/config/common.json"
+hash = "e00a67922942660d77c213379b5128a46c5abc894178b0be04006d325ff5f6b3"
+
+[[files]]
+file = "kubejs/config/probe-settings.json"
+hash = "a27589e3dc2de58a0b5d36441f7c27bd288ad4ba990d14b3be6eb9706f86f18b"
+
+[[files]]
+file = "kubejs/config/web_server.json"
+hash = "bfff5a337089b724b8fdc4a0237bd3bac1fa10338bc8b7a15a88d8d5ba999037"
+
+[[files]]
+file = "kubejs/package.json"
+hash = "3d04369a44dc75f6a70dfc51080beb357eb39b395a2db0b6557ce8b9900ceec4"
+
+[[files]]
+file = "kubejs/server_scripts/jsconfig.json"
+hash = "42c92ad557857b1c4a99cf2ef009e6e65ef00615df0f9513b71312817e938f6f"
+
+[[files]]
+file = "kubejs/server_scripts/tier0/remove_furnace.js"
+hash = "61cfe5d0c85dd3336ed29e856bb55679fe265619728317ee4bbe596147dcdaea"
+
+[[files]]
+file = "kubejs/startup_scripts/jsconfig.json"
+hash = "9a75b8dd95ef5b2dd64998a78ef9c621b0d8e5578c9fd3e3bc268b1853258ca9"
+
+[[files]]
+file = "mods/almostunified.pw.toml"
+hash = "3e902846339c2bb422d614993ba499fef007f185c9c29cb55804e3270ebb5ef7"
+metafile = true
+
+[[files]]
+file = "mods/architectury-api.pw.toml"
+hash = "9412ae80a3b8633c4b8507402610c4d8ad3e27809a27a9a76263d16fa7347b2e"
+metafile = true
+
+[[files]]
+file = "mods/athena.pw.toml"
+hash = "38bddea8d550568799dd7f208c0bbe10280de3e456016a0d59aa20de112a2345"
+metafile = true
+
+[[files]]
+file = "mods/better-advanced-tooltips.pw.toml"
+hash = "9009bd5cdcdbc6bc47a7fbb203844d9a551accdd796877bdba5233ac14bbd513"
+metafile = true
+
+[[files]]
+file = "mods/bucketlib.pw.toml"
+hash = "ab8a7a9f9f3977624dddbc7f10344c45f52e39ec542f848a125aeaeca40369fa"
+metafile = true
+
+[[files]]
+file = "mods/ceramic-bucket.pw.toml"
+hash = "5236616c5a6cd9fbe09e0e1ff1c86dab901c9e91b92aca8f23ec3e4c130c3f29"
+metafile = true
+
+[[files]]
+file = "mods/custom-machinery.pw.toml"
+hash = "f1a6c01198dc578ee874b0df014bbd1c9877af3d0b99913bf2e467c0b5752966"
+metafile = true
+
+[[files]]
+file = "mods/emi.pw.toml"
+hash = "8491436f99726aff4cd90644496679665f910b51822d9aac38401d0c70dfc61a"
+metafile = true
+
+[[files]]
+file = "mods/experiencelib.pw.toml"
+hash = "832116ba3f826af7f8ccfc56d11c19a350cd152fe194f0d27c1b1c9f3db30ed7"
+metafile = true
+
+[[files]]
+file = "mods/farmers-delight.pw.toml"
+hash = "d9ed9ac8e0db9db29078dafa22bc2d86ac702f10863ae7cb1d5245111c5ea17b"
+metafile = true
+
+[[files]]
+file = "mods/ferritecore.pw.toml"
+hash = "dff824171060c79b327a4880c2f0546c727a041a489ef3af643ec2dcd9cd0c48"
+metafile = true
+
+[[files]]
+file = "mods/ftb-library-forge.pw.toml"
+hash = "1c653566b0cea97e9282c23458a28b7de879e5fd226f5bb3455502adabfc839d"
+metafile = true
+
+[[files]]
+file = "mods/ftb-quests-forge.pw.toml"
+hash = "4c973a826e4e866c3fb4d1813ebdf649526af21a332a83856ae4a2fd57362283"
+metafile = true
+
+[[files]]
+file = "mods/ftb-teams-forge.pw.toml"
+hash = "d1665d3000a0857df2d4ea5d3b3a6c5e2b0a60b0c83f8c0f30f05b5305b1878f"
+metafile = true
+
+[[files]]
+file = "mods/jei.pw.toml"
+hash = "4a5ea596148af390e53eaa5225a5569f15cda6ace0c51edf9c6b175cf6030322"
+metafile = true
+
+[[files]]
+file = "mods/kubejs.pw.toml"
+hash = "031e809b62d4d70a66be3e68ab7deeffba17027bb785c83b95c6dcfd4a4e6a8d"
+metafile = true
+
+[[files]]
+file = "mods/mezzconfig.pw.toml"
+hash = "5d445e2ad3f047becc67fec1e8f3bf6fe22ade3a443ec301590d54d0f3b91f3a"
+metafile = true
+
+[[files]]
+file = "mods/modernfix.pw.toml"
+hash = "1fae139080953d4ac5c894d72b7a8b205cd998dd347963c8ca295762995b32b8"
+metafile = true
+
+[[files]]
+file = "mods/modular-machinery-reborn.pw.toml"
+hash = "cc711865abe9b4e12fba9b2b99c78b6c0ca89569765022eddc27a90e413cd445"
+metafile = true
+
+[[files]]
+file = "mods/probejs.pw.toml"
+hash = "7efe2d26a41f536a75a615a70216da61b0b39b4039ac24111ca013f4d6c943dc"
+metafile = true
+
+[[files]]
+file = "mods/productive-metalworks.pw.toml"
+hash = "694d12649998576224bbaa1b13939e1fd6e099320d73a0c5304e442f3c037652"
+metafile = true
+
+[[files]]
+file = "mods/rhino.pw.toml"
+hash = "985a99f7465b68e43b98f3dbe1081b7113d957c7926a8caab163503528910f42"
+metafile = true
+
+[[files]]
+file = "mods/silent-gear-metalworks.pw.toml"
+hash = "07ef9dc9aaec17f47b839b3a1063744b89a7a859177e8fc208c4e2b3223c718a"
+metafile = true
+
+[[files]]
+file = "mods/silent-gear.pw.toml"
+hash = "755810e71ed93c8c9b992a6163b5c3fe8fe27c5b46d075123e892f2d69a8b46c"
+metafile = true
+
+[[files]]
+file = "mods/silent-lib.pw.toml"
+hash = "c69dcffbc7e5fd5a78a8292d696d589be53e9a6c3edbb8317d9fc441b54589f9"
+metafile = true
+
+[[files]]
+file = "mods/spark.pw.toml"
+hash = "6d9eaf43c14c66465e87bf03cc5cb5ecef57b3f2e8063c52f6332d33689d30be"
+metafile = true
+
+[[files]]
+file = "mods/spice-of-life-carrot-edition.pw.toml"
+hash = "e520ad446364dff7dd50896108a96140f3f5598b72003dade5b17308fa9ef2a9"
+metafile = true
