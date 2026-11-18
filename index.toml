@@ -49,6 +49,10 @@ file = "kubejs/assets/custommachinery/models/machine/clay_kiln_item.json"
 hash = "e313cf7c14558f5ac9f842ec6fed43282e184a28ebb1e459cf8d9a189a84ca76"
 
 [[files]]
+file = "kubejs/assets/emi/recipe/filters/hide_automated_shaped_crafting.json"
+hash = "9175a46a6718567e60498abb4478541afd6b8cf2b3d65aede15d24212a171d65"
+
+[[files]]
 file = "kubejs/assets/kubejs/models/item/unfired_clay_kiln.json"
 hash = "b889c002bae808f8c43bafec09f0325a390fdc7ec6194c5e8c3a3d892f6890cf"
 
@@ -81,6 +85,10 @@ file = "kubejs/server_scripts/gamerules.js"
 hash = "618152935876a816bd0af57daedcd6fa83e57a0ff2491c1d64605f0d96d7c540"
 
 [[files]]
+file = "kubejs/server_scripts/tier0/alloys.js"
+hash = "5eb08426111877663f94c59509122f8372ab3f28b2351f1e3fad09d373f5d33c"
+
+[[files]]
 file = "kubejs/server_scripts/tier0/kiln_recipes.js"
 hash = "06ceea08f038d72cee7e18003bcec7c7662ac0ec2b4b77dd3a3fdc9d237452ee"
 
@@ -90,7 +98,7 @@ hash = "116c72b3571d16e8add59f43f81c4e8981c70cea3293cde0c81d03c495c4a144"
 
 [[files]]
 file = "kubejs/server_scripts/tier0/remove_furnace.js"
-hash = "d075c48cafbb77ffed691916ab696e844aa6bcd2829d47946a66604d56388916"
+hash = "a3297a898ed91d97382b86398c78e990853ef14cbba54be3f8dfb40429212542"
 
 [[files]]
 file = "kubejs/startup_scripts/unfired_clay_kiln.js"

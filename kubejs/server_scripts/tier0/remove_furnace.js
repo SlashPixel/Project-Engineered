@@ -1,5 +1,9 @@
 ServerEvents.recipes(event => {
-  event.remove({ id: 'minecraft:furnace' });
-  event.remove({ output: 'minecraft:smoker' });
-  event.remove({ output: 'minecraft:blast_furnace' });
+  [
+    'minecraft:furnace',
+    'minecraft:smoker',
+    'minecraft:blast_furnace',
+    'modern_industrialization:vanilla_recipes/blast_furnace_asbl',
+    'modern_industrialization:assembler_generated/vanilla_recipes/blast_furnace'
+  ].forEach(recipeId => event.remove({ id: recipeId }));
 });
