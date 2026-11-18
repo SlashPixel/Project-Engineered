@@ -1,5 +1,5 @@
 {
-  "mod_priorities": ["minecraft", "kubejs"],
+  "mod_priorities": ["minecraft", "kubejs", "modern_industrialization", "ftbmaterials"],
   "priority_overrides": {},
   "stone_variants": [
     "stone",
@@ -22,6 +22,7 @@
     "c:rods/{material}",
     "c:storage_blocks/raw_{material}",
     "c:storage_blocks/{material}",
+    "c:tiny_dusts/{material}",
     "c:wires/{material}"
   ],
   "ignored_tags": [],

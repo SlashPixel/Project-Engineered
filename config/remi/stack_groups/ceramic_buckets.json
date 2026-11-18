@@ -1,0 +1,7 @@
+{
+  "id": "project_engineered:ceramic_buckets",
+  "type": "remi:regex",
+  "name": "Ceramic Buckets",
+  "priority": 10,
+  "regex": "ceramicbucket:.*"
+}

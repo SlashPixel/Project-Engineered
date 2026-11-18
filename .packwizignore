@@ -27,6 +27,16 @@ emi.json
 
 /config/*
 
-!config/almostunified/
+!config/almostunified/**
+!config/ceramicbucket-server.toml
+!config/silentgear-common.toml
+!config/remi/**
 
 kubejs/config/web_server.json
+patchouli_data.json
+kubejs/package.json
+kubejs/*_scripts/jsconfig.json
+kubejs/README.txt
+config/almostunified/debug.json
+config/almostunified/.gitignore
+config/remi/remi.json

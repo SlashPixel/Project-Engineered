@@ -1,16 +1,60 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/almostunified/duplicates.json"
+hash = "b70f57eadf6eec0ce43acd4c441f08feac1432826e04cb8e2736a73997c20c08"
+
+[[files]]
+file = "config/almostunified/placeholders.json"
+hash = "43733b207b9f0238c7a5bec47f19e8fd5bec80499b286e0ac4994671702dfed9"
+
+[[files]]
+file = "config/almostunified/startup.json"
+hash = "37f013c49586db025c17f9fa6657c6f239e0169ebc97ef682ff114a2ede43c5e"
+
+[[files]]
+file = "config/almostunified/tags.json"
+hash = "2512b9c947342813ee667013941f07c3be8323ac4cb8d3d1686dd8530c7c66b1"
+
+[[files]]
+file = "config/almostunified/unification/materials.json"
+hash = "0498dac69375ecf905470d4005adaed3900dd22ac0c576e593f4360254814b31"
+
+[[files]]
+file = "config/ceramicbucket-server.toml"
+hash = "58bfd636f3a720fa216d7cc534182f34b55f4d49f5f1925b080f0f73afa90f9e"
+
+[[files]]
+file = "config/remi/stack_groups/buckets.json"
+hash = "f14505917653819d433905adfaee5e7dd33819260183975f243cd3412b3448e3"
+
+[[files]]
+file = "config/remi/stack_groups/ceramic_buckets.json"
+hash = "4c4cc3a1eec24dba0a2daa066040c5daafb01744e154cd6d4fd802aa887467ef"
+
+[[files]]
+file = "config/silentgear-common.toml"
+hash = "891a36a7709700e3fd87d33b3420cbac4a8dd36b757017efd01f7c52a6beb6e3"
+
+[[files]]
 file = "icon.png"
 hash = "931039132a4278f56deb79b0071e363faeb9b302d427fb8a7d2c964de1d0302c"
 
 [[files]]
-file = "kubejs/README.txt"
-hash = "989f3737ae4621b8ff6730bce4cbeeee756921e7e510e0c281c8a350501d98af"
+file = "kubejs/assets/custommachinery/models/machine/clay_kiln.json"
+hash = "00901966ecceb28bfafb929fcedb52d8f641d8be1a1383b38d559e8971ac5573"
 
 [[files]]
-file = "kubejs/client_scripts/jsconfig.json"
-hash = "074d0711e4acb8ad4f0421127c8df1e8eb73c060bf0417bb159fc05239dbdcb8"
+file = "kubejs/assets/custommachinery/models/machine/clay_kiln_item.json"
+hash = "e313cf7c14558f5ac9f842ec6fed43282e184a28ebb1e459cf8d9a189a84ca76"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/filters/hide_automated_shaped_crafting.json"
+hash = "9175a46a6718567e60498abb4478541afd6b8cf2b3d65aede15d24212a171d65"
+
+[[files]]
+file = "kubejs/assets/kubejs/models/item/unfired_clay_kiln.json"
+hash = "b889c002bae808f8c43bafec09f0325a390fdc7ec6194c5e8c3a3d892f6890cf"
 
 [[files]]
 file = "kubejs/config/client.json"
@@ -21,24 +65,44 @@ file = "kubejs/config/common.json"
 hash = "e00a67922942660d77c213379b5128a46c5abc894178b0be04006d325ff5f6b3"
 
 [[files]]
+file = "kubejs/config/gamerules.json"
+hash = "a002f5a8c9569a141f2ce1537aed2f4bdfff8ad9b3284c3d8e8039eb0b720f39"
+
+[[files]]
 file = "kubejs/config/probe-settings.json"
 hash = "a27589e3dc2de58a0b5d36441f7c27bd288ad4ba990d14b3be6eb9706f86f18b"
 
 [[files]]
-file = "kubejs/package.json"
-hash = "3d04369a44dc75f6a70dfc51080beb357eb39b395a2db0b6557ce8b9900ceec4"
+file = "kubejs/data/custommachinery/machine/clay_kiln.json"
+hash = "91855a5fa8a728441ce5233f035cffa28d752a2d99200317f82d55764c798bdd"
 
 [[files]]
-file = "kubejs/server_scripts/jsconfig.json"
-hash = "42c92ad557857b1c4a99cf2ef009e6e65ef00615df0f9513b71312817e938f6f"
+file = "kubejs/server_scripts/debug/materials_inventory.js"
+hash = "db42b352b7c11a4b1463f56d11c0a06480759cda057f5015eaf2bb411f986779"
+
+[[files]]
+file = "kubejs/server_scripts/gamerules.js"
+hash = "618152935876a816bd0af57daedcd6fa83e57a0ff2491c1d64605f0d96d7c540"
+
+[[files]]
+file = "kubejs/server_scripts/tier0/alloys.js"
+hash = "5eb08426111877663f94c59509122f8372ab3f28b2351f1e3fad09d373f5d33c"
+
+[[files]]
+file = "kubejs/server_scripts/tier0/kiln_recipes.js"
+hash = "06ceea08f038d72cee7e18003bcec7c7662ac0ec2b4b77dd3a3fdc9d237452ee"
+
+[[files]]
+file = "kubejs/server_scripts/tier0/productive_metalworks.js"
+hash = "116c72b3571d16e8add59f43f81c4e8981c70cea3293cde0c81d03c495c4a144"
 
 [[files]]
 file = "kubejs/server_scripts/tier0/remove_furnace.js"
-hash = "a00b770cc3b0c3aa82b4969bea28cf77a3bf9fa3a85e2cfd7276ed307ea35cc0"
+hash = "a3297a898ed91d97382b86398c78e990853ef14cbba54be3f8dfb40429212542"
 
 [[files]]
-file = "kubejs/startup_scripts/jsconfig.json"
-hash = "9a75b8dd95ef5b2dd64998a78ef9c621b0d8e5578c9fd3e3bc268b1853258ca9"
+file = "kubejs/startup_scripts/unfired_clay_kiln.js"
+hash = "de025833b30800c734e0c4328cf7b57b15759cd95bda59764dc38c27a8cb5b81"
 
 [[files]]
 file = "mods/aaron.pw.toml"
@@ -201,11 +265,6 @@ hash = "d8d964dfe772806533fde01d62bcc029e2232fe325d9097865a7397e5f598cf4"
 metafile = true
 
 [[files]]
-file = "mods/immersive-aircraft-x-immersive-engineering.pw.toml"
-hash = "6c5e16fd590ef1fdbf66c776fe7e15a6d52528e2eaa54d1cbbf6df75af9bbc43"
-metafile = true
-
-[[files]]
 file = "mods/immersive-aircraft.pw.toml"
 hash = "dbdd8400fee8583932579ff02990442a58a369ac1f0557e3c10262f6552b61be"
 metafile = true
@@ -258,6 +317,11 @@ metafile = true
 [[files]]
 file = "mods/kubejs.pw.toml"
 hash = "031e809b62d4d70a66be3e68ab7deeffba17027bb785c83b95c6dcfd4a4e6a8d"
+metafile = true
+
+[[files]]
+file = "mods/lithostitched.pw.toml"
+hash = "93f98a3019a5ce1bda97af2c3e937aaa2adbe4e4dce46e74b130d32cbfdc80a2"
 metafile = true
 
 [[files]]
@@ -356,6 +420,11 @@ hash = "694d12649998576224bbaa1b13939e1fd6e099320d73a0c5304e442f3c037652"
 metafile = true
 
 [[files]]
+file = "mods/reliable-emi.pw.toml"
+hash = "e44211cfe707e71e7db2544afc7a56aedfc9e54e51944fb12c7698317512dadf"
+metafile = true
+
+[[files]]
 file = "mods/rftools-base.pw.toml"
 hash = "5c88e5a574bdc0e8eddd82ed48ecf6204e269ef1e553cb10e2b9b9375ed5743e"
 metafile = true
@@ -416,6 +485,16 @@ hash = "e520ad446364dff7dd50896108a96140f3f5598b72003dade5b17308fa9ef2a9"
 metafile = true
 
 [[files]]
+file = "mods/tectonic.pw.toml"
+hash = "3471aa37f60afd158148e97410c12fc3ab463a846c7d6bd227a1ebafec2223aa"
+metafile = true
+
+[[files]]
+file = "mods/terralith.pw.toml"
+hash = "f083c3cdf6aadc3b033e20ba8ccc929d5e1b86a0be50b05dc638d7f76dab5024"
+metafile = true
+
+[[files]]
 file = "mods/tesseract-api-neoforge.pw.toml"
 hash = "6ed9d5437e261519747b0c7dc1344d752163ef84686dc9f7c84305a883f3d4b5"
 metafile = true
@@ -433,6 +512,11 @@ metafile = true
 [[files]]
 file = "mods/xnet.pw.toml"
 hash = "2f6b9a34215c8de94688f29f06f436754b54b868934d85a170e2fb9f272770b9"
+metafile = true
+
+[[files]]
+file = "mods/yacl.pw.toml"
+hash = "492daa3391b6079b541685db276007b286774bab3b9881505127b7aef6b3f16c"
 metafile = true
 
 [[files]]
