@@ -672,12 +672,30 @@
     {
       "type": "custommachinery:item",
       "id": "input",
-      "mode": "input"
+      "mode": "input",
+      "config": {
+        "TOP": "NONE",
+        "BOTTOM": "NONE",
+        "FRONT": "NONE",
+        "RIGHT": "NONE",
+        "BACK": "NONE",
+        "LEFT": "NONE",
+        "enabled": false
+      }
     },
     {
       "type": "custommachinery:item",
       "id": "output",
-      "mode": "output"
+      "mode": "output",
+      "config": {
+        "TOP": "NONE",
+        "BOTTOM": "NONE",
+        "FRONT": "NONE",
+        "RIGHT": "NONE",
+        "BACK": "NONE",
+        "LEFT": "NONE",
+        "enabled": false
+      }
     }
   ],
   "gui": [

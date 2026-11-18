@@ -33,6 +33,10 @@ file = "config/remi/stack_groups/ceramic_buckets.json"
 hash = "4c4cc3a1eec24dba0a2daa066040c5daafb01744e154cd6d4fd802aa887467ef"
 
 [[files]]
+file = "config/silentgear-common.toml"
+hash = "891a36a7709700e3fd87d33b3420cbac4a8dd36b757017efd01f7c52a6beb6e3"
+
+[[files]]
 file = "icon.png"
 hash = "931039132a4278f56deb79b0071e363faeb9b302d427fb8a7d2c964de1d0302c"
 
@@ -57,24 +61,36 @@ file = "kubejs/config/common.json"
 hash = "e00a67922942660d77c213379b5128a46c5abc894178b0be04006d325ff5f6b3"
 
 [[files]]
+file = "kubejs/config/gamerules.json"
+hash = "a002f5a8c9569a141f2ce1537aed2f4bdfff8ad9b3284c3d8e8039eb0b720f39"
+
+[[files]]
 file = "kubejs/config/probe-settings.json"
 hash = "a27589e3dc2de58a0b5d36441f7c27bd288ad4ba990d14b3be6eb9706f86f18b"
 
 [[files]]
 file = "kubejs/data/custommachinery/machine/clay_kiln.json"
-hash = "8921bbc5db9c08fda0b102fb8795b2008146dad5eb2007cca2ee62e34af51f4c"
+hash = "91855a5fa8a728441ce5233f035cffa28d752a2d99200317f82d55764c798bdd"
 
 [[files]]
 file = "kubejs/server_scripts/debug/materials_inventory.js"
 hash = "db42b352b7c11a4b1463f56d11c0a06480759cda057f5015eaf2bb411f986779"
 
 [[files]]
+file = "kubejs/server_scripts/gamerules.js"
+hash = "618152935876a816bd0af57daedcd6fa83e57a0ff2491c1d64605f0d96d7c540"
+
+[[files]]
 file = "kubejs/server_scripts/tier0/kiln_recipes.js"
-hash = "19c86696d3352aa9c6f826acbe52a3be0e388465ea31178cc1836ea14d6bd07b"
+hash = "06ceea08f038d72cee7e18003bcec7c7662ac0ec2b4b77dd3a3fdc9d237452ee"
+
+[[files]]
+file = "kubejs/server_scripts/tier0/productive_metalworks.js"
+hash = "116c72b3571d16e8add59f43f81c4e8981c70cea3293cde0c81d03c495c4a144"
 
 [[files]]
 file = "kubejs/server_scripts/tier0/remove_furnace.js"
-hash = "a00b770cc3b0c3aa82b4969bea28cf77a3bf9fa3a85e2cfd7276ed307ea35cc0"
+hash = "d075c48cafbb77ffed691916ab696e844aa6bcd2829d47946a66604d56388916"
 
 [[files]]
 file = "kubejs/startup_scripts/unfired_clay_kiln.js"
@@ -296,6 +312,11 @@ hash = "031e809b62d4d70a66be3e68ab7deeffba17027bb785c83b95c6dcfd4a4e6a8d"
 metafile = true
 
 [[files]]
+file = "mods/lithostitched.pw.toml"
+hash = "93f98a3019a5ce1bda97af2c3e937aaa2adbe4e4dce46e74b130d32cbfdc80a2"
+metafile = true
+
+[[files]]
 file = "mods/logistics-network.pw.toml"
 hash = "898ffd88bc9aa8d5ddf920ff77a9503f039861cac150d9ca0ae70371a5d97f94"
 metafile = true
@@ -453,6 +474,16 @@ metafile = true
 [[files]]
 file = "mods/spice-of-life-carrot-edition.pw.toml"
 hash = "e520ad446364dff7dd50896108a96140f3f5598b72003dade5b17308fa9ef2a9"
+metafile = true
+
+[[files]]
+file = "mods/tectonic.pw.toml"
+hash = "3471aa37f60afd158148e97410c12fc3ab463a846c7d6bd227a1ebafec2223aa"
+metafile = true
+
+[[files]]
+file = "mods/terralith.pw.toml"
+hash = "f083c3cdf6aadc3b033e20ba8ccc929d5e1b86a0be50b05dc638d7f76dab5024"
 metafile = true
 
 [[files]]
