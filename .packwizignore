@@ -28,3 +28,5 @@ emi.json
 /config/*
 
 !config/almostunified/
+
+kubejs/config/web_server.json

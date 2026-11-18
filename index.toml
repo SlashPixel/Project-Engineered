@@ -25,10 +25,6 @@ file = "kubejs/config/probe-settings.json"
 hash = "a27589e3dc2de58a0b5d36441f7c27bd288ad4ba990d14b3be6eb9706f86f18b"
 
 [[files]]
-file = "kubejs/config/web_server.json"
-hash = "bfff5a337089b724b8fdc4a0237bd3bac1fa10338bc8b7a15a88d8d5ba999037"
-
-[[files]]
 file = "kubejs/package.json"
 hash = "3d04369a44dc75f6a70dfc51080beb357eb39b395a2db0b6557ce8b9900ceec4"
 
