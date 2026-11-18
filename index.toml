@@ -201,11 +201,6 @@ hash = "d8d964dfe772806533fde01d62bcc029e2232fe325d9097865a7397e5f598cf4"
 metafile = true
 
 [[files]]
-file = "mods/immersive-aircraft-x-immersive-engineering.pw.toml"
-hash = "6c5e16fd590ef1fdbf66c776fe7e15a6d52528e2eaa54d1cbbf6df75af9bbc43"
-metafile = true
-
-[[files]]
 file = "mods/immersive-aircraft.pw.toml"
 hash = "dbdd8400fee8583932579ff02990442a58a369ac1f0557e3c10262f6552b61be"
 metafile = true
