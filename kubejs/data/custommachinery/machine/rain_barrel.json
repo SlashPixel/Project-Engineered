@@ -9,7 +9,9 @@
     "custommachinery:tool_type": [
       "minecraft:mineable/axe",
       "minecraft:mineable/pickaxe"
-    ]
+    ],
+    "custommachinery:block": "custommachinery:machine/rain_barrel",
+    "custommachinery:item": "custommachinery:machine/rain_barrel_item"
   },
   "components": [
     {

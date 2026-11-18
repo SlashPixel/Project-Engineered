@@ -49,6 +49,14 @@ file = "kubejs/assets/custommachinery/models/machine/clay_kiln_item.json"
 hash = "e313cf7c14558f5ac9f842ec6fed43282e184a28ebb1e459cf8d9a189a84ca76"
 
 [[files]]
+file = "kubejs/assets/custommachinery/models/machine/rain_barrel.json"
+hash = "ca909015adbbde9f7469954e24a42d4d12b2a95b6a90d69efc7d351f39bdbaa6"
+
+[[files]]
+file = "kubejs/assets/custommachinery/models/machine/rain_barrel_item.json"
+hash = "87915256ecf68b0347af0a53d5313939a405e56062505f440758755035a1e6f3"
+
+[[files]]
 file = "kubejs/assets/emi/recipe/filters/hide_automated_shaped_crafting.json"
 hash = "9175a46a6718567e60498abb4478541afd6b8cf2b3d65aede15d24212a171d65"
 
@@ -78,7 +86,7 @@ hash = "91855a5fa8a728441ce5233f035cffa28d752a2d99200317f82d55764c798bdd"
 
 [[files]]
 file = "kubejs/data/custommachinery/machine/rain_barrel.json"
-hash = "1ab211cb7112570a83b16dc5aea5dbbc152995dab61a0b43934567b47ed08c1d"
+hash = "865bbdca543eac6cd76a4f3b76d2ad5279c77c7e6ddd696004fd83d5e02147d5"
 
 [[files]]
 file = "kubejs/server_scripts/gamerules.js"
@@ -107,6 +115,10 @@ hash = "d969e252eb7ecdf43657fe3dd737ea784a50cda22db78651bbf1d444f079272e"
 [[files]]
 file = "kubejs/server_scripts/tier0/remove_furnace.js"
 hash = "a3297a898ed91d97382b86398c78e990853ef14cbba54be3f8dfb40429212542"
+
+[[files]]
+file = "kubejs/startup_scripts/mod_names.js"
+hash = "ba9090abf639a46025325e91b322da275bcedb404e76b1aad633a6e4e8fa6e2c"
 
 [[files]]
 file = "kubejs/startup_scripts/unfired_clay_kiln.js"
