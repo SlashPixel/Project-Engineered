@@ -31,3 +31,6 @@ emi.json
 
 kubejs/config/web_server.json
 patchouli_data.json
+kubejs/package.json
+kubejs/*_scripts/jsconfig.json
+kubejs/README.txt

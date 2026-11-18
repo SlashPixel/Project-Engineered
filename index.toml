@@ -5,14 +5,6 @@ file = "icon.png"
 hash = "931039132a4278f56deb79b0071e363faeb9b302d427fb8a7d2c964de1d0302c"
 
 [[files]]
-file = "kubejs/README.txt"
-hash = "989f3737ae4621b8ff6730bce4cbeeee756921e7e510e0c281c8a350501d98af"
-
-[[files]]
-file = "kubejs/client_scripts/jsconfig.json"
-hash = "d2a13306c453d92e9fe31b499b657a16a5083b1471850216a5a22d9876520e17"
-
-[[files]]
 file = "kubejs/config/client.json"
 hash = "0aeb4cb329b896e33a0777a1683b0b813a6f2f0adc5bc2cf3e6d10e18e442fef"
 
@@ -25,24 +17,12 @@ file = "kubejs/config/probe-settings.json"
 hash = "a27589e3dc2de58a0b5d36441f7c27bd288ad4ba990d14b3be6eb9706f86f18b"
 
 [[files]]
-file = "kubejs/package.json"
-hash = "f312a1006906fb7b7a409715c0567b4fe169a5346cb966143b63b64dc8dc16a6"
-
-[[files]]
 file = "kubejs/server_scripts/debug/materials_inventory.js"
 hash = "db42b352b7c11a4b1463f56d11c0a06480759cda057f5015eaf2bb411f986779"
 
 [[files]]
-file = "kubejs/server_scripts/jsconfig.json"
-hash = "76baa3d2717a253e959bff6e1468592ebd9ec417e44e7f46846e57a4ca636c79"
-
-[[files]]
 file = "kubejs/server_scripts/tier0/remove_furnace.js"
 hash = "a00b770cc3b0c3aa82b4969bea28cf77a3bf9fa3a85e2cfd7276ed307ea35cc0"
-
-[[files]]
-file = "kubejs/startup_scripts/jsconfig.json"
-hash = "c598d8f9710af7a23f92cdd9061894afa84b2380377a66e15d293e769c998f97"
 
 [[files]]
 file = "mods/aaron.pw.toml"
