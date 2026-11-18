@@ -1,0 +1,6 @@
+{
+  "id": "project_engineered:buckets",
+  "type": "remi:regex",
+  "name": "Buckets",
+  "regex": ".*:.*bucket.*"
+}
