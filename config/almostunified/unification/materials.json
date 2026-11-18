@@ -1,5 +1,5 @@
 {
-  "mod_priorities": ["minecraft", "kubejs", "ftbmaterials"],
+  "mod_priorities": ["minecraft", "kubejs", "modern_industrialization", "ftbmaterials"],
   "priority_overrides": {},
   "stone_variants": [
     "stone",
