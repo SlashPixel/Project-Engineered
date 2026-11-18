@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "icon.png"
-hash = "ad50c63d2a5a5c7aad90c99f1ec8da1382da516600149be9b6a340e782834c21"
+hash = "931039132a4278f56deb79b0071e363faeb9b302d427fb8a7d2c964de1d0302c"
 
 [[files]]
 file = "kubejs/README.txt"
@@ -38,7 +38,7 @@ hash = "42c92ad557857b1c4a99cf2ef009e6e65ef00615df0f9513b71312817e938f6f"
 
 [[files]]
 file = "kubejs/server_scripts/tier0/remove_furnace.js"
-hash = "61cfe5d0c85dd3336ed29e856bb55679fe265619728317ee4bbe596147dcdaea"
+hash = "a00b770cc3b0c3aa82b4969bea28cf77a3bf9fa3a85e2cfd7276ed307ea35cc0"
 
 [[files]]
 file = "kubejs/startup_scripts/jsconfig.json"
