@@ -4,9 +4,6 @@ crash-reports/
 screenshots/
 mods/*.jar
 options.txt
-.remember/
-.claude/
-.git/
 packwiz-installer-bootstrap.jar
 packwiz-installer.jar
 packwiz.json
@@ -43,3 +40,23 @@ config/remi/remi.json
 
 .DS_Store
 icon.png
+dynamic-data-pack-cache/
+dynamic-resource-pack-cache/
+
+
+.*/
+defaultconfigs/micapmixin-server.toml
+kubejs/config/probe-settings.json
+servers.dat
+servers.dat_old
+hotbar.nbt
+realms_persistence.json
+optionsof.txt
+optionsshaders.txt
+debug/
+shaderpacks/
+schematics/
+server-resource-packs/
+moonlight-global-datapacks/
+kubejs/exported/
+kubejs/probe/

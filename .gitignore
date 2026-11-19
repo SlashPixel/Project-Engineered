@@ -34,3 +34,26 @@ kubejs/config/web_server.json
 patchouli_data.json
 
 .DS_Store
+dynamic-data-pack-cache/
+dynamic-resource-pack-cache/
+
+
+.*/
+defaultconfigs/micapmixin-server.toml
+kubejs/config/probe-settings.json
+servers.dat
+servers.dat_old
+hotbar.nbt
+realms_persistence.json
+optionsof.txt
+optionsshaders.txt
+debug/
+shaderpacks/
+schematics/
+server-resource-packs/
+moonlight-global-datapacks/
+kubejs/exported/
+kubejs/probe/
+kubejs/package.json
+kubejs/*_scripts/jsconfig.json
+kubejs/README.txt

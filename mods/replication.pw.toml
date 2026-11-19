@@ -1,0 +1,13 @@
+name = "Replication"
+filename = "Replication-1.21.1-1.2.8.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "59232e7ac1e970ee59acfcfe293e43d9e4dbbd98"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9629335
+project-id = 638351

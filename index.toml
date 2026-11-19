@@ -37,10 +37,6 @@ file = "config/silentgear-common.toml"
 hash = "27d71ad6a140c95dee57d18a2cf1d243275e804d412067c8e7e83c5da3ce3a13"
 
 [[files]]
-file = "defaultconfigs/micapmixin-server.toml"
-hash = "a73a9b03e17489afe2d1128a05a2d9510851c5c743492353274d7ec58a890b58"
-
-[[files]]
 file = "kubejs/assets/custommachinery/models/machine/clay_kiln.json"
 hash = "00901966ecceb28bfafb929fcedb52d8f641d8be1a1383b38d559e8971ac5573"
 
@@ -87,10 +83,6 @@ hash = "e00a67922942660d77c213379b5128a46c5abc894178b0be04006d325ff5f6b3"
 [[files]]
 file = "kubejs/config/gamerules.json"
 hash = "a002f5a8c9569a141f2ce1537aed2f4bdfff8ad9b3284c3d8e8039eb0b720f39"
-
-[[files]]
-file = "kubejs/config/probe-settings.json"
-hash = "a27589e3dc2de58a0b5d36441f7c27bd288ad4ba990d14b3be6eb9706f86f18b"
 
 [[files]]
 file = "kubejs/data/custommachinery/machine/clay_kiln.json"
@@ -185,6 +177,10 @@ file = "kubejs/server_scripts/tier0/remove_furnace.js"
 hash = "a3297a898ed91d97382b86398c78e990853ef14cbba54be3f8dfb40429212542"
 
 [[files]]
+file = "kubejs/server_scripts/tier0/steel_blast_furnace.js"
+hash = "94c6dc865b21bd618acdf49ae6a4f9a455d231f67b0d4c7c7d462af839601664"
+
+[[files]]
 file = "kubejs/server_scripts/tier0/wrought_iron.js"
 hash = "74ab9bc53185e4f57abec387f4d3f21a28038d9164ba3c64f8dc98166fc22a67"
 
@@ -216,6 +212,11 @@ metafile = true
 [[files]]
 file = "mods/actually-additions.pw.toml"
 hash = "7cd6286ad0975cce954e15e6611f4d592672db45fa52603161e8c3a9e338a4d8"
+metafile = true
+
+[[files]]
+file = "mods/ad-astra.pw.toml"
+hash = "b8e2705fef6e92a224508cd09a5e77f5600937e8f519d229bc7437156128faf3"
 metafile = true
 
 [[files]]
@@ -269,6 +270,11 @@ hash = "5236616c5a6cd9fbe09e0e1ff1c86dab901c9e91b92aca8f23ec3e4c130c3f29"
 metafile = true
 
 [[files]]
+file = "mods/common-storage-lib.pw.toml"
+hash = "9f7ce01579bfa07cd81b9caf3222bcead5e1dd44f7f22e1b016ac91b4095144d"
+metafile = true
+
+[[files]]
 file = "mods/create.pw.toml"
 hash = "4b0ca63279620ec9ba4c63820a9d4f9ceea9b717227137ea19e5c420c820f858"
 metafile = true
@@ -284,8 +290,18 @@ hash = "f1a6c01198dc578ee874b0df014bbd1c9877af3d0b99913bf2e467c0b5752966"
 metafile = true
 
 [[files]]
+file = "mods/easy-villagers.pw.toml"
+hash = "6c96305eaaddf8bb13c9454b7291ee884ebfef4c4b83649a5b99aa7fe1bd95d5"
+metafile = true
+
+[[files]]
 file = "mods/emi.pw.toml"
 hash = "8491436f99726aff4cd90644496679665f910b51822d9aac38401d0c70dfc61a"
+metafile = true
+
+[[files]]
+file = "mods/ender-io.pw.toml"
+hash = "28d5c0cc35be79b14441223256cc4bceb6befe3cfd5e9c9c50824f4532a14789"
 metafile = true
 
 [[files]]
@@ -381,6 +397,11 @@ metafile = true
 [[files]]
 file = "mods/immersive-engineering.pw.toml"
 hash = "901106fc6fcb4dcb86c13dd8c1dfb0d26e048387fec5bd610d06082242bd786a"
+metafile = true
+
+[[files]]
+file = "mods/immersive-petroleum.pw.toml"
+hash = "d5496dcb36c7417e52d568e060077d79e2dac2cb7686be9739941c841a644254"
 metafile = true
 
 [[files]]
@@ -499,6 +520,11 @@ hash = "cc711865abe9b4e12fba9b2b99c78b6c0ca89569765022eddc27a90e413cd445"
 metafile = true
 
 [[files]]
+file = "mods/nutritional.pw.toml"
+hash = "026cc1099cac4ab5dc4ee32acd6aa1c26412566cf9f629a9c276e96bbfc75c71"
+metafile = true
+
+[[files]]
 file = "mods/oritech-things.pw.toml"
 hash = "6a69b5ee84718d80cab6acaf49f919cb0c063db51d0b820567f73f173dda85fc"
 metafile = true
@@ -506,6 +532,21 @@ metafile = true
 [[files]]
 file = "mods/oritech.pw.toml"
 hash = "9cf37ed80c80ec520ed5170d2aeea20eec6e2a1d45a5ea34b136555d6e94fc41"
+metafile = true
+
+[[files]]
+file = "mods/pams-harvestcraft-2-crops.pw.toml"
+hash = "6f9626c4489bfad0bdf6e1f0718f54c6652ba54ca51a18b14face54893a5f182"
+metafile = true
+
+[[files]]
+file = "mods/pams-harvestcraft-2-food-core.pw.toml"
+hash = "eb045b8823c41b658530d231ce14c53f43deb2981c17f03eb48d12cebb18f296"
+metafile = true
+
+[[files]]
+file = "mods/pams-harvestcraft-2-trees.pw.toml"
+hash = "d48697a0d75267fe97428fa6b8442ec419846d7396e2dc9b4dd2c90e13f17daa"
 metafile = true
 
 [[files]]
@@ -524,6 +565,16 @@ hash = "91398d6341806e725e8d177880accf5348ad1792ffdff53dd7d58c355be4e2fb"
 metafile = true
 
 [[files]]
+file = "mods/pretty-pipes-fluids.pw.toml"
+hash = "542bf3918f67ced10299c019cf14fa72f3b16e9d00b8247e6194880d471b1889"
+metafile = true
+
+[[files]]
+file = "mods/pretty-pipes.pw.toml"
+hash = "85064f8a797c2a52be805e288bb1bdaa6df3f1b731c86c11ea9b27e9e83cc9a3"
+metafile = true
+
+[[files]]
 file = "mods/probejs.pw.toml"
 hash = "7efe2d26a41f536a75a615a70216da61b0b39b4039ac24111ca013f4d6c943dc"
 metafile = true
@@ -536,6 +587,21 @@ metafile = true
 [[files]]
 file = "mods/reliable-emi.pw.toml"
 hash = "e44211cfe707e71e7db2544afc7a56aedfc9e54e51944fb12c7698317512dadf"
+metafile = true
+
+[[files]]
+file = "mods/replication.pw.toml"
+hash = "e0d3db92ec5e25b1dbfb8f62b3d5c21008b37e09b90516fc8b8249d52a508666"
+metafile = true
+
+[[files]]
+file = "mods/resourceful-config.pw.toml"
+hash = "89d21f5da7fea8b1197c6e8e5215d45f7400844560e0f7c179d3c6145bd36a95"
+metafile = true
+
+[[files]]
+file = "mods/resourceful-lib.pw.toml"
+hash = "aa83553db30adc47f86010f6443340251323a62ee3f9415a0c4332cb6d502419"
 metafile = true
 
 [[files]]
@@ -569,6 +635,11 @@ hash = "985a99f7465b68e43b98f3dbe1081b7113d957c7926a8caab163503528910f42"
 metafile = true
 
 [[files]]
+file = "mods/selene.pw.toml"
+hash = "6aba148930aeb000292b8862990ab4515ea033554b67b44dd3e59f16ef244778"
+metafile = true
+
+[[files]]
 file = "mods/silent-gear-metalworks.pw.toml"
 hash = "07ef9dc9aaec17f47b839b3a1063744b89a7a859177e8fc208c4e2b3223c718a"
 metafile = true
@@ -584,6 +655,16 @@ hash = "c69dcffbc7e5fd5a78a8292d696d589be53e9a6c3edbb8317d9fc441b54589f9"
 metafile = true
 
 [[files]]
+file = "mods/sophisticated-backpacks.pw.toml"
+hash = "a92eb8ece81a5134b9fd1d19d1735a58af1d189ad1fb0135e0cf713d35d36b81"
+metafile = true
+
+[[files]]
+file = "mods/sophisticated-core.pw.toml"
+hash = "8dfb0b7c7546a01911daff294b76a15e1db958579dce15d71e0ef68e8594bd65"
+metafile = true
+
+[[files]]
 file = "mods/soulplied-energistics.pw.toml"
 hash = "e342fd17fd38de4d0367e8d6b308df7b113e3a8d0d01e0b55048e53ee0177a8a"
 metafile = true
@@ -596,6 +677,11 @@ metafile = true
 [[files]]
 file = "mods/spice-of-life-carrot-edition.pw.toml"
 hash = "e520ad446364dff7dd50896108a96140f3f5598b72003dade5b17308fa9ef2a9"
+metafile = true
+
+[[files]]
+file = "mods/supplementaries.pw.toml"
+hash = "bf4a329e0eb0da0334658a11abb8b5c7c5fe881779f4e01134a14087eeead5da"
 metafile = true
 
 [[files]]
