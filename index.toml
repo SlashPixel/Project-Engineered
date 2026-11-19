@@ -37,10 +37,6 @@ file = "config/silentgear-common.toml"
 hash = "27d71ad6a140c95dee57d18a2cf1d243275e804d412067c8e7e83c5da3ce3a13"
 
 [[files]]
-file = "icon.png"
-hash = "ad50c63d2a5a5c7aad90c99f1ec8da1382da516600149be9b6a340e782834c21"
-
-[[files]]
 file = "kubejs/assets/custommachinery/models/machine/clay_kiln.json"
 hash = "00901966ecceb28bfafb929fcedb52d8f641d8be1a1383b38d559e8971ac5573"
 
@@ -67,10 +63,6 @@ hash = "b889c002bae808f8c43bafec09f0325a390fdc7ec6194c5e8c3a3d892f6890cf"
 [[files]]
 file = "kubejs/client_scripts/lang.js"
 hash = "b76aa8e3dec707348394d0c1ae185232c92bdc321a5791bd5cfbeea1ab3e75ba"
-
-[[files]]
-file = "kubejs/client_scripts/main.js"
-hash = "3df46f0add819bf2602642215b5c62f0581ffdaaf97e77c80a8c4d966e05adcf"
 
 [[files]]
 file = "kubejs/client_scripts/recipe_viewer.js"
