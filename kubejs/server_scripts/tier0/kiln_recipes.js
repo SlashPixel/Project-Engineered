@@ -17,6 +17,9 @@ ServerEvents.recipes(event => {
   event.recipes.minecraft.campfire_cooking('ceramicbucket:ceramic_bucket', 'ceramicbucket:unfired_clay_bucket', 0.3, 600)
     .id('kubejs:campfire_ceramic_bucket');
 
+  event.recipes.minecraft.campfire_cooking('kubejs:wood_ash', '#minecraft:logs_that_burn', 0.1, 600)
+    .id('kubejs:campfire_wood_ash');
+
   let kiln = (input, output) => {
     event.recipes.custommachinery.custom_machine('custommachinery:clay_kiln', 300)
       .requireItem(input)
