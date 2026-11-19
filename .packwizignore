@@ -40,3 +40,5 @@ kubejs/README.txt
 config/almostunified/debug.json
 config/almostunified/.gitignore
 config/remi/remi.json
+
+.DS_Store

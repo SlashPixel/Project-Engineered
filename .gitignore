@@ -32,3 +32,5 @@ packwiz.json
 
 kubejs/config/web_server.json
 patchouli_data.json
+
+.DS_Store
