@@ -22,7 +22,7 @@ hash = "0498dac69375ecf905470d4005adaed3900dd22ac0c576e593f4360254814b31"
 
 [[files]]
 file = "config/ceramicbucket-server.toml"
-hash = "58bfd636f3a720fa216d7cc534182f34b55f4d49f5f1925b080f0f73afa90f9e"
+hash = "61ae9c5cbc3d29f811684d86ad19237886d0a695b97b30cc6081b67c64c112dd"
 
 [[files]]
 file = "config/remi/stack_groups/buckets.json"
@@ -34,11 +34,15 @@ hash = "4c4cc3a1eec24dba0a2daa066040c5daafb01744e154cd6d4fd802aa887467ef"
 
 [[files]]
 file = "config/silentgear-common.toml"
-hash = "891a36a7709700e3fd87d33b3420cbac4a8dd36b757017efd01f7c52a6beb6e3"
+hash = "27d71ad6a140c95dee57d18a2cf1d243275e804d412067c8e7e83c5da3ce3a13"
+
+[[files]]
+file = "hs_err_pid36882.log"
+hash = "40e65b7e82809a3b98087d19017428d597b5c4c126e7f08528d84467ea0684d3"
 
 [[files]]
 file = "icon.png"
-hash = "931039132a4278f56deb79b0071e363faeb9b302d427fb8a7d2c964de1d0302c"
+hash = "ad50c63d2a5a5c7aad90c99f1ec8da1382da516600149be9b6a340e782834c21"
 
 [[files]]
 file = "kubejs/assets/custommachinery/models/machine/clay_kiln.json"
@@ -65,6 +69,38 @@ file = "kubejs/assets/kubejs/models/item/unfired_clay_kiln.json"
 hash = "b889c002bae808f8c43bafec09f0325a390fdc7ec6194c5e8c3a3d892f6890cf"
 
 [[files]]
+file = "kubejs/assets/kubejs/textures/item/brick_mould.png"
+hash = "d80de3705b503e2ac064e0e409f09b85e6c02dbf431bb99c792a6b964b635980"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/unfired_brick.png"
+hash = "3e276e1962c74f4d1fbd0ae709748cb2926d7ae4288c4331d3221f99ed708928"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/unfired_fire_brick.png"
+hash = "58f639d2844ec38b114f98925eec9e49fd8289e684f1bf1ae5813a9373f09a3a"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/unfired_fire_clay_brick.png"
+hash = "98531ac55d7559d9cd2a8e32b5546683a1b6eb22bd7507321746cbc4fcd158d8"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/unfired_nether_brick.png"
+hash = "9b2fad6317affb9ac7532b0319a62ab2f6f1bf6a0f469e70ad2d8902351eee2b"
+
+[[files]]
+file = "kubejs/client_scripts/lang.js"
+hash = "c299a0de4b6c08789566e92c14f0227037af4be140cb27376fafd3010d112f2f"
+
+[[files]]
+file = "kubejs/client_scripts/main.js"
+hash = "3df46f0add819bf2602642215b5c62f0581ffdaaf97e77c80a8c4d966e05adcf"
+
+[[files]]
+file = "kubejs/client_scripts/recipe_viewer.js"
+hash = "1c01433af09379b1ffec3b3938212f60dded975b9d7fafad1aa2c4664d67f915"
+
+[[files]]
 file = "kubejs/config/client.json"
 hash = "0aeb4cb329b896e33a0777a1683b0b813a6f2f0adc5bc2cf3e6d10e18e442fef"
 
@@ -89,6 +125,10 @@ file = "kubejs/data/custommachinery/machine/rain_barrel.json"
 hash = "865bbdca543eac6cd76a4f3b76d2ad5279c77c7e6ddd696004fd83d5e02147d5"
 
 [[files]]
+file = "kubejs/data/minecraft/loot_table/blocks/glass.json"
+hash = "898073dfb661f655f421de678de8e45f0f11f70a570f2e1fa1c78fa51d8bd044"
+
+[[files]]
 file = "kubejs/server_scripts/gamerules.js"
 hash = "618152935876a816bd0af57daedcd6fa83e57a0ff2491c1d64605f0d96d7c540"
 
@@ -97,12 +137,44 @@ file = "kubejs/server_scripts/tier0/alloys.js"
 hash = "5eb08426111877663f94c59509122f8372ab3f28b2351f1e3fad09d373f5d33c"
 
 [[files]]
+file = "kubejs/server_scripts/tier0/bricks.js"
+hash = "11a2cce23770998a7f23d5d3299b8ed735618a9bcebf9f94bb45823ae0f7b359"
+
+[[files]]
+file = "kubejs/server_scripts/tier0/coal_coke.js"
+hash = "038a99337732643cb3159c63993f55d49be77772bde4a6510c051ce47e11ac61"
+
+[[files]]
+file = "kubejs/server_scripts/tier0/create_fans.js"
+hash = "34f206c465de65839108e6995144e598d712cb7879f56067d727d02d9b5386d6"
+
+[[files]]
+file = "kubejs/server_scripts/tier0/dust_conversions.js"
+hash = "5c0efbd3bba821dcd93238d1e49b731b7252cfc585df0165dada0a1e0702770a"
+
+[[files]]
+file = "kubejs/server_scripts/tier0/enchanting_table.js"
+hash = "b7747602745a180fb7dfdcaa509462c00fef8bf6d9b1a06e9ce862be5415f1bd"
+
+[[files]]
+file = "kubejs/server_scripts/tier0/furnace_cores.js"
+hash = "9653650c0d65638ad821a6277c29974a7a6edc3bb36096fc9af08796b319d751"
+
+[[files]]
+file = "kubejs/server_scripts/tier0/glass.js"
+hash = "c1b2c9ef041d0bcbe5f05f13840498bbdbd73f572150589b8a929b99da116700"
+
+[[files]]
 file = "kubejs/server_scripts/tier0/kiln_recipes.js"
-hash = "06ceea08f038d72cee7e18003bcec7c7662ac0ec2b4b77dd3a3fdc9d237452ee"
+hash = "da247277836346009c905252ee80bc8ad6f718f42f32316b04b32671139d26c3"
 
 [[files]]
 file = "kubejs/server_scripts/tier0/mining_tiers.js"
 hash = "5c8cfda60acf5158820f10e790742d72e2df9a793046cd8c10eb5763db0e7f5b"
+
+[[files]]
+file = "kubejs/server_scripts/tier0/ore_smelting.js"
+hash = "4bd40a241f596207dc9ef0b0fe67ba932b8e6d65dce9c393e1bb3d1e3783663e"
 
 [[files]]
 file = "kubejs/server_scripts/tier0/productive_metalworks.js"
@@ -110,11 +182,27 @@ hash = "116c72b3571d16e8add59f43f81c4e8981c70cea3293cde0c81d03c495c4a144"
 
 [[files]]
 file = "kubejs/server_scripts/tier0/rain_barrel.js"
-hash = "d969e252eb7ecdf43657fe3dd737ea784a50cda22db78651bbf1d444f079272e"
+hash = "1e8e9e320c2c0ee0dd09406becaa06f407c377ef346b33296600a74bdd837ddc"
+
+[[files]]
+file = "kubejs/server_scripts/tier0/refractory.js"
+hash = "afbb875aa89b27ba55da4f3454ef065bb07c8f2423fc6dccd18520913d6fbe27"
 
 [[files]]
 file = "kubejs/server_scripts/tier0/remove_furnace.js"
 hash = "a3297a898ed91d97382b86398c78e990853ef14cbba54be3f8dfb40429212542"
+
+[[files]]
+file = "kubejs/startup_scripts/bricks.js"
+hash = "580fabeb822bcac4269c5cc2c56da3c823c934ce94a57882bbeec3345fe0689a"
+
+[[files]]
+file = "kubejs/startup_scripts/cores.js"
+hash = "14bb69c5c3779efed6dd0738e92a7af7c9030f8dc71fd015bc10a8e99afd35fd"
+
+[[files]]
+file = "kubejs/startup_scripts/dusts.js"
+hash = "210d7fc88de67f6b1c19409c30577072dc7435272f1d6f742ee4d279271a5250"
 
 [[files]]
 file = "kubejs/startup_scripts/mod_names.js"
@@ -350,6 +438,11 @@ hash = "93f98a3019a5ce1bda97af2c3e937aaa2adbe4e4dce46e74b130d32cbfdc80a2"
 metafile = true
 
 [[files]]
+file = "mods/little-logistics.pw.toml"
+hash = "33a3d243059472644c61e4b5e544a9105b28421538b5e412b5c7ce2c4cc985bc"
+metafile = true
+
+[[files]]
 file = "mods/logistics-network.pw.toml"
 hash = "898ffd88bc9aa8d5ddf920ff77a9503f039861cac150d9ca0ae70371a5d97f94"
 metafile = true
@@ -527,6 +620,11 @@ metafile = true
 [[files]]
 file = "mods/titanium.pw.toml"
 hash = "01fa889082fbcae62d6dd07d4220032a1d4018edbcd82a28c54e44a8556157b2"
+metafile = true
+
+[[files]]
+file = "mods/treetap.pw.toml"
+hash = "6abadf314d58f219ec477a8cf99cfa8fe15a2ccf562a5f2253bb618a33cc7167"
 metafile = true
 
 [[files]]
