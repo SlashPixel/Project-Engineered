@@ -11,10 +11,7 @@ StartupEvents.registry('item', event => {
   event.create('silica_dust').displayName('Silica Dust').texture('minecraft:item/sugar').color(0, 0xE8E4DA);
   event.create('silica_tiny_dust').displayName('Silica Tiny Dust').texture('modern_industrialization:item/iron_tiny_dust').color(0, 0xE8E4DA);
 
-  event.create('wrought_iron_ingot').displayName('Wrought Iron Ingot')
-    .texture('kubejs:item/generated/wrought_iron_ingot');
-  event.create('wrought_iron_dust').displayName('Wrought Iron Dust')
-    .texture('kubejs:item/generated/wrought_iron_dust');
-  event.create('wrought_iron_tiny_dust').displayName('Wrought Iron Tiny Dust')
-    .texture('kubejs:item/generated/wrought_iron_tiny_dust');
+  event.create('wrought_iron_ingot').displayName('Wrought Iron Ingot').texture('minecraft:item/iron_ingot').color(0, 0xC4AC6C);
+  event.create('wrought_iron_dust').displayName('Wrought Iron Dust').texture('modern_industrialization:item/iron_dust').color(0, 0xC4AC6C);
+  event.create('wrought_iron_tiny_dust').displayName('Wrought Iron Tiny Dust').texture('modern_industrialization:item/iron_tiny_dust').color(0, 0xC4AC6C);
 });

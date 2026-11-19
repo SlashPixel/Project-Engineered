@@ -37,6 +37,10 @@ file = "config/silentgear-common.toml"
 hash = "27d71ad6a140c95dee57d18a2cf1d243275e804d412067c8e7e83c5da3ce3a13"
 
 [[files]]
+file = "defaultconfigs/micapmixin-server.toml"
+hash = "a73a9b03e17489afe2d1128a05a2d9510851c5c743492353274d7ec58a890b58"
+
+[[files]]
 file = "kubejs/assets/custommachinery/models/machine/clay_kiln.json"
 hash = "00901966ecceb28bfafb929fcedb52d8f641d8be1a1383b38d559e8971ac5573"
 
@@ -70,7 +74,7 @@ hash = "63a686ab40f8cdca0e103db302a95fd10de999ccce0f776d7e01a4244180e502"
 
 [[files]]
 file = "kubejs/client_scripts/textures.js"
-hash = "be3fcd022449d7a31a135f3807993d6d5bb8a1bc40e24cea286be138655b088e"
+hash = "259a89fb21c60bbfa29c7de5b06451bdb95180667b4f3521ba0f53ad632f82f2"
 
 [[files]]
 file = "kubejs/config/client.json"
@@ -194,7 +198,7 @@ hash = "14bb69c5c3779efed6dd0738e92a7af7c9030f8dc71fd015bc10a8e99afd35fd"
 
 [[files]]
 file = "kubejs/startup_scripts/dusts.js"
-hash = "f2e64c7ed73d25db75d2af3e187c4cf049bf22998d0b8318cb988e3f61e1548a"
+hash = "b77feada6dea68c7d373618def26ac6db4cc1e224bebbc2703eb9eebefb9f7ee"
 
 [[files]]
 file = "kubejs/startup_scripts/mod_names.js"

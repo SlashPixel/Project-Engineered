@@ -23,21 +23,6 @@ const GENERATED = [
     id: 'unfired_fire_brick',
     source: 'productivemetalworks:item/fire_brick',
     stops: [[124, 114, 88], [174, 162, 118], [212, 200, 150]]
-  },
-  {
-    id: 'wrought_iron_ingot',
-    source: 'minecraft:item/iron_ingot',
-    stops: [[52, 44, 28], [124, 106, 62], [196, 172, 108]]
-  },
-  {
-    id: 'wrought_iron_dust',
-    source: 'modern_industrialization:item/iron_dust',
-    stops: [[52, 44, 28], [124, 106, 62], [196, 172, 108]]
-  },
-  {
-    id: 'wrought_iron_tiny_dust',
-    source: 'modern_industrialization:item/iron_tiny_dust',
-    stops: [[52, 44, 28], [124, 106, 62], [196, 172, 108]]
   }
 ];
 
