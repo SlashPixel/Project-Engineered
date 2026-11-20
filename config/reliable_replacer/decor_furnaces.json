@@ -1,0 +1,62 @@
+[
+  {
+    "inputs": [
+      "minecraft:furnace"
+    ],
+    "output": "kubejs:decor_furnace",
+    "state_properties": {
+      "lit": "false"
+    },
+    "keep_nbt": false
+  },
+  {
+    "inputs": [
+      "minecraft:furnace"
+    ],
+    "output": "kubejs:decor_furnace_lit",
+    "state_properties": {
+      "lit": "true"
+    },
+    "keep_nbt": false
+  },
+  {
+    "inputs": [
+      "minecraft:smoker"
+    ],
+    "output": "kubejs:decor_smoker",
+    "state_properties": {
+      "lit": "false"
+    },
+    "keep_nbt": false
+  },
+  {
+    "inputs": [
+      "minecraft:smoker"
+    ],
+    "output": "kubejs:decor_smoker_lit",
+    "state_properties": {
+      "lit": "true"
+    },
+    "keep_nbt": false
+  },
+  {
+    "inputs": [
+      "minecraft:blast_furnace"
+    ],
+    "output": "kubejs:decor_blast_furnace",
+    "state_properties": {
+      "lit": "false"
+    },
+    "keep_nbt": false
+  },
+  {
+    "inputs": [
+      "minecraft:blast_furnace"
+    ],
+    "output": "kubejs:decor_blast_furnace_lit",
+    "state_properties": {
+      "lit": "true"
+    },
+    "keep_nbt": false
+  }
+]
