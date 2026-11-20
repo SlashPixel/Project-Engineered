@@ -46,7 +46,6 @@ dynamic-resource-pack-cache/
 
 
 .*/
-!.githooks/
 kubejs/config/probe-settings.json
 servers.dat
 servers.dat_old
