@@ -1,0 +1,264 @@
+{
+  "mods": {
+    "actuallyadditions": {
+      "items": [
+        "actuallyadditions:coal_generator",
+        "actuallyadditions:oil_generator",
+        "actuallyadditions:bio_reactor",
+        "actuallyadditions:leaf_generator",
+        "actuallyadditions:rice",
+        "actuallyadditions:rice_seeds"
+      ],
+      "recipes": [
+        "actuallyadditions:coal_generator",
+        "actuallyadditions:reset/coal_generator",
+        "actuallyadditions:oil_generator",
+        "actuallyadditions:reset/oil_generator",
+        "actuallyadditions:bio_reactor",
+        "actuallyadditions:leaf_generator",
+        "actuallyadditions:reset/leaf_generator"
+      ]
+    },
+    "ad_astra": {
+      "items": [
+        "ad_astra:coal_generator"
+      ],
+      "recipes": [
+        "ad_astra:coal_generator"
+      ]
+    },
+    "ae2": {
+      "items": [
+        "ae2:crank",
+        "ae2:vibration_chamber"
+      ],
+      "recipes": [
+        "ae2:network/blocks/crank",
+        "ae2:network/blocks/energy_vibration_chamber"
+      ]
+    },
+    "ceramicbucket": {
+      "items": [],
+      "recipes": [
+        "ceramicbucket:ceramic_bucket"
+      ]
+    },
+    "enderio": {
+      "items": [
+        "enderio:soul_engine",
+        "enderio:stirling_generator"
+      ],
+      "recipes": [
+        "enderio:erase_soul_engine",
+        "enderio:soul_engine",
+        "enderio:soulbinding/soul_engine",
+        "enderio:erase_stirling_generator",
+        "enderio:stirling_generator"
+      ]
+    },
+    "excessive_utilities": {
+      "items": [
+        "excessive_utilities:furnace_generator",
+        "excessive_utilities:survivalist_generator",
+        "excessive_utilities:overclocked_generator",
+        "excessive_utilities:rainbow_generator",
+        "excessive_utilities:culinary_generator",
+        "excessive_utilities:death_generator",
+        "excessive_utilities:disenchantment_generator",
+        "excessive_utilities:ender_generator",
+        "excessive_utilities:explosive_generator",
+        "excessive_utilities:frosty_generator",
+        "excessive_utilities:halitosis_generator",
+        "excessive_utilities:heated_redstone_generator",
+        "excessive_utilities:magmatic_generator",
+        "excessive_utilities:nether_star_generator",
+        "excessive_utilities:pink_generator",
+        "excessive_utilities:potion_generator",
+        "excessive_utilities:slimy_generator",
+        "excessive_utilities:rainbow_generator_bottom_slab",
+        "excessive_utilities:rainbow_generator_top_slab"
+      ],
+      "recipes": [
+        "excessive_utilities:furnace_generator",
+        "excessive_utilities:survivalist_generator",
+        "excessive_utilities:overclocked_generator",
+        "excessive_utilities:rainbow_generator",
+        "excessive_utilities:culinary_generator",
+        "excessive_utilities:death_generator",
+        "excessive_utilities:disenchantment_generator",
+        "excessive_utilities:ender_generator",
+        "excessive_utilities:explosive_generator",
+        "excessive_utilities:frosty_generator",
+        "excessive_utilities:halitosis_generator",
+        "excessive_utilities:heated_redstone_generator",
+        "excessive_utilities:magmatic_generator",
+        "excessive_utilities:nether_star_generator",
+        "excessive_utilities:pink_generator",
+        "excessive_utilities:potion_generator",
+        "excessive_utilities:slimy_generator",
+        "excessive_utilities:rainbow_generator_bottom_slab",
+        "excessive_utilities:rainbow_generator_top_slab"
+      ]
+    },
+    "ftbmaterials": {
+      "items": [
+        "ftbmaterials:coal_coke_gem",
+        "ftbmaterials:coal_coke_dust",
+        "ftbmaterials:coal_coke_block"
+      ],
+      "recipes": []
+    },
+    "immersiveengineering": {
+      "items": [
+        "immersiveengineering:blastbrick_reinforced",
+        "immersiveengineering:slab_blastbrick_reinforced"
+      ],
+      "recipes": [
+        "immersiveengineering:arc_recycling_list",
+        "immersiveengineering:crafting/blastbrick_reinforced",
+        "immersiveengineering:crafting/blastbrick_reinforced_from_slab",
+        "immersiveengineering:crafting/blastbrick_reinforced_to_slab"
+      ]
+    },
+    "industrialforegoing": {
+      "items": [
+        "industrialforegoing:mycelial_crimed",
+        "industrialforegoing:mycelial_culinary",
+        "industrialforegoing:mycelial_death",
+        "industrialforegoing:mycelial_disenchantment",
+        "industrialforegoing:mycelial_ender",
+        "industrialforegoing:mycelial_explosive",
+        "industrialforegoing:mycelial_frosty",
+        "industrialforegoing:mycelial_furnace",
+        "industrialforegoing:mycelial_halitosis",
+        "industrialforegoing:mycelial_magma",
+        "industrialforegoing:mycelial_meatallurgic",
+        "industrialforegoing:mycelial_netherstar",
+        "industrialforegoing:mycelial_pink",
+        "industrialforegoing:mycelial_potion",
+        "industrialforegoing:mycelial_reactor",
+        "industrialforegoing:mycelial_rocket",
+        "industrialforegoing:mycelial_slimey",
+        "industrialforegoing:pitiful_generator"
+      ],
+      "recipes": [
+        "industrialforegoing:mycelial_crimed",
+        "industrialforegoing:mycelial_death",
+        "industrialforegoing:mycelial_disenchantment",
+        "industrialforegoing:mycelial_ender",
+        "industrialforegoing:mycelial_explosive",
+        "industrialforegoing:mycelial_frosty",
+        "industrialforegoing:mycelial_furnace",
+        "industrialforegoing:mycelial_halitosis",
+        "industrialforegoing:mycelial_magma",
+        "industrialforegoing:mycelial_meatallurgic",
+        "industrialforegoing:mycelial_pink",
+        "industrialforegoing:mycelial_potion",
+        "industrialforegoing:mycelial_rocket",
+        "industrialforegoing:mycelial_slimey",
+        "industrialforegoing:mycelial_culinary",
+        "industrialforegoing:mycelial_netherstar",
+        "industrialforegoing:dissolution_chamber/mycelial_reactor",
+        "industrialforegoing:pitiful_generator"
+      ]
+    },
+    "justdirethings": {
+      "items": [
+        "justdirethings:generatort1",
+        "justdirethings:generatorfluidt1",
+        "justdirethings:pocket_generator"
+      ],
+      "recipes": [
+        "justdirethings:generatort1",
+        "justdirethings:generatort1_nbtclear",
+        "justdirethings:generatorfluidt1",
+        "justdirethings:generatorfluidt1_nbtclear",
+        "justdirethings:pocket_generator"
+      ]
+    },
+    "mekanismgenerators": {
+      "items": [
+        "mekanismgenerators:wind_generator"
+      ],
+      "recipes": [
+        "mekanismgenerators:generator/wind"
+      ]
+    },
+    "modern_industrialization": {
+      "items": [
+        "modern_industrialization:coke",
+        "modern_industrialization:coke_dust",
+        "modern_industrialization:coke_block"
+      ],
+      "recipes": [
+        "modern_industrialization:electric_age/transformer/ev_supra/down_asbl",
+        "modern_industrialization:electric_age/transformer/ev_supra/down_to_up",
+        "modern_industrialization:electric_age/transformer/ev_supra/up_asbl",
+        "modern_industrialization:electric_age/transformer/ev_supra/up_to_down",
+        "modern_industrialization:assembler_generated/electric_age/transformer/ev_supra/down",
+        "modern_industrialization:assembler_generated/electric_age/transformer/ev_supra/up"
+      ]
+    },
+    "oritech": {
+      "items": [
+        "oritech:lava_generator_block",
+        "oritech:basic_generator_block"
+      ],
+      "recipes": [
+        "oritech:crafting/lavagen",
+        "oritech:crafting/basicgen"
+      ]
+    },
+    "pamhc2crops": {
+      "items": [
+        "pamhc2crops:cabbageitem",
+        "pamhc2crops:cabbageseeditem",
+        "pamhc2crops:canolaitem",
+        "pamhc2crops:canolaseeditem",
+        "pamhc2crops:coffeebeanitem",
+        "pamhc2crops:coffeebeanseeditem",
+        "pamhc2crops:onionitem",
+        "pamhc2crops:onionseeditem",
+        "pamhc2crops:riceitem",
+        "pamhc2crops:riceseeditem",
+        "pamhc2crops:tomatoitem",
+        "pamhc2crops:tomatoseeditem"
+      ],
+      "recipes": [
+        "pamhc2crops:coffeebeanseeditem",
+        "pamhc2crops:onionseeditem",
+        "pamhc2crops:riceseeditem"
+      ]
+    },
+    "pneumaticcraft": {
+      "items": [
+        "pneumaticcraft:pneumatic_dynamo",
+        "pneumaticcraft:seismic_sensor"
+      ],
+      "recipes": [
+        "pneumaticcraft:seismic_sensor",
+        "pneumaticcraft:pneumatic_dynamo"
+      ]
+    },
+    "silentgear": {
+      "items": [
+        "silentgear:flax_seeds"
+      ],
+      "recipes": []
+    },
+    "yet_another_industrialization": {
+      "items": [
+        "yet_another_industrialization:numismatic_generator"
+      ],
+      "recipes": [
+        "yet_another_industrialization:assembler/numismatic_generator",
+        "yet_another_industrialization:craft/numismatic_generator"
+      ]
+    }
+  },
+  "categories": [
+    "create:automatic_shaped",
+    "create:fan_blasting",
+    "create:fan_smoking"
+  ]
+}
