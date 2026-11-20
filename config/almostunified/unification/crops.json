@@ -1,0 +1,44 @@
+{
+  "mod_priorities": [
+    "farmersdelight",
+    "actuallyadditions"
+  ],
+  "priority_overrides": {
+    "c:crops/rice": "farmersdelight",
+    "c:crops/tomato": "farmersdelight",
+    "c:crops/cabbage": "farmersdelight",
+    "c:crops/onion": "farmersdelight",
+    "c:crops/coffee": "actuallyadditions",
+    "c:crops/canola": "actuallyadditions",
+    "c:crops/flax": "actuallyadditions",
+    "c:seeds/tomato": "farmersdelight",
+    "c:seeds/cabbage": "farmersdelight",
+    "c:seeds/canola": "actuallyadditions"
+  },
+  "stone_variants": [],
+  "tags": [
+    "c:crops/rice",
+    "c:crops/tomato",
+    "c:crops/cabbage",
+    "c:crops/onion",
+    "c:crops/coffee",
+    "c:crops/canola",
+    "c:crops/flax",
+    "c:seeds/tomato",
+    "c:seeds/cabbage",
+    "c:seeds/canola"
+  ],
+  "ignored_tags": [],
+  "ignored_items": [
+    "farmersdelight:cabbage_leaf"
+  ],
+  "ignored_recipe_types": [
+    "pneumaticcraft:thermo_plant"
+  ],
+  "ignored_recipe_ids": [
+    "create:haunting/compat/farmersdelight/rotten_tomato"
+  ],
+  "recipe_viewer_hiding": true,
+  "loot_unification": false,
+  "ignored_loot_tables": []
+}

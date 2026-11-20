@@ -1,6 +1,15 @@
 {
   "mod_priorities": ["minecraft", "kubejs", "modern_industrialization", "ftbmaterials"],
-  "priority_overrides": {},
+  "priority_overrides": {
+    "c:ores/iridium": "ftbmaterials",
+    "c:ores/platinum": "ftbmaterials",
+    "c:ores/quartz": "ftbmaterials",
+    "c:ores/titanium": "ftbmaterials",
+    "c:raw_materials/iridium": "ftbmaterials",
+    "c:raw_materials/platinum": "ftbmaterials",
+    "c:raw_materials/silver": "ftbmaterials",
+    "c:raw_materials/titanium": "ftbmaterials"
+  },
   "stone_variants": [
     "stone",
     "andesite",
