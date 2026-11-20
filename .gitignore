@@ -63,3 +63,4 @@ kubejs/probe/
 kubejs/package.json
 kubejs/*_scripts/jsconfig.json
 kubejs/README.txt
+.prettierignore
