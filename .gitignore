@@ -36,6 +36,10 @@ node_modules/
 !config/actuallyadditions-common.toml
 !config/custommachinery-common.toml
 !config/reliable_replacer/
+!config/ftbquests/
+!config/spark/
+config/spark/tmp/
+config/spark/tmp-client/
 
 kubejs/config/web_server.json
 patchouli_data.json
@@ -54,7 +58,7 @@ realms_persistence.json
 optionsof.txt
 optionsshaders.txt
 debug/
-data/
+/data/
 shaderpacks/*
 !shaderpacks/*.pw.toml
 schematics/
