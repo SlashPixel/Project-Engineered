@@ -14,7 +14,7 @@ hash = "b70f57eadf6eec0ce43acd4c441f08feac1432826e04cb8e2736a73997c20c08"
 
 [[files]]
 file = "config/almostunified/placeholders.json"
-hash = "ddc1d01448bca156ba5042e3a896cfa642cbe35b94a0ae147f45e826702c9d70"
+hash = "e5f01dd5102efc86039b077a8b766bbc3da8c20d2f644dea76444ae7c04086b0"
 
 [[files]]
 file = "config/almostunified/startup.json"
@@ -30,7 +30,7 @@ hash = "9779974591ac064eff4ebd5388a97841d7098696f4b7f1d249f636432b5f77c4"
 
 [[files]]
 file = "config/almostunified/unification/materials.json"
-hash = "c64494d7edd574f6593fe007d9a1305f89d72001ee115ffb04a91b27dc0082a7"
+hash = "bc7da82cd5f3f589e53b11e4243cb4e4d8e1cc84d9ec460496a9784757ba7590"
 
 [[files]]
 file = "config/ceramicbucket-server.toml"
@@ -465,58 +465,6 @@ file = "kubejs/config/removed_content.json"
 hash = "31e62e112584d99579bac9028ee09a2d0705ae8fee8b2719a72178d2b2ef4348"
 
 [[files]]
-file = "kubejs/data/actuallyadditions/worldgen/processor_list/engineer_house.json"
-hash = "8cbe5ac86bd56242cd3c40513185dbdeb0cbedc2885e5b47ad50416ba35a127a"
-
-[[files]]
-file = "kubejs/data/ad_astra/tags/worldgen/biome/has_structure/oil_well.json"
-hash = "bef4d172fc1bfb34d342e79090726c4a0c272dd404783c3ea022b992e0e0415e"
-
-[[files]]
-file = "kubejs/data/custommachinery/machine/clay_kiln.json"
-hash = "91855a5fa8a728441ce5233f035cffa28d752a2d99200317f82d55764c798bdd"
-
-[[files]]
-file = "kubejs/data/custommachinery/machine/rain_barrel.json"
-hash = "865bbdca543eac6cd76a4f3b76d2ad5279c77c7e6ddd696004fd83d5e02147d5"
-
-[[files]]
-file = "kubejs/data/farmersdelight/recipe/integration/silentgear/cutting/netherwood.json"
-hash = "d170f82677874b26874ec7c4068bbc40fd88f7ce09101969b03efd2cf3b9a5bf"
-
-[[files]]
-file = "kubejs/data/modular_machinery_reborn/machines/stone_furnace.json"
-hash = "0ad63615bf40d0af1fc128a97a97c0df36e1f2ccce1dd272ebc26ff7722276b9"
-
-[[files]]
-file = "kubejs/data/oritech/neoforge/biome_modifier/oil_spring.json"
-hash = "99b969132018e9da1071065a8593ba9564928b1ed0aa5ae3ab45f9dac071f7d5"
-
-[[files]]
-file = "kubejs/data/oritech/neoforge/biome_modifier/oil_spring_desert.json"
-hash = "99b969132018e9da1071065a8593ba9564928b1ed0aa5ae3ab45f9dac071f7d5"
-
-[[files]]
-file = "kubejs/data/oritech/worldgen/configured_feature/resource_node_common.json"
-hash = "a0ec53029e0af8b8a0554edc6a1d2fa430ecbff469d414228a4195abbcfcc34d"
-
-[[files]]
-file = "kubejs/data/oritech/worldgen/configured_feature/resource_node_other.json"
-hash = "ffb3b434b570421ce617c5f9cd0e9f81c1d70a5eed925e4bc5c0f2a9019b9689"
-
-[[files]]
-file = "kubejs/data/oritech/worldgen/configured_feature/resource_node_rare.json"
-hash = "9ddd2403ac610fa3a39cfdfdb410fe664c1fa2840bdf5dd54544dcc63fe15038"
-
-[[files]]
-file = "kubejs/data/silentgear/neoforge/biome_modifier/overworld_ores.json"
-hash = "999e8bdedb3a2f255c7654dde94ffa237ba343ac401ec74639037d36790d514e"
-
-[[files]]
-file = "kubejs/data/treetap/recipe/id_menril.json"
-hash = "2d5b6a91435c482f8df1d4a98ff4404c0e6feb37b87e0a65726562fc04b102e5"
-
-[[files]]
 file = "kubejs/server_scripts/gamerules.js"
 hash = "af1371adb55e7874912c3fc639d25548093111b27d8ebaa52e4736643e30e7c8"
 
@@ -774,11 +722,6 @@ metafile = true
 [[files]]
 file = "mods/custom-machinery.pw.toml"
 hash = "f1a6c01198dc578ee874b0df014bbd1c9877af3d0b99913bf2e467c0b5752966"
-metafile = true
-
-[[files]]
-file = "mods/distraction-free-recipes.pw.toml"
-hash = "df34236e43c955ceb2b0a267ae280bc3adc747d71d70aa6f58a5ca3bbe2e895e"
 metafile = true
 
 [[files]]
@@ -1349,11 +1292,6 @@ metafile = true
 [[files]]
 file = "mods/treetap.pw.toml"
 hash = "6abadf314d58f219ec477a8cf99cfa8fe15a2ccf562a5f2253bb618a33cc7167"
-metafile = true
-
-[[files]]
-file = "mods/txnilib.pw.toml"
-hash = "7d7deb14e956b71fe2f9c999acefdb5edbfc264d9c66e5e2fce7c90ee704d05a"
 metafile = true
 
 [[files]]
