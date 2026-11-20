@@ -4,15 +4,13 @@ const DEFAULT_DAMAGE = 20;
 
 ServerEvents.recipes(event => {
   event.remove({ id: FORGE_HAMMER });
-  event.shaped(FORGE_HAMMER, [
-    '___',
-    ' i ',
-    'iBi'
-  ], {
-    _: 'minecraft:heavy_weighted_pressure_plate',
-    i: 'minecraft:iron_ingot',
-    B: '#c:storage_blocks/iron'
-  }).id(FORGE_HAMMER);
+  event
+    .shaped(FORGE_HAMMER, ['___', ' i ', 'iBi'], {
+      _: 'minecraft:heavy_weighted_pressure_plate',
+      i: 'minecraft:iron_ingot',
+      B: '#c:storage_blocks/iron'
+    })
+    .id(FORGE_HAMMER);
 
   let recipes = {};
   event.forEachRecipe({ type: FORGE_HAMMER }, recipe => {

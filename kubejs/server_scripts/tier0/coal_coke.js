@@ -21,8 +21,10 @@ ServerEvents.tags('item', event => {
 });
 
 ServerEvents.recipes(event => {
-  COKE_FORMS.forEach(form => form.duplicates.forEach(item => {
-    event.replaceInput({}, item, form.target);
-    event.replaceOutput({}, item, form.target);
-  }));
+  COKE_FORMS.forEach(form =>
+    form.duplicates.forEach(item => {
+      event.replaceInput({}, item, form.target);
+      event.replaceOutput({}, item, form.target);
+    })
+  );
 });

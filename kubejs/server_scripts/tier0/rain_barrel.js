@@ -3,15 +3,13 @@ const RAIN_BARREL = 'custommachinery:custom_machine_item[custommachinery:machine
 ServerEvents.recipes(event => {
   const BARREL = 'custommachinery:rain_barrel';
 
-  event.shaped(RAIN_BARREL, [
-    'P P',
-    'I I',
-    'LLL'
-  ], {
-    L: '#minecraft:logs',
-    P: '#minecraft:planks',
-    I: 'minecraft:iron_ingot'
-  }).id('kubejs:rain_barrel');
+  event
+    .shaped(RAIN_BARREL, ['P P', 'I I', 'LLL'], {
+      L: '#minecraft:logs',
+      P: '#minecraft:planks',
+      I: 'minecraft:iron_ingot'
+    })
+    .id('kubejs:rain_barrel');
 
   const fill = (weather, amount) =>
     event.recipes.custommachinery

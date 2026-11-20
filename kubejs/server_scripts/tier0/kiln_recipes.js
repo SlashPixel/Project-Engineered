@@ -3,25 +3,27 @@ const CLAY_KILN = 'custommachinery:custom_machine_item[custommachinery:machine="
 ServerEvents.recipes(event => {
   event.remove({ id: 'ceramicbucket:ceramic_bucket' });
 
-  event.shaped('kubejs:unfired_clay_kiln', [
-    'CCC',
-    'C C',
-    'CCC'
-  ], {
-    C: 'minecraft:clay_ball'
-  }).id('kubejs:unfired_clay_kiln');
+  event
+    .shaped('kubejs:unfired_clay_kiln', ['CCC', 'C C', 'CCC'], {
+      C: 'minecraft:clay_ball'
+    })
+    .id('kubejs:unfired_clay_kiln');
 
-  event.recipes.minecraft.campfire_cooking(CLAY_KILN, 'kubejs:unfired_clay_kiln', 0.3, 600)
+  event.recipes.minecraft
+    .campfire_cooking(CLAY_KILN, 'kubejs:unfired_clay_kiln', 0.3, 600)
     .id('kubejs:campfire_clay_kiln');
 
-  event.recipes.minecraft.campfire_cooking('ceramicbucket:ceramic_bucket', 'ceramicbucket:unfired_clay_bucket', 0.3, 600)
+  event.recipes.minecraft
+    .campfire_cooking('ceramicbucket:ceramic_bucket', 'ceramicbucket:unfired_clay_bucket', 0.3, 600)
     .id('kubejs:campfire_ceramic_bucket');
 
-  event.recipes.minecraft.campfire_cooking('kubejs:wood_ash', '#minecraft:logs_that_burn', 0.1, 600)
+  event.recipes.minecraft
+    .campfire_cooking('kubejs:wood_ash', '#minecraft:logs_that_burn', 0.1, 600)
     .id('kubejs:campfire_wood_ash');
 
   let kiln = (input, output) => {
-    event.recipes.custommachinery.custom_machine('custommachinery:clay_kiln', 300)
+    event.recipes.custommachinery
+      .custom_machine('custommachinery:clay_kiln', 300)
       .requireItem(input)
       .produceItem(output)
       .id(`kubejs:kiln/${String(input).replace(/[^a-z0-9]+/g, '_')}`);
