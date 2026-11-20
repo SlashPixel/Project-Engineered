@@ -1,5 +1,5 @@
 const GLASS_DUST = 'kubejs:glass_dust';
-const MIX = ['kubejs:silica_dust', 'kubejs:wood_ash', 'kubejs:crushed_limestone'];
+const MIX = ['kubejs:silica_dust', 'kubejs:wood_ash', 'kubejs:limestone_dust'];
 
 ServerEvents.recipes(event => {
   ['minecraft:smelting', 'minecraft:blasting'].forEach(type => event.remove({ output: 'minecraft:glass', type }));
@@ -8,15 +8,9 @@ ServerEvents.recipes(event => {
 
   event.shapeless(Item.of(GLASS_DUST, 2), MIX).id('kubejs:glass_dust');
 
-  event
-    .custom({
-      type: 'modern_industrialization:mixer',
-      duration: 100,
-      eu: 2,
-      item_inputs: MIX.map(item => ({ amount: 1, item })),
-      item_outputs: [{ amount: 3, item: GLASS_DUST }]
-    })
-    .id('kubejs:mixer/glass_dust');
+  const mixer = event.recipes.modern_industrialization.mixer(2, 100);
+  MIX.forEach(item => mixer.itemIn(item));
+  mixer.itemOut(`3x ${GLASS_DUST}`).id('kubejs:mixer/glass_dust');
 
   event
     .custom({

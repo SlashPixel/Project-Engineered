@@ -6,29 +6,25 @@ const ALLOY_OUTPUT = {
 };
 
 ServerEvents.recipes(event => {
-  let rewrites = [];
-  let removals = [];
+  const alloys = readRecipes(event, { type: 'immersiveengineering:alloy' });
+  const rewrites = [];
+  const removals = [];
 
-  event.forEachRecipe({ type: 'immersiveengineering:alloy' }, recipe => {
-    let recipeId = String(recipe.getId());
-    let count = ALLOY_OUTPUT[recipeId];
+  Object.keys(alloys).forEach(recipeId => {
+    const count = ALLOY_OUTPUT[recipeId];
 
     if (count === undefined) {
       removals.push(recipeId);
       return;
     }
 
-    let json = JSON.parse(JsonIO.toString(recipe.originalJson));
+    const json = alloys[recipeId];
     json.result.count = count;
     delete json['neoforge:conditions'];
     rewrites.push({ id: recipeId, json: json });
   });
 
-  removals.forEach(recipeId => event.remove({ id: recipeId }));
-  rewrites.forEach(rewrite => {
-    event.remove({ id: rewrite.id });
-    event.custom(rewrite.json).id(rewrite.id);
-  });
+  replaceRecipes(event, rewrites, removals);
 
   event.remove({ id: 'immersiveengineering:crafting/constantan_mix' });
   event.remove({ id: 'immersiveengineering:crafting/electrum_mix' });

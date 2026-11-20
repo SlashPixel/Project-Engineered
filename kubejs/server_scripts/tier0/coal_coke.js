@@ -1,3 +1,4 @@
+// priority: -100
 const COKE_FORMS = [
   {
     target: 'immersiveengineering:coal_coke',
@@ -23,8 +24,8 @@ ServerEvents.tags('item', event => {
 ServerEvents.recipes(event => {
   COKE_FORMS.forEach(form =>
     form.duplicates.forEach(item => {
-      event.replaceInput({}, item, form.target);
-      event.replaceOutput({}, item, form.target);
+      event.replaceInput({ input: item }, item, form.target);
+      event.replaceOutput({ output: item }, item, form.target);
     })
   );
 });

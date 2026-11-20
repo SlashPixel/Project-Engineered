@@ -12,20 +12,16 @@ ServerEvents.recipes(event => {
     })
     .id(FORGE_HAMMER);
 
-  let recipes = {};
-  event.forEachRecipe({ type: FORGE_HAMMER }, recipe => {
-    recipes[String(recipe.getId())] = JSON.parse(JsonIO.toString(recipe.originalJson));
-  });
-
-  let rewrites = [];
-  let removals = [];
+  const recipes = readRecipes(event, { type: FORGE_HAMMER });
+  const rewrites = [];
+  const removals = [];
 
   Object.keys(recipes).forEach(id => {
-    let json = recipes[id];
+    const json = recipes[id];
     if (json.damage !== undefined) return;
 
-    let toolId = id + TOOL_SUFFIX;
-    let toolJson = recipes[toolId];
+    const toolId = id + TOOL_SUFFIX;
+    const toolJson = recipes[toolId];
 
     removals.push(id);
     if (toolJson === undefined) {
@@ -37,9 +33,5 @@ ServerEvents.recipes(event => {
     }
   });
 
-  removals.forEach(id => event.remove({ id: id }));
-  rewrites.forEach(rewrite => {
-    event.remove({ id: rewrite.id });
-    event.custom(rewrite.json).id(rewrite.id);
-  });
+  replaceRecipes(event, rewrites, removals);
 });

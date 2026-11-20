@@ -12,11 +12,6 @@ StartupEvents.registry('item', event => {
     .texture('ftbmaterials:item/iron_small_dust')
     .color(0, 0xbfe6ee);
 
-  event
-    .create('crushed_limestone')
-    .displayName('Crushed Limestone')
-    .texture('minecraft:item/bone_meal')
-    .color(0, 0xd9d3bd);
   event.create('limestone_dust').displayName('Limestone Dust').texture('minecraft:item/sugar').color(0, 0xd9d3bd);
   event
     .create('limestone_tiny_dust')

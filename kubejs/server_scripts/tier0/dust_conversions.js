@@ -38,24 +38,16 @@ ServerEvents.recipes(event => {
 
       event.shapeless(Item.of(item, size.count), dust).id(`kubejs:${name}_from_dust`);
 
-      event
-        .custom({
-          type: 'modern_industrialization:packer',
-          duration: 100,
-          eu: 2,
-          item_inputs: [{ amount: size.count, tag }],
-          item_outputs: [{ amount: 1, item: dust }]
-        })
+      event.recipes.modern_industrialization
+        .packer(2, 100)
+        .itemIn(`${size.count}x #${tag}`)
+        .itemOut(dust)
         .id(`kubejs:packer/${name}`);
 
-      event
-        .custom({
-          type: 'modern_industrialization:unpacker',
-          duration: 100,
-          eu: 2,
-          item_inputs: [{ amount: 1, tag: `c:dusts/${material}` }],
-          item_outputs: [{ amount: size.count, item }]
-        })
+      event.recipes.modern_industrialization
+        .unpacker(2, 100)
+        .itemIn(`#c:dusts/${material}`)
+        .itemOut(`${size.count}x ${item}`)
         .id(`kubejs:unpacker/${name}`);
     });
   });
