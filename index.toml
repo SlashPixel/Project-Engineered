@@ -1,12 +1,20 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/actuallyadditions-common.toml"
+hash = "d2bd7eafd636987f5714418c5626517f3bcc717b2d60cb94c5165147ae12d74b"
+
+[[files]]
+file = "config/ad_astra.jsonc"
+hash = "fad4ca69e7da7c29736145c867bbe17eb414cf20cff2bbdd490dd32b78cafb08"
+
+[[files]]
 file = "config/almostunified/duplicates.json"
 hash = "b70f57eadf6eec0ce43acd4c441f08feac1432826e04cb8e2736a73997c20c08"
 
 [[files]]
 file = "config/almostunified/placeholders.json"
-hash = "43733b207b9f0238c7a5bec47f19e8fd5bec80499b286e0ac4994671702dfed9"
+hash = "ddc1d01448bca156ba5042e3a896cfa642cbe35b94a0ae147f45e826702c9d70"
 
 [[files]]
 file = "config/almostunified/startup.json"
@@ -17,12 +25,32 @@ file = "config/almostunified/tags.json"
 hash = "2512b9c947342813ee667013941f07c3be8323ac4cb8d3d1686dd8530c7c66b1"
 
 [[files]]
+file = "config/almostunified/unification/crops.json"
+hash = "9779974591ac064eff4ebd5388a97841d7098696f4b7f1d249f636432b5f77c4"
+
+[[files]]
 file = "config/almostunified/unification/materials.json"
-hash = "0498dac69375ecf905470d4005adaed3900dd22ac0c576e593f4360254814b31"
+hash = "c64494d7edd574f6593fe007d9a1305f89d72001ee115ffb04a91b27dc0082a7"
 
 [[files]]
 file = "config/ceramicbucket-server.toml"
 hash = "61ae9c5cbc3d29f811684d86ad19237886d0a695b97b30cc6081b67c64c112dd"
+
+[[files]]
+file = "config/custommachinery-common.toml"
+hash = "675b627306f1de82f7254af99ddd55e106f8082fc7b616517d4684de5f31d878"
+
+[[files]]
+file = "config/oritech-common.toml"
+hash = "a7ccc17c944ed30aa167dc463ee91da2f90913ae770aab3f1eb41aee4e535db2"
+
+[[files]]
+file = "config/oritech-startup.toml"
+hash = "eb5b17c2b17acc99383268c8a74a8c2601bd94fcbf60b6583104ab9e53b2950a"
+
+[[files]]
+file = "config/reliable_replacer/decor_furnaces.json"
+hash = "a8113e6e767cc77e847db79533f31e9dc1bee529740961afe7fb86c13cae12c5"
 
 [[files]]
 file = "config/remi/stack_groups/buckets.json"
@@ -35,6 +63,14 @@ hash = "4c4cc3a1eec24dba0a2daa066040c5daafb01744e154cd6d4fd802aa887467ef"
 [[files]]
 file = "config/silentgear-common.toml"
 hash = "27d71ad6a140c95dee57d18a2cf1d243275e804d412067c8e7e83c5da3ce3a13"
+
+[[files]]
+file = "defaultconfigs/mi_uncapped_steam-server.toml"
+hash = "a73a9b03e17489afe2d1128a05a2d9510851c5c743492353274d7ec58a890b58"
+
+[[files]]
+file = "kubejs/assets/actuallyadditions/lang/en_us.json"
+hash = "8c85d08a2a3fc698bf0069749d87c8fb881b577b7ac9b615f6f2c9fce0e4cb0f"
 
 [[files]]
 file = "kubejs/assets/custommachinery/models/machine/clay_kiln.json"
@@ -53,24 +89,368 @@ file = "kubejs/assets/custommachinery/models/machine/rain_barrel_item.json"
 hash = "87915256ecf68b0347af0a53d5313939a405e56062505f440758755035a1e6f3"
 
 [[files]]
-file = "kubejs/assets/emi/recipe/filters/hide_automated_shaped_crafting.json"
-hash = "9175a46a6718567e60498abb4478541afd6b8cf2b3d65aede15d24212a171d65"
+file = "kubejs/assets/kubejs/lang/en_us.json"
+hash = "20840d4ea54777eba86f6dc00d27f1b0c8fd8da3fd6fbc35fb326ae96d6d3166"
 
 [[files]]
 file = "kubejs/assets/kubejs/models/item/unfired_clay_kiln.json"
 hash = "b889c002bae808f8c43bafec09f0325a390fdc7ec6194c5e8c3a3d892f6890cf"
 
 [[files]]
-file = "kubejs/client_scripts/lang.js"
-hash = "8ef22e7c390d832ef7d4f36f13d5929b1d7e80980725e19352436985a6e9a784"
+file = "kubejs/assets/modern_industrialization/lang/en_us.json"
+hash = "8c73aa4d2b25811ea6e37e72fb27a09e7548b86675275a6344186912906267fb"
 
 [[files]]
-file = "kubejs/client_scripts/recipe_viewer.js"
-hash = "63a686ab40f8cdca0e103db302a95fd10de999ccce0f776d7e01a4244180e502"
+file = "kubejs/assets/modern_industrialization/models/block/ev_t_iv_transformer.json"
+hash = "5ddc5c313a7a236e0d312dfc9551a635ae85fb905544318522f5260474b493aa"
+
+[[files]]
+file = "kubejs/assets/modern_industrialization/models/block/superconductor_t_vii_transformer.json"
+hash = "bc3972bc69169b0549adf883057a817a9de18ea44666dee100fa002da1ff11c1"
+
+[[files]]
+file = "kubejs/assets/modern_industrialization/models/block/superconductor_t_viii_transformer.json"
+hash = "a171c1a502ab2f2181f186caa82c55225f22d8f0d1841880cebdc59978f8b8e6"
+
+[[files]]
+file = "kubejs/assets/modern_industrialization/models/block/t_iv_energy_input_hatch.json"
+hash = "b80115b88f05b130367bf1381c9dd8a43f1084ef79d191b64ee399dc9a46c443"
+
+[[files]]
+file = "kubejs/assets/modern_industrialization/models/block/t_iv_energy_output_hatch.json"
+hash = "33f1ad330e0ef0294d3d2407f2a8b968d41452ecfbc9bef576ae71d9225ea0d7"
+
+[[files]]
+file = "kubejs/assets/modern_industrialization/models/block/t_iv_ev_transformer.json"
+hash = "3cf6fc16b82f265456b049f3bf756a64ecf089dfe353173ec6650e02d1f591fe"
+
+[[files]]
+file = "kubejs/assets/modern_industrialization/models/block/t_iv_storage_unit.json"
+hash = "d659f335c593e3bf0791c3a8d6f9abb489f6b87a3b7e626c5513961d8c04d7d5"
+
+[[files]]
+file = "kubejs/assets/modern_industrialization/models/block/t_iv_t_v_transformer.json"
+hash = "5f54010276e1e4edfbfdc4a9e88c8ad5d12147132bea4561084a6a2fd076927d"
+
+[[files]]
+file = "kubejs/assets/modern_industrialization/models/block/t_iv_tesla_receiver_hatch.json"
+hash = "6b9a480441ecf09d848d08028f12179df48846716a2043e1f149a6f594b5513a"
+
+[[files]]
+file = "kubejs/assets/modern_industrialization/models/block/t_v_energy_input_hatch.json"
+hash = "91af9578a818d0f0e8c4247fccd81d664fa5919ce2397984fe54b1a116f0bee6"
+
+[[files]]
+file = "kubejs/assets/modern_industrialization/models/block/t_v_energy_output_hatch.json"
+hash = "5f271952af7ca1b2b997d2d928ac1bb494763bf774d566cede547d50daade7b1"
+
+[[files]]
+file = "kubejs/assets/modern_industrialization/models/block/t_v_storage_unit.json"
+hash = "5c949c3a3be9705f02b701521afe4fb58fe50c748c7fffb0049e98372c8bf357"
+
+[[files]]
+file = "kubejs/assets/modern_industrialization/models/block/t_v_t_iv_transformer.json"
+hash = "2878ef03f61c2b90a5fe898bdf54409370610c13b3417e17810fee02c04f543d"
+
+[[files]]
+file = "kubejs/assets/modern_industrialization/models/block/t_v_t_vi_transformer.json"
+hash = "375e3fc8b8633b35dede78cd283255b8b8a91463b993780de29156e24b518cf8"
+
+[[files]]
+file = "kubejs/assets/modern_industrialization/models/block/t_v_tesla_receiver_hatch.json"
+hash = "61774a6399f5492db19b7deb6e6769c9085a41b0acc07c607039e31082a1f327"
+
+[[files]]
+file = "kubejs/assets/modern_industrialization/models/block/t_vi_energy_input_hatch.json"
+hash = "1c5386ee32da18628290a6c7089b00545f0d9ad850b6e3577a5772df0e17bb60"
+
+[[files]]
+file = "kubejs/assets/modern_industrialization/models/block/t_vi_energy_output_hatch.json"
+hash = "7f6653bda3f87d59ae48b3a6d1cbf1ddbdf45e318756c9c56be702c2db360ffc"
+
+[[files]]
+file = "kubejs/assets/modern_industrialization/models/block/t_vi_storage_unit.json"
+hash = "b6a4d7976516218e875a60fc3e559a3d26bd64842a908ee7f655ae789da58dd8"
+
+[[files]]
+file = "kubejs/assets/modern_industrialization/models/block/t_vi_t_v_transformer.json"
+hash = "077c184299e563c253f7e8ab6d361625786214db3a64603f27a7fd807d0742b0"
+
+[[files]]
+file = "kubejs/assets/modern_industrialization/models/block/t_vi_t_vii_transformer.json"
+hash = "6bc1b5ec76575922ae7a2845050ea089ce12f2d62a387b1a37db2e914f25798a"
+
+[[files]]
+file = "kubejs/assets/modern_industrialization/models/block/t_vi_tesla_receiver_hatch.json"
+hash = "6ff6d8171ef7ad94880201eec53864b65fe2b93bda6b1662f5f9afc6dbb705bd"
+
+[[files]]
+file = "kubejs/assets/modern_industrialization/models/block/t_vii_energy_input_hatch.json"
+hash = "79936ffb955a32bf0c551b7b80161a019b133e73ed518eeae7a321a26730b60f"
+
+[[files]]
+file = "kubejs/assets/modern_industrialization/models/block/t_vii_energy_output_hatch.json"
+hash = "34f3585f0a51ff65440bc7f974238257c5822b9631f63833bf81716141aa43cd"
+
+[[files]]
+file = "kubejs/assets/modern_industrialization/models/block/t_vii_storage_unit.json"
+hash = "5731507b51652f9d75bba9edf59d72b549b1e1dedeceb62066842c5becfa7304"
+
+[[files]]
+file = "kubejs/assets/modern_industrialization/models/block/t_vii_superconductor_transformer.json"
+hash = "30a34f39fb6991714c4799fc8b859617a26dc3c3592b315efe97e42e0e9850cb"
+
+[[files]]
+file = "kubejs/assets/modern_industrialization/models/block/t_vii_t_vi_transformer.json"
+hash = "8e2a94945f7309b8a0d2b5bc543209ca4ead6ed0dbc8ebbba7717eedfe18d2d0"
+
+[[files]]
+file = "kubejs/assets/modern_industrialization/models/block/t_vii_tesla_receiver_hatch.json"
+hash = "62c4003ac75b1018e1f01a2294ef62ccb53b65a23e86fa54d4a9f466dc66ccc0"
+
+[[files]]
+file = "kubejs/assets/modern_industrialization/models/block/t_viii_energy_input_hatch.json"
+hash = "16e0b9939493c03b916b29ed46d8d70aebb4f2d8666bb3f828ab1d61714139d2"
+
+[[files]]
+file = "kubejs/assets/modern_industrialization/models/block/t_viii_energy_output_hatch.json"
+hash = "837caf9f3452d0f3c9cd204824a307bda513043a33a659f6b4c4b4108dd3326c"
+
+[[files]]
+file = "kubejs/assets/modern_industrialization/models/block/t_viii_storage_unit.json"
+hash = "817044728687317c8c352da34ed4ee681e85e249322afe66ac1272e6f7f265b4"
+
+[[files]]
+file = "kubejs/assets/modern_industrialization/models/block/t_viii_superconductor_transformer.json"
+hash = "c5cbbd0efe81c5a3b1b4473962d3974804344aaeccd0620644ec09997543c190"
+
+[[files]]
+file = "kubejs/assets/modern_industrialization/models/block/t_viii_tesla_receiver_hatch.json"
+hash = "c053c8eafb054a8b8e558c7d85d7b94ed1660c57b15654513247aec4765f282f"
+
+[[files]]
+file = "kubejs/assets/modern_industrialization/models/item/ev_t_iv_transformer.json"
+hash = "af36f4b60ba44529cdfce93a92c3170e3e6d697416381bafafe06bc4110f7d2f"
+
+[[files]]
+file = "kubejs/assets/modern_industrialization/models/item/superconductor_t_vii_transformer.json"
+hash = "4e0be1d0174bfb1e80ff7dc762ed52cf920fc0be29fa2be960a96c253c393cd9"
+
+[[files]]
+file = "kubejs/assets/modern_industrialization/models/item/superconductor_t_viii_transformer.json"
+hash = "d12e7f1e83aacf6a9cf18f6b0a0845b634f95ac86b4308401ce8bed327dc2731"
+
+[[files]]
+file = "kubejs/assets/modern_industrialization/models/item/t_iv_conductor_cable.json"
+hash = "ffc9154b4178f7591123a0f58a3b73b5f2dce628a43ca9c47cd4cc9f0c09b1a3"
+
+[[files]]
+file = "kubejs/assets/modern_industrialization/models/item/t_iv_conductor_wire.json"
+hash = "f43e66f23a730cd7cf4c802acbfd1e4363cb6261da8b5f734df2a770c5a8030b"
+
+[[files]]
+file = "kubejs/assets/modern_industrialization/models/item/t_iv_energy_input_hatch.json"
+hash = "3b2988d82a146e89e112e4dc8b6531241713fd4fd2e6e67d6993f290d3518263"
+
+[[files]]
+file = "kubejs/assets/modern_industrialization/models/item/t_iv_energy_output_hatch.json"
+hash = "f4d45135358a4ac44bfbe23c0acebdb67079aa04e0f3327c67d75524f0b8f72d"
+
+[[files]]
+file = "kubejs/assets/modern_industrialization/models/item/t_iv_ev_transformer.json"
+hash = "0be36e0d967d8cf56033a5f66a346814006e3b23bff2a04e5c8257fc24249f24"
+
+[[files]]
+file = "kubejs/assets/modern_industrialization/models/item/t_iv_storage_unit.json"
+hash = "8d44bea8f28cff5be7368fa6926a26d2e76ad8e59e26254eaa37680b390b1fc3"
+
+[[files]]
+file = "kubejs/assets/modern_industrialization/models/item/t_iv_t_v_transformer.json"
+hash = "374f2f0a7ae247a74fc38bd2372b1aeeb93fd738fad301fdc968ea2a365f30c2"
+
+[[files]]
+file = "kubejs/assets/modern_industrialization/models/item/t_iv_tesla_receiver_hatch.json"
+hash = "582100e1d144a7a487ad9e2d90962d331a1f77696766f9f21ccb9d8ad44246ec"
+
+[[files]]
+file = "kubejs/assets/modern_industrialization/models/item/t_v_conductor_cable.json"
+hash = "ffc9154b4178f7591123a0f58a3b73b5f2dce628a43ca9c47cd4cc9f0c09b1a3"
+
+[[files]]
+file = "kubejs/assets/modern_industrialization/models/item/t_v_conductor_wire.json"
+hash = "0d1802b15dfe57cfaec68fcbb7e51525e5ffea84890a0add4d92a3ec429fa11a"
+
+[[files]]
+file = "kubejs/assets/modern_industrialization/models/item/t_v_energy_input_hatch.json"
+hash = "3579e2718db6a71e465b6bc268e9d3a434020a1b84f7af1b27876ad9bd2dd385"
+
+[[files]]
+file = "kubejs/assets/modern_industrialization/models/item/t_v_energy_output_hatch.json"
+hash = "0e14ff3bf1820c03cf80d6bba9ff1b94380fcbc8afd5af9876a158a34c851bd4"
+
+[[files]]
+file = "kubejs/assets/modern_industrialization/models/item/t_v_storage_unit.json"
+hash = "cd0e53491af78a60bf15f0264910624875f30b26878da64012a1e2f576020aaa"
+
+[[files]]
+file = "kubejs/assets/modern_industrialization/models/item/t_v_t_iv_transformer.json"
+hash = "4972b48c19a48da7c61415c8301c490b78b0b95c22f3dd84c962b0ce08aa629f"
+
+[[files]]
+file = "kubejs/assets/modern_industrialization/models/item/t_v_t_vi_transformer.json"
+hash = "3220965a65eb14274b7dd58706ab8fa064859f5e951127dcfa745035040fdb7e"
+
+[[files]]
+file = "kubejs/assets/modern_industrialization/models/item/t_v_tesla_receiver_hatch.json"
+hash = "b451b0341eb4813e1c792afada1dcfe28c688c4aad325899754e52ac97a7ce11"
+
+[[files]]
+file = "kubejs/assets/modern_industrialization/models/item/t_vi_conductor_cable.json"
+hash = "ffc9154b4178f7591123a0f58a3b73b5f2dce628a43ca9c47cd4cc9f0c09b1a3"
+
+[[files]]
+file = "kubejs/assets/modern_industrialization/models/item/t_vi_conductor_wire.json"
+hash = "1f2e7b0fddb203cf7731285f7b4477551a0f230112e1973b5b71a6d08ca709db"
+
+[[files]]
+file = "kubejs/assets/modern_industrialization/models/item/t_vi_energy_input_hatch.json"
+hash = "e32a2c6bab78b3e3586512e8275bf700b069e251648f64a2ed6170575de8a3cf"
+
+[[files]]
+file = "kubejs/assets/modern_industrialization/models/item/t_vi_energy_output_hatch.json"
+hash = "d63f373769801a6a9059b8f5cc3efac2e45367c814f9a8d9b6963f4f7aace422"
+
+[[files]]
+file = "kubejs/assets/modern_industrialization/models/item/t_vi_storage_unit.json"
+hash = "f1eeab57fe0739aa33e37b06b6da6c80898ad898498bb4eeea04563c368507a2"
+
+[[files]]
+file = "kubejs/assets/modern_industrialization/models/item/t_vi_t_v_transformer.json"
+hash = "6a8e91f7d651f8558f4e90cfe183b4fa3251f70949407e96b06df710f29f4659"
+
+[[files]]
+file = "kubejs/assets/modern_industrialization/models/item/t_vi_t_vii_transformer.json"
+hash = "af79fd83d84184111c334ff27c254889cf40c0cf1560c8d623a0c7a211af4b55"
+
+[[files]]
+file = "kubejs/assets/modern_industrialization/models/item/t_vi_tesla_receiver_hatch.json"
+hash = "b9239e1704e96ac20f9752e45f176e5a4adbb5e9569836f5541b7dedd0ce58b5"
+
+[[files]]
+file = "kubejs/assets/modern_industrialization/models/item/t_vii_conductor_cable.json"
+hash = "ffc9154b4178f7591123a0f58a3b73b5f2dce628a43ca9c47cd4cc9f0c09b1a3"
+
+[[files]]
+file = "kubejs/assets/modern_industrialization/models/item/t_vii_conductor_wire.json"
+hash = "2f09fa495cbba1793adb249c244cfb9445c6daa7d5d99b34b9ddf5756df9d773"
+
+[[files]]
+file = "kubejs/assets/modern_industrialization/models/item/t_vii_energy_input_hatch.json"
+hash = "13a2db49e427b53cfab5f1e8875f1c0ea26f28ac6109e02cc08b76e8599b49d2"
+
+[[files]]
+file = "kubejs/assets/modern_industrialization/models/item/t_vii_energy_output_hatch.json"
+hash = "c893303a4c047abc6aa8e10ab4ceb4b13ee740143d65c629c0af62901a28e2de"
+
+[[files]]
+file = "kubejs/assets/modern_industrialization/models/item/t_vii_storage_unit.json"
+hash = "7af5e9d8965a514ead3233f4348edff19d09cb402ace97cbc0cf9cb17cd3413f"
+
+[[files]]
+file = "kubejs/assets/modern_industrialization/models/item/t_vii_superconductor_transformer.json"
+hash = "4843972c22bf87b98ffa92b6cf9de7d08dbde01b793603db9d78704983e70a16"
+
+[[files]]
+file = "kubejs/assets/modern_industrialization/models/item/t_vii_t_vi_transformer.json"
+hash = "ba18c6c236154996b4e5fd3190994204360e3aae7c83ab6d21d6e31e835039ba"
+
+[[files]]
+file = "kubejs/assets/modern_industrialization/models/item/t_vii_tesla_receiver_hatch.json"
+hash = "ad02709c99141ac5e0f90929099b1c6209773528c6d89951be4e56c9dfd31fd4"
+
+[[files]]
+file = "kubejs/assets/modern_industrialization/models/item/t_viii_conductor_cable.json"
+hash = "ffc9154b4178f7591123a0f58a3b73b5f2dce628a43ca9c47cd4cc9f0c09b1a3"
+
+[[files]]
+file = "kubejs/assets/modern_industrialization/models/item/t_viii_conductor_wire.json"
+hash = "25b6f89d80e11ca86a15c5d3a514b50b8a13eebb91638676897523519a72d4a1"
+
+[[files]]
+file = "kubejs/assets/modern_industrialization/models/item/t_viii_energy_input_hatch.json"
+hash = "6f5eafbe384f90d4a7412d4ac7db3403ee3827092d895fafb63807ce654bb19c"
+
+[[files]]
+file = "kubejs/assets/modern_industrialization/models/item/t_viii_energy_output_hatch.json"
+hash = "6df777f138ea7b58acd5390005162af1655ddef2e54f733dc4aae281f7fb5cd6"
+
+[[files]]
+file = "kubejs/assets/modern_industrialization/models/item/t_viii_storage_unit.json"
+hash = "3f784d925ec6077e3355857263f9c65a60551d4269cf6ee7723cb93da54f10c3"
+
+[[files]]
+file = "kubejs/assets/modern_industrialization/models/item/t_viii_superconductor_transformer.json"
+hash = "5068b63bbae41340aa26b931fb9a785b3160926d876e3faeb5fb39ff05b12ea4"
+
+[[files]]
+file = "kubejs/assets/modern_industrialization/models/item/t_viii_tesla_receiver_hatch.json"
+hash = "966f036746e6962d95cff0208fb1873776b5931b6d6ae7e2d9f56bf73e883662"
+
+[[files]]
+file = "kubejs/assets/modern_industrialization/models/machine_casing/t_iv.json"
+hash = "b66672cd78a7feb7dbb81de425583b6af00b335193e045dd3c0cc3878ccf93fb"
+
+[[files]]
+file = "kubejs/assets/modern_industrialization/models/machine_casing/t_v.json"
+hash = "4422b73bf83c15e8df83364dc97a349574e3888d1bfb256194aa9f3311397880"
+
+[[files]]
+file = "kubejs/assets/modern_industrialization/models/machine_casing/t_vi.json"
+hash = "86467dffae612594a6cbe488babe188e863354226e99e11bc1e8c8d9f8d28f10"
+
+[[files]]
+file = "kubejs/assets/modern_industrialization/models/machine_casing/t_vii.json"
+hash = "a26d588cfa099125f642c397a051964fbb2c8af6a7752d0614bc0a914e7c9c5f"
+
+[[files]]
+file = "kubejs/assets/modern_industrialization/models/machine_casing/t_viii.json"
+hash = "ffda501bf2644f5c4122a86ad486f082a930cb7eb26508d4bfc8137d947f63d0"
+
+[[files]]
+file = "kubejs/assets/pamhc2crops/lang/en_us.json"
+hash = "79049aee3e98e4c8935fbe2933457aea8491f2060348c2fb58bb286aaa82e2cb"
+
+[[files]]
+file = "kubejs/assets/pneumaticcraft/lang/en_us.json"
+hash = "ef9bf283a63719c889af01eaaba6bedc0a664f7d2b28e3f7f831ff872697d83f"
+
+[[files]]
+file = "kubejs/assets/productivemetalworks/lang/en_us.json"
+hash = "939119fdd45c0e2265b2500676e448dc16f89c109d40eba41481e4fa93f60d55"
+
+[[files]]
+file = "kubejs/assets/supplementaries/lang/en_us.json"
+hash = "cf98f9239c056d1683c13fdb60cc5aaf6daa134e388f1e9e9d3d26b5fff0f150"
+
+[[files]]
+file = "kubejs/client_scripts/hide.js"
+hash = "bd8e934985cf035c50fe4c93f474e470ba076771bc0d4449c7ca1e227ec912cc"
+
+[[files]]
+file = "kubejs/client_scripts/mi_tier_textures.js"
+hash = "f38de17b1dc75b5642ca5a0390d06859bb680744feb23bc9b22e016616670558"
+
+[[files]]
+file = "kubejs/client_scripts/recolor.js"
+hash = "41ef172bf4192b01e59a6ed79ae563aec87ba9181c70b94c1b3e1767acb6adfa"
 
 [[files]]
 file = "kubejs/client_scripts/textures.js"
-hash = "259a89fb21c60bbfa29c7de5b06451bdb95180667b4f3521ba0f53ad632f82f2"
+hash = "f679c388eea5377ecb9fdb87bd1b449120a7715d6f41b5a428338f3c8f52f497"
+
+[[files]]
+file = "kubejs/client_scripts/tooltips.js"
+hash = "5d7078486414fe519b520103d831baa7fb6153a2c201b06c768c69fb0c9f750b"
 
 [[files]]
 file = "kubejs/config/client.json"
@@ -81,8 +461,16 @@ file = "kubejs/config/common.json"
 hash = "e00a67922942660d77c213379b5128a46c5abc894178b0be04006d325ff5f6b3"
 
 [[files]]
-file = "kubejs/config/gamerules.json"
-hash = "a002f5a8c9569a141f2ce1537aed2f4bdfff8ad9b3284c3d8e8039eb0b720f39"
+file = "kubejs/config/removed_content.json"
+hash = "31e62e112584d99579bac9028ee09a2d0705ae8fee8b2719a72178d2b2ef4348"
+
+[[files]]
+file = "kubejs/data/actuallyadditions/worldgen/processor_list/engineer_house.json"
+hash = "8cbe5ac86bd56242cd3c40513185dbdeb0cbedc2885e5b47ad50416ba35a127a"
+
+[[files]]
+file = "kubejs/data/ad_astra/tags/worldgen/biome/has_structure/oil_well.json"
+hash = "bef4d172fc1bfb34d342e79090726c4a0c272dd404783c3ea022b992e0e0415e"
 
 [[files]]
 file = "kubejs/data/custommachinery/machine/clay_kiln.json"
@@ -93,68 +481,124 @@ file = "kubejs/data/custommachinery/machine/rain_barrel.json"
 hash = "865bbdca543eac6cd76a4f3b76d2ad5279c77c7e6ddd696004fd83d5e02147d5"
 
 [[files]]
-file = "kubejs/data/minecraft/loot_table/blocks/glass.json"
-hash = "898073dfb661f655f421de678de8e45f0f11f70a570f2e1fa1c78fa51d8bd044"
+file = "kubejs/data/farmersdelight/recipe/integration/silentgear/cutting/netherwood.json"
+hash = "d170f82677874b26874ec7c4068bbc40fd88f7ce09101969b03efd2cf3b9a5bf"
+
+[[files]]
+file = "kubejs/data/modular_machinery_reborn/machines/stone_furnace.json"
+hash = "0ad63615bf40d0af1fc128a97a97c0df36e1f2ccce1dd272ebc26ff7722276b9"
+
+[[files]]
+file = "kubejs/data/oritech/neoforge/biome_modifier/oil_spring.json"
+hash = "99b969132018e9da1071065a8593ba9564928b1ed0aa5ae3ab45f9dac071f7d5"
+
+[[files]]
+file = "kubejs/data/oritech/neoforge/biome_modifier/oil_spring_desert.json"
+hash = "99b969132018e9da1071065a8593ba9564928b1ed0aa5ae3ab45f9dac071f7d5"
+
+[[files]]
+file = "kubejs/data/oritech/worldgen/configured_feature/resource_node_common.json"
+hash = "a0ec53029e0af8b8a0554edc6a1d2fa430ecbff469d414228a4195abbcfcc34d"
+
+[[files]]
+file = "kubejs/data/oritech/worldgen/configured_feature/resource_node_other.json"
+hash = "ffb3b434b570421ce617c5f9cd0e9f81c1d70a5eed925e4bc5c0f2a9019b9689"
+
+[[files]]
+file = "kubejs/data/oritech/worldgen/configured_feature/resource_node_rare.json"
+hash = "9ddd2403ac610fa3a39cfdfdb410fe664c1fa2840bdf5dd54544dcc63fe15038"
+
+[[files]]
+file = "kubejs/data/silentgear/neoforge/biome_modifier/overworld_ores.json"
+hash = "999e8bdedb3a2f255c7654dde94ffa237ba343ac401ec74639037d36790d514e"
+
+[[files]]
+file = "kubejs/data/treetap/recipe/id_menril.json"
+hash = "2d5b6a91435c482f8df1d4a98ff4404c0e6feb37b87e0a65726562fc04b102e5"
 
 [[files]]
 file = "kubejs/server_scripts/gamerules.js"
-hash = "618152935876a816bd0af57daedcd6fa83e57a0ff2491c1d64605f0d96d7c540"
+hash = "af1371adb55e7874912c3fc639d25548093111b27d8ebaa52e4736643e30e7c8"
+
+[[files]]
+file = "kubejs/server_scripts/loot.js"
+hash = "3320801d7db526466be17951029db8966d3a6155100819722b62260ab3957e9e"
+
+[[files]]
+file = "kubejs/server_scripts/recipe_helpers.js"
+hash = "4ea306d34206bfe2fac765f653f4d2c95a20c5cdee57d6f39dbe59cde945cf81"
+
+[[files]]
+file = "kubejs/server_scripts/removals.js"
+hash = "6f2199708b2bc20a6c17304152dc3551bc7897c985ea4fdaf6ca1ea5997204dd"
+
+[[files]]
+file = "kubejs/server_scripts/tags.js"
+hash = "7ce980d39cba6f44bc52279a9d48d538c77c23b0ed0df7735fd9f43a667678b0"
 
 [[files]]
 file = "kubejs/server_scripts/tier0/alloys.js"
-hash = "5eb08426111877663f94c59509122f8372ab3f28b2351f1e3fad09d373f5d33c"
-
-[[files]]
-file = "kubejs/server_scripts/tier0/biosteel.js"
-hash = "f54def54c3f8f6cee731284407f2b77fde0c12fc64ad913ffad2d9136391e2af"
+hash = "8235fcea6c31d52961529db199952daddf28bc30fe10feb8cc5adee88cbb9e0e"
 
 [[files]]
 file = "kubejs/server_scripts/tier0/bricks.js"
-hash = "11a2cce23770998a7f23d5d3299b8ed735618a9bcebf9f94bb45823ae0f7b359"
+hash = "a9d51a3b163a82445e417777b5b860bf0a781a353f2633dd8784dd3af1a4be2c"
+
+[[files]]
+file = "kubejs/server_scripts/tier0/clay_and_bricks.js"
+hash = "b9c74bda679c74e58ee1cca300baded0dc3cab459d4112772c471dac7e1f0003"
 
 [[files]]
 file = "kubejs/server_scripts/tier0/coal_coke.js"
-hash = "038a99337732643cb3159c63993f55d49be77772bde4a6510c051ce47e11ac61"
+hash = "4ffcbed2b162994ba93b95b7ad3378e6188a6f34566b0cce4c94b57778a0891c"
 
 [[files]]
-file = "kubejs/server_scripts/tier0/compressed_iron.js"
-hash = "8389d5ef05bb250031d5e495b01ecea8f36075f004d26789cc8121cf46212fda"
+file = "kubejs/server_scripts/tier0/cooking.js"
+hash = "a629b7b176a9de8bd1bd686e4d9e86ab119cde93182528edfcd7e065db63bd38"
 
 [[files]]
-file = "kubejs/server_scripts/tier0/create_fans.js"
-hash = "34f206c465de65839108e6995144e598d712cb7879f56067d727d02d9b5386d6"
+file = "kubejs/server_scripts/tier0/decor_conversions.js"
+hash = "f4093a8acea29039da07db14ab68cc6f1331cbe44c0a66c8121f82fea9f1e793"
+
+[[files]]
+file = "kubejs/server_scripts/tier0/decor_furnace_fire.js"
+hash = "54ad2a8b4bfd29b94ae54841bf5b65cc0b393908561a08a606964f44f2088d10"
 
 [[files]]
 file = "kubejs/server_scripts/tier0/dust_conversions.js"
-hash = "72d128ccaf68fe9bdc863aa5045d8e196735c778feecfa0227bc48b37a216b4c"
+hash = "67ad0fae3f210cc7bf5e153fdf5e859288c6b927c67fede63102ef37741b9d41"
 
 [[files]]
-file = "kubejs/server_scripts/tier0/enchanting_table.js"
-hash = "b7747602745a180fb7dfdcaa509462c00fef8bf6d9b1a06e9ce862be5415f1bd"
+file = "kubejs/server_scripts/tier0/flax.js"
+hash = "a20f4681597badbd96fd2579b7734a1b3ed64b590c740c96a54b99569ef26094"
 
 [[files]]
 file = "kubejs/server_scripts/tier0/forge_hammer.js"
-hash = "c3688f72a696e97495abbe0795e11c1fd82faaca6c43ed97601a3e4126df239f"
+hash = "792ce45a56d769f8653e8a7fa6da5af23c7873d445fa6123f60686df1eca4be0"
+
+[[files]]
+file = "kubejs/server_scripts/tier0/furnace_core_inputs.js"
+hash = "cba3a92e0c90d4f8c8311d15c3b144cca8c2082c9466b11b262127776efb3442"
 
 [[files]]
 file = "kubejs/server_scripts/tier0/furnace_cores.js"
-hash = "9653650c0d65638ad821a6277c29974a7a6edc3bb36096fc9af08796b319d751"
+hash = "c7837c7ddb77dc5be5d3c5010a92f7dcf0706a3a5a946de22c3d03132b19bd78"
 
 [[files]]
 file = "kubejs/server_scripts/tier0/glass.js"
-hash = "c1b2c9ef041d0bcbe5f05f13840498bbdbd73f572150589b8a929b99da116700"
+hash = "ba5eb09359c94528f1623d6c6d44105ff1baf25f360fdb8e1b9a8f118cf3fa89"
 
 [[files]]
 file = "kubejs/server_scripts/tier0/kiln_recipes.js"
-hash = "a29723af536ee102e1a4794146115d96067337c6b0c3519bba9a9b5cdd2babb9"
+hash = "01d4821336ccf852c5424a35dccd4969f6a624ccf74bd558886fae05b05e7755"
 
 [[files]]
-file = "kubejs/server_scripts/tier0/limestone_crushing.js"
-hash = "46b25f0b09d25a9db19eb1149adf00831c2fb0e632f30ba5701d29c4e2af3336"
+file = "kubejs/server_scripts/tier0/limestone_silica.js"
+hash = "f1918879fe3f97ef9c28137a4a2a5fff046b8e5b30c51dce62df8e66c084c89d"
 
 [[files]]
-file = "kubejs/server_scripts/tier0/mining_tiers.js"
-hash = "5c8cfda60acf5158820f10e790742d72e2df9a793046cd8c10eb5763db0e7f5b"
+file = "kubejs/server_scripts/tier0/mod_overrides.js"
+hash = "11eab67a2386b649dca4a416e2a3763f25f5c9f0f7d330bf8db4e3df8f9d3c1c"
 
 [[files]]
 file = "kubejs/server_scripts/tier0/ore_smelting.js"
@@ -162,47 +606,55 @@ hash = "4bd40a241f596207dc9ef0b0fe67ba932b8e6d65dce9c393e1bb3d1e3783663e"
 
 [[files]]
 file = "kubejs/server_scripts/tier0/productive_metalworks.js"
-hash = "116c72b3571d16e8add59f43f81c4e8981c70cea3293cde0c81d03c495c4a144"
+hash = "8063c71bbb8987c6a7769379f3d1fc2a0412c0a3a26bfeeffe233efe466c8903"
 
 [[files]]
 file = "kubejs/server_scripts/tier0/rain_barrel.js"
-hash = "1e8e9e320c2c0ee0dd09406becaa06f407c377ef346b33296600a74bdd837ddc"
-
-[[files]]
-file = "kubejs/server_scripts/tier0/refractory.js"
-hash = "427120f1321d04582ba2f944ee37ca9ac0ecbe8c6f06f3bbafbef1942dafd438"
+hash = "6ecbf4a2364219a02549218782fdd56be973721295381de550d0d6ed42d94508"
 
 [[files]]
 file = "kubejs/server_scripts/tier0/remove_furnace.js"
-hash = "a3297a898ed91d97382b86398c78e990853ef14cbba54be3f8dfb40429212542"
+hash = "c61967c409e8a0b7c69cc6045ae2ce0f486ceffd365786f1a429758dab4e8684"
 
 [[files]]
-file = "kubejs/server_scripts/tier0/steel_blast_furnace.js"
-hash = "94c6dc865b21bd618acdf49ae6a4f9a455d231f67b0d4c7c7d462af839601664"
+file = "kubejs/server_scripts/tier0/steel_chain.js"
+hash = "9dbfbafc25b1ed3914ec8fae478a4f0bcb3402e5d4c6cc3ef66b5d564390353d"
+
+[[files]]
+file = "kubejs/server_scripts/tier0/stone_furnace.js"
+hash = "e2f2dba949456d7b271eec1904ec43558cfddcdd0cb8c8e8246daa52103b1725"
 
 [[files]]
 file = "kubejs/server_scripts/tier0/wrought_iron.js"
 hash = "74ab9bc53185e4f57abec387f4d3f21a28038d9164ba3c64f8dc98166fc22a67"
 
 [[files]]
-file = "kubejs/startup_scripts/bricks.js"
-hash = "f1188b9710de15065434172de0cff8783571990404d377011849f63f9b4f2b17"
-
-[[files]]
 file = "kubejs/startup_scripts/cores.js"
 hash = "14bb69c5c3779efed6dd0738e92a7af7c9030f8dc71fd015bc10a8e99afd35fd"
 
 [[files]]
+file = "kubejs/startup_scripts/decor_furnaces.js"
+hash = "14760b97e61ddeb61cb4277c9f7aba2b171223ba464882cf736beaefbfa3e695"
+
+[[files]]
+file = "kubejs/startup_scripts/decor_poi.js"
+hash = "158f864b2ae28b6a9530ccaf71c7e7ed5723ea8952359d1f810137372a7246bc"
+
+[[files]]
 file = "kubejs/startup_scripts/dusts.js"
-hash = "b77feada6dea68c7d373618def26ac6db4cc1e224bebbc2703eb9eebefb9f7ee"
+hash = "82699d364a687e2f07005e18b7e7c2646337b7925e9d4b2453fa15add561b58c"
+
+[[files]]
+file = "kubejs/startup_scripts/items.js"
+hash = "e43eaf91c5044bbec82e2852d0dad98a38bfd28b0a5eb85b51fadd94c729d1e0"
+
+[[files]]
+file = "kubejs/startup_scripts/mi_cable_tiers.js"
+hash = "1038226131cfc075107eb95c4323aafc68cee558b07f4a423bf805193e2859d9"
 
 [[files]]
 file = "kubejs/startup_scripts/mod_names.js"
-hash = "ba9090abf639a46025325e91b322da275bcedb404e76b1aad633a6e4e8fa6e2c"
-
-[[files]]
-file = "kubejs/startup_scripts/unfired_clay_kiln.js"
-hash = "de025833b30800c734e0c4328cf7b57b15759cd95bda59764dc38c27a8cb5b81"
+hash = "f655de73ae4aec7723c4e6bcacb1f3d40beb60ff1d3cc3b179cfe40d386547ca"
 
 [[files]]
 file = "mods/aaron.pw.toml"
@@ -270,6 +722,11 @@ hash = "5236616c5a6cd9fbe09e0e1ff1c86dab901c9e91b92aca8f23ec3e4c130c3f29"
 metafile = true
 
 [[files]]
+file = "mods/clumps.pw.toml"
+hash = "2e6a2f8c477128a76ef059dfef7ca8a1befa2ae0ebe7ae2171e716f0c905cd00"
+metafile = true
+
+[[files]]
 file = "mods/common-storage-lib.pw.toml"
 hash = "9f7ce01579bfa07cd81b9caf3222bcead5e1dd44f7f22e1b016ac91b4095144d"
 metafile = true
@@ -282,6 +739,16 @@ metafile = true
 [[files]]
 file = "mods/curios.pw.toml"
 hash = "6b6683fd8ec53d10d4fbef3b3d53922a1aaa8ef4d2e4b52bb819dc451f5d6b3d"
+metafile = true
+
+[[files]]
+file = "mods/custom-machinery-mekanism.pw.toml"
+hash = "c03ebc162f71010f09869864824076871bd9fa379048b1953fc8cc438a5f42b2"
+metafile = true
+
+[[files]]
+file = "mods/custom-machinery-pneumaticcraft.pw.toml"
+hash = "eea16564897f4dd7548a87d38e4e106ea4a3aaefe1473304850bcce1adcb046f"
 metafile = true
 
 [[files]]
@@ -332,6 +799,11 @@ metafile = true
 [[files]]
 file = "mods/ferritecore.pw.toml"
 hash = "dff824171060c79b327a4880c2f0546c727a041a489ef3af643ec2dcd9cd0c48"
+metafile = true
+
+[[files]]
+file = "mods/flat-bedrock.pw.toml"
+hash = "d17382ebb5d2d2f7e56e9fbb71b4b9d7ec9a61134dec3de9ef8bfaab876c205a"
 metafile = true
 
 [[files]]
@@ -465,6 +937,11 @@ hash = "898ffd88bc9aa8d5ddf920ff77a9503f039861cac150d9ca0ae70371a5d97f94"
 metafile = true
 
 [[files]]
+file = "mods/lootjs.pw.toml"
+hash = "2bf24ba89ee34b9c0f698a2d3ca2c64eb7676407b56ab311fa91a8dd7a1ad4a9"
+metafile = true
+
+[[files]]
 file = "mods/mcjtylib.pw.toml"
 hash = "2ab9d8a4aab8a8ffc32d44e5ddb5f4c6fd51aed37782fbdaa559e8f7dabe23ef"
 metafile = true
@@ -512,6 +989,11 @@ metafile = true
 [[files]]
 file = "mods/modernfix.pw.toml"
 hash = "1fae139080953d4ac5c894d72b7a8b205cd998dd347963c8ca295762995b32b8"
+metafile = true
+
+[[files]]
+file = "mods/modular-machinery-reborn-mekanism.pw.toml"
+hash = "8b572d8c82aff3aad184f4e7a8187d6b105012e350a54af3bf9dc6a9602562f3"
 metafile = true
 
 [[files]]
@@ -590,6 +1072,11 @@ hash = "e44211cfe707e71e7db2544afc7a56aedfc9e54e51944fb12c7698317512dadf"
 metafile = true
 
 [[files]]
+file = "mods/reliable-replacer.pw.toml"
+hash = "8a0153c3ca040a7c8ad34f3a7cf8bb882ec6582636c8cb371afff2d0eab0e1bd"
+metafile = true
+
+[[files]]
 file = "mods/replication.pw.toml"
 hash = "e0d3db92ec5e25b1dbfb8f62b3d5c21008b37e09b90516fc8b8249d52a508666"
 metafile = true
@@ -655,6 +1142,11 @@ hash = "c69dcffbc7e5fd5a78a8292d696d589be53e9a6c3edbb8317d9fc441b54589f9"
 metafile = true
 
 [[files]]
+file = "mods/simple-magnets.pw.toml"
+hash = "04bd0d7668e9a435a0ca553ad247636d74f3641a7542a170de6111cea852dea6"
+metafile = true
+
+[[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
 hash = "a92eb8ece81a5134b9fd1d19d1735a58af1d189ad1fb0135e0cf713d35d36b81"
 metafile = true
@@ -677,6 +1169,16 @@ metafile = true
 [[files]]
 file = "mods/spice-of-life-carrot-edition.pw.toml"
 hash = "e520ad446364dff7dd50896108a96140f3f5598b72003dade5b17308fa9ef2a9"
+metafile = true
+
+[[files]]
+file = "mods/supermartijn642s-config-lib.pw.toml"
+hash = "2e42245826ce70d4ad673addb0e5244da388841f1484f03ee5a9426ee33b2229"
+metafile = true
+
+[[files]]
+file = "mods/supermartijn642s-core-lib.pw.toml"
+hash = "df752d88048bb5b75993938c0465fe881b830d924bf6427d8a03ced27be81b34"
 metafile = true
 
 [[files]]
