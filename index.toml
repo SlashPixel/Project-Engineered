@@ -1375,3 +1375,13 @@ metafile = true
 file = "mods/yet-another-industrialization.pw.toml"
 hash = "f9fade26ff43735474f2e21acb90e382c1686e41bb00f290b89c99a6e77fd225"
 metafile = true
+
+[[files]]
+file = "shaderpacks/complementary-reimagined.pw.toml"
+hash = "b07466d4ede9dfa64e539242042ed6a0aeff094a4acb1901c1605b15a57c147a"
+metafile = true
+
+[[files]]
+file = "shaderpacks/complementary-unbound.pw.toml"
+hash = "13e0201a02815748bf386b288772a179d6d8bcc2000855cf71d54deda910844c"
+metafile = true
