@@ -1,0 +1,13 @@
+name = "MI Tweaks"
+filename = "mi-tweaks-1.9.6-1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "c8fb2acf6d814a65bc39f34de85a27b6c8e28aec"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9041936
+project-id = 1068413

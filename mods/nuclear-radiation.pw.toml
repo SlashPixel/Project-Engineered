@@ -1,0 +1,13 @@
+name = "Nuclear Radiation"
+filename = "NuclearRadiation-1.21.1-1.0.22.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "2df57f3b07f3c5c3c05ece42f83f9f5c79a580ee"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9564623
+project-id = 1148833
