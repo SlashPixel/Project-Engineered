@@ -54,7 +54,9 @@ realms_persistence.json
 optionsof.txt
 optionsshaders.txt
 debug/
-shaderpacks/
+data/
+shaderpacks/*
+!shaderpacks/*.pw.toml
 schematics/
 server-resource-packs/
 moonlight-global-datapacks/
