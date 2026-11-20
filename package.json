@@ -1,0 +1,24 @@
+{
+  "name": "project-engineered",
+  "private": true,
+  "scripts": {
+    "lint": "eslint kubejs",
+    "format": "prettier --write \"kubejs/**/*.js\"",
+    "format:check": "prettier --check \"kubejs/**/*.js\""
+  },
+  "prettier": {
+    "singleQuote": true,
+    "semi": true,
+    "tabWidth": 2,
+    "useTabs": false,
+    "trailingComma": "none",
+    "arrowParens": "avoid",
+    "bracketSpacing": true,
+    "printWidth": 120
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.15.0",
+    "prettier": "^3.10.1"
+  }
+}

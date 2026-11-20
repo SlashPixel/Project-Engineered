@@ -28,12 +28,19 @@ emi.json
 !config/ceramicbucket-server.toml
 !config/silentgear-common.toml
 !config/remi/**
+!config/oritech-common.toml
+!config/oritech-startup.toml
+!config/ad_astra.jsonc
+!config/actuallyadditions-common.toml
+!config/custommachinery-common.toml
+!config/reliable_replacer/**
 
 kubejs/config/web_server.json
 patchouli_data.json
 kubejs/package.json
 kubejs/*_scripts/jsconfig.json
 kubejs/README.txt
+kubejs/jsconfig.json
 config/almostunified/debug.json
 config/almostunified/.gitignore
 config/remi/remi.json
@@ -45,7 +52,6 @@ dynamic-resource-pack-cache/
 
 
 .*/
-defaultconfigs/micapmixin-server.toml
 kubejs/config/probe-settings.json
 servers.dat
 servers.dat_old
@@ -60,3 +66,11 @@ server-resource-packs/
 moonlight-global-datapacks/
 kubejs/exported/
 kubejs/probe/
+
+dev/
+
+package.json
+pnpm-lock.yaml
+eslint.config.mjs
+.prettierignore
+node_modules/

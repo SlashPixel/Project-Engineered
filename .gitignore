@@ -22,6 +22,7 @@ packwiz.json
 
 .editorconfig
 .prettierrc.json
+node_modules/
 
 /config/*
 
@@ -29,6 +30,12 @@ packwiz.json
 !config/ceramicbucket-server.toml
 !config/silentgear-common.toml
 !config/remi/
+!config/oritech-common.toml
+!config/oritech-startup.toml
+!config/ad_astra.jsonc
+!config/actuallyadditions-common.toml
+!config/custommachinery-common.toml
+!config/reliable_replacer/
 
 kubejs/config/web_server.json
 patchouli_data.json
@@ -39,7 +46,7 @@ dynamic-resource-pack-cache/
 
 
 .*/
-defaultconfigs/micapmixin-server.toml
+!.githooks/
 kubejs/config/probe-settings.json
 servers.dat
 servers.dat_old
