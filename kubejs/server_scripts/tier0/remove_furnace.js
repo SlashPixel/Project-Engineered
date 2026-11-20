@@ -4,6 +4,7 @@ ServerEvents.recipes(event => {
     'minecraft:smoker',
     'minecraft:blast_furnace',
     'modern_industrialization:vanilla_recipes/blast_furnace_asbl',
-    'modern_industrialization:assembler_generated/vanilla_recipes/blast_furnace'
+    'modern_industrialization:assembler_generated/vanilla_recipes/blast_furnace',
+    'modern_industrialization:vanilla_recipes/packer/furnace'
   ].forEach(recipeId => event.remove({ id: recipeId }));
 });
