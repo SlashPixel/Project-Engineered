@@ -1,0 +1,13 @@
+name = "Custom Machinery Mekanism"
+filename = "CustomMachineryMekanism-1.21.1-1.4.17.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "cc6c10c7120260b102edb6e924d6c71d043dc404"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8946960
+project-id = 721079

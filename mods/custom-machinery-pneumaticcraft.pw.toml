@@ -1,0 +1,13 @@
+name = "Custom Machinery PneumaticCraft"
+filename = "CustomMachineryPneumaticCraft-1.21.1-1.0.7.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "fc16faf4c99c24bfde18651ec965a5709036a372"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8232332
+project-id = 1093049
