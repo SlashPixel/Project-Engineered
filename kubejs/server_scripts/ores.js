@@ -56,7 +56,9 @@ LootJS.lootTables(event => {
       pool.addEntry(
         LootEntry.alternative(
           LootEntry.of(Item.of(block)).when(conditions => conditions.matchCustomCondition(SILK_TOUCH)),
-          LootEntry.of(Item.of(`kubejs:raw_${ore.id}`)).applyOreBonus('minecraft:fortune').simulateExplosionDecay()
+          LootEntry.of(Item.of(`kubejs:raw_${ore.id}`))
+            .applyOreBonus('minecraft:fortune')
+            .simulateExplosionDecay()
         )
       );
     });

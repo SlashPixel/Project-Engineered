@@ -5,7 +5,12 @@ const SG_ANVIL_RECIPES = [
   { name: 'crimson_iron_dust', in: '#c:ingots/crimson_iron', out: 'silentgear:crimson_iron_dust' },
   { name: 'crimson_steel_dust', in: '#c:ingots/crimson_steel', out: 'silentgear:crimson_steel_dust' },
   { name: 'tyrian_steel_dust', in: '#c:ingots/tyrian_steel', out: 'silentgear:tyrian_steel_dust' },
-  { name: 'crushed_shulker_shell', in: 'minecraft:shulker_shell', out: 'silentgear:crushed_shulker_shell', damage: 200 },
+  {
+    name: 'crushed_shulker_shell',
+    in: 'minecraft:shulker_shell',
+    out: 'silentgear:crushed_shulker_shell',
+    damage: 200
+  },
   { name: 'pebble', in: '#c:cobblestones', out: ['silentgear:pebble', 9] }
 ];
 
