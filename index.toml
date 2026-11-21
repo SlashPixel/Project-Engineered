@@ -482,11 +482,11 @@ hash = "f38de17b1dc75b5642ca5a0390d06859bb680744feb23bc9b22e016616670558"
 
 [[files]]
 file = "kubejs/client_scripts/ore_textures.js"
-hash = "c85730d9d19d826bffb113fa0a3b827f9ab1dc5b25c5512e0be2a20a11363436"
+hash = "45f5661c70a52f36d4f204dc349c6696121cecec8409c4a6f843304fb6a621d3"
 
 [[files]]
 file = "kubejs/client_scripts/recolor.js"
-hash = "819f5e179b1beff3d0a88ac4044b12c627f1e34386be7a40746edc91680b03ed"
+hash = "19b3dd7624b66b2bb1267d7562c714b50be213141f7bfaa6a40f5e24191ef53f"
 
 [[files]]
 file = "kubejs/client_scripts/textures.js"
@@ -506,7 +506,7 @@ hash = "e00a67922942660d77c213379b5128a46c5abc894178b0be04006d325ff5f6b3"
 
 [[files]]
 file = "kubejs/config/custom_ores.json"
-hash = "79d5feb0adce609ac4f539f91112a18ffaebb24fb26c46a67750580774be532a"
+hash = "6b1f8e34adc9a83435ff9c62220b6141bd7dd7b7d1ec19944e6934d62432495f"
 
 [[files]]
 file = "kubejs/config/removed_content.json"
@@ -578,7 +578,7 @@ hash = "3320801d7db526466be17951029db8966d3a6155100819722b62260ab3957e9e"
 
 [[files]]
 file = "kubejs/server_scripts/ores.js"
-hash = "5235a0e325ed7efa1957a84543242d32e14f35a2e573b2cb05a1fa69f55e6b65"
+hash = "f3b9616df8e1540688f4f5d2763336006de6bcc41471ce9aa9ce91e74d81e9ee"
 
 [[files]]
 file = "kubejs/server_scripts/recipe_helpers.js"
@@ -726,7 +726,7 @@ hash = "f655de73ae4aec7723c4e6bcacb1f3d40beb60ff1d3cc3b179cfe40d386547ca"
 
 [[files]]
 file = "kubejs/startup_scripts/ores.js"
-hash = "8d573e0a7eb220bbe9dbcea625c8c227ae7f44b6765f62b1695f8d33a215e384"
+hash = "89b3c50baf804d2ab4a47672746cf697521316b2d51d93231ca825c8df61e417"
 
 [[files]]
 file = "mods/aaron.pw.toml"

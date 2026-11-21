@@ -17,38 +17,6 @@
       "accent": "#C9C0AE"
     },
     {
-      "id": "bauxite",
-      "name": "Bauxite",
-      "host": "stone",
-      "shape": "copper",
-      "main": "#A0522D",
-      "accent": "#D9A066"
-    },
-    {
-      "id": "uranium",
-      "name": "Uranium",
-      "host": "deepslate",
-      "shape": "redstone",
-      "main": "#1F1F1F",
-      "accent": "#C8D84A"
-    },
-    {
-      "id": "nickel",
-      "name": "Nickel",
-      "host": "stone",
-      "shape": "lapis",
-      "main": "#7DB36A",
-      "accent": "#4E7F45"
-    },
-    {
-      "id": "silver",
-      "name": "Silver",
-      "host": "deepslate",
-      "shape": "gold",
-      "main": "#D8DCE0",
-      "accent": "#6E6E73"
-    },
-    {
       "id": "magnetite",
       "name": "Magnetite",
       "host": "deepslate",
@@ -127,22 +95,6 @@
       "shape": "copper",
       "main": "#EDE6D6",
       "accent": "#D6C9AE"
-    },
-    {
-      "id": "tungsten",
-      "name": "Tungsten",
-      "host": "netherrack",
-      "shape": "nether_gold",
-      "main": "#3A3330",
-      "accent": "#5C514A"
-    },
-    {
-      "id": "antimony",
-      "name": "Antimony",
-      "host": "netherrack",
-      "shape": "nether_quartz",
-      "main": "#8E949C",
-      "accent": "#BFC4CA"
     },
     {
       "id": "cobaltite",
