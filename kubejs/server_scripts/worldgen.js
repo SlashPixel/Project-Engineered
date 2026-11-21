@@ -27,30 +27,6 @@ const REMOVE_ORES_AD_ASTRA = [
 
 const REMOVE_ORES_CREATE = ['zinc_ore'];
 
-const REMOVE_ORES_EXCESSIVE_UTILITIES = [
-  'depths_ore_coal_lower',
-  'depths_ore_coal_upper',
-  'depths_ore_copper',
-  'depths_ore_copper_large',
-  'depths_ore_diamond',
-  'depths_ore_diamond_buried',
-  'depths_ore_diamond_large',
-  'depths_ore_diamond_medium',
-  'depths_ore_emerald',
-  'depths_ore_emerald_extra',
-  'depths_ore_gold',
-  'depths_ore_gold_extra',
-  'depths_ore_gold_lower',
-  'depths_ore_iron_middle',
-  'depths_ore_iron_small',
-  'depths_ore_iron_upper',
-  'depths_ore_iron_upper_extra',
-  'depths_ore_lapis',
-  'depths_ore_lapis_buried',
-  'depths_ore_redstone',
-  'depths_ore_redstone_lower'
-];
-
 const REMOVE_ORES_IMMERSIVEENGINEERING = ['bauxite', 'deep_nickel', 'lead', 'nickel', 'silver', 'uranium'];
 
 const REMOVE_ORES_MEKANISM = [
@@ -126,7 +102,6 @@ const REMOVE_ORES_BY_NAMESPACE = {
   actuallyadditions: REMOVE_ORES_ACTUALLYADDITIONS,
   ad_astra: REMOVE_ORES_AD_ASTRA,
   create: REMOVE_ORES_CREATE,
-  excessive_utilities: REMOVE_ORES_EXCESSIVE_UTILITIES,
   immersiveengineering: REMOVE_ORES_IMMERSIVEENGINEERING,
   mekanism: REMOVE_ORES_MEKANISM,
   minecraft: REMOVE_ORES_MINECRAFT,
@@ -150,7 +125,6 @@ const REMOVE_ORES_BIOMES = {
     'ad_astra:martian_wastelands',
     'ad_astra:mercury_deltas',
     'ad_astra:venus_wastelands',
-    'excessive_utilities:the_depths',
     'nuclearcraftneohaul:nuclear_wasteland',
     'terralith:deep_warm_ocean',
     'terralith:skylands_autumn',
