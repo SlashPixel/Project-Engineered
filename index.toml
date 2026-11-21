@@ -34,7 +34,7 @@ hash = "a75aa75ec708a95a02014bc326d5cf9874785c5f808689a8440b1a3bc5b8a1cf"
 
 [[files]]
 file = "config/ceramicbucket-server.toml"
-hash = "58bfd636f3a720fa216d7cc534182f34b55f4d49f5f1925b080f0f73afa90f9e"
+hash = "61ae9c5cbc3d29f811684d86ad19237886d0a695b97b30cc6081b67c64c112dd"
 
 [[files]]
 file = "config/custommachinery-common.toml"
@@ -42,23 +42,23 @@ hash = "675b627306f1de82f7254af99ddd55e106f8082fc7b616517d4684de5f31d878"
 
 [[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
-hash = "c9663260ba871a1e07fa13b51756fe5221970e08d2a9ae1a275a3ba7196fdbb1"
+hash = "532c48369c9c1ac3782352a51cecb9363143df440f9034ce9586e4a9ed0eb9b0"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tier_1_the_stone_age.snbt"
-hash = "ce29568586360daa39fdb4113385a33337b28383a1076b281de9fb03c246e7c2"
+hash = "9c9e894814a56d157ed2aa09a918665f0d9301893a8560c33a44ebed36ab754a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tiers.snbt"
-hash = "cc7c68146eb066cfe415feb39ba9b2cfe0a76bd87066c8f9ad8483bea0f643d5"
+hash = "998943a70c4a5fdef90d75c5ac947f05681cc05191a7d7279e94ed5d980ae950"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
-hash = "d0b8b2f3b7bf76d3dd086390a69d6acc1ac2b28c8f356bb086e2d9f7f087c536"
+hash = "fdc99aa4bb3ee5fd51a5a9f39b7a1d50d6d4d6b19b8526d23ba130e4d493310a"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "342b7b33e59e5babea2a7abd6d6f1fc542960b9f13ffad66bdc2b43bd74bf7d3"
+hash = "808680ee9d62f1af9bdff01c6870ccd83d84e7e9ed28d126f04fc4de01e5f416"
 
 [[files]]
 file = "config/oritech-common.toml"
@@ -82,7 +82,7 @@ hash = "4c4cc3a1eec24dba0a2daa066040c5daafb01744e154cd6d4fd802aa887467ef"
 
 [[files]]
 file = "config/silentgear-common.toml"
-hash = "891a36a7709700e3fd87d33b3420cbac4a8dd36b757017efd01f7c52a6beb6e3"
+hash = "27d71ad6a140c95dee57d18a2cf1d243275e804d412067c8e7e83c5da3ce3a13"
 
 [[files]]
 file = "config/spark/config.json"

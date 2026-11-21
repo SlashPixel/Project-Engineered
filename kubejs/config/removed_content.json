@@ -24,7 +24,8 @@
         "ad_astra:coal_generator"
       ],
       "recipes": [
-        "ad_astra:coal_generator"
+        "ad_astra:coal_generator",
+        "ad_astra:alloying/steel_ingot_from_alloying_iron_ingot_and_barrier"
       ]
     },
     "ae2": {
@@ -62,7 +63,10 @@
         "ftbmaterials:coal_coke_dust",
         "ftbmaterials:coal_coke_block"
       ],
-      "recipes": []
+      "recipes": [
+        "ftbmaterials:steel_ingot_from_smelting_steel_dust",
+        "ftbmaterials:steel_ingot_from_blasting_steel_dust"
+      ]
     },
     "immersiveengineering": {
       "items": [
@@ -73,7 +77,10 @@
         "immersiveengineering:arc_recycling_list",
         "immersiveengineering:crafting/blastbrick_reinforced",
         "immersiveengineering:crafting/blastbrick_reinforced_from_slab",
-        "immersiveengineering:crafting/blastbrick_reinforced_to_slab"
+        "immersiveengineering:crafting/blastbrick_reinforced_to_slab",
+        "immersiveengineering:smelting/ingot_steel_from_dust",
+        "immersiveengineering:smelting/ingot_steel_from_dust_from_blasting",
+        "immersiveengineering:arcfurnace/dust_steel"
       ]
     },
     "industrialforegoing": {
@@ -163,7 +170,10 @@
         "mekanism:transmitter/logistical_transporter/elite",
         "mekanism:transmitter/logistical_transporter/ultimate",
         "mekanism:transmitter/diversion_transporter",
-        "mekanism:transmitter/restrictive_transporter"
+        "mekanism:transmitter/restrictive_transporter",
+        "mekanism:processing/steel/enriched_iron_to_dust",
+        "mekanism:processing/steel/ingot/from_dust_smelting",
+        "mekanism:processing/steel/ingot/from_dust_blasting"
       ]
     },
     "mekanismgenerators": {
@@ -192,7 +202,15 @@
         "modern_industrialization:electric_age/transformer/ev_supra/up_asbl",
         "modern_industrialization:electric_age/transformer/ev_supra/up_to_down",
         "modern_industrialization:assembler_generated/electric_age/transformer/ev_supra/down",
-        "modern_industrialization:assembler_generated/electric_age/transformer/ev_supra/up"
+        "modern_industrialization:assembler_generated/electric_age/transformer/ev_supra/up",
+        "modern_industrialization:materials/steel/smelting/dust_to_ingot_smelting",
+        "modern_industrialization:materials/steel/smelting/dust_to_ingot_blasting"
+      ]
+    },
+    "nuclearcraftneohaul": {
+      "items": [],
+      "recipes": [
+        "nuclearcraftneohaul:alloy_furnace/steel_alloy"
       ]
     },
     "oritech": {
@@ -235,7 +253,15 @@
         "oritech:crafting/unduct_fluid",
         "oritech:crafting/unduct_energy",
         "oritech:crafting/unduct_superconductor",
-        "oritech:crafting/unframe_superconductor"
+        "oritech:crafting/unframe_superconductor",
+        "oritech:crafting/alloy/steel",
+        "oritech:foundry/alloy/steel",
+        "oritech:mixing/compat/create/steel",
+        "oritech:compat/enderio/alloy/steel",
+        "oritech:steel_ingot_from_smelting_steel_dust",
+        "oritech:steel_ingot_from_blasting_steel_dust",
+        "oritech:compat/productivemetalworks/casting/ingot/steel",
+        "oritech:compat/productivemetalworks/casting/block/steel"
       ]
     },
     "pamhc2crops": {
@@ -267,6 +293,31 @@
       "recipes": [
         "pneumaticcraft:seismic_sensor",
         "pneumaticcraft:pneumatic_dynamo"
+      ]
+    },
+    "productivemetalworks": {
+      "items": [],
+      "recipes": [
+        "productivemetalworks:casting/ingots/alltheores/steel",
+        "productivemetalworks:casting/ingots/ftbmaterials/steel",
+        "productivemetalworks:casting/ingots/modern_industrialization/steel",
+        "productivemetalworks:casting/nuggets/alltheores/steel",
+        "productivemetalworks:casting/nuggets/ftbmaterials/steel",
+        "productivemetalworks:casting/nuggets/modern_industrialization/steel",
+        "productivemetalworks:casting/storage_blocks/alltheores/steel",
+        "productivemetalworks:casting/storage_blocks/ftbmaterials/steel",
+        "productivemetalworks:casting/storage_blocks/modern_industrialization/steel",
+        "productivemetalworks:casting/mekanism/steel_ingot",
+        "productivemetalworks:casting/mekanism/steel_nugget",
+        "productivemetalworks:casting/mekanism/steel_block",
+        "productivemetalworks:casting/immersiveengineering/steel_ingot",
+        "productivemetalworks:casting/immersiveengineering/steel_nugget",
+        "productivemetalworks:casting/immersiveengineering/steel_block",
+        "productivemetalworks:casting/create_ironworks/steel_ingot",
+        "productivemetalworks:casting/create_ironworks/steel_nugget",
+        "productivemetalworks:casting/create_ironworks/steel_block",
+        "productivemetalworks:casting/magistuarmory/steel_ingot",
+        "productivemetalworks:casting/magistuarmory/steel_nugget"
       ]
     },
     "silentgear": {
