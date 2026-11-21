@@ -56,50 +56,6 @@
         "enderio:stirling_generator"
       ]
     },
-    "excessive_utilities": {
-      "items": [
-        "excessive_utilities:furnace_generator",
-        "excessive_utilities:survivalist_generator",
-        "excessive_utilities:overclocked_generator",
-        "excessive_utilities:rainbow_generator",
-        "excessive_utilities:culinary_generator",
-        "excessive_utilities:death_generator",
-        "excessive_utilities:disenchantment_generator",
-        "excessive_utilities:ender_generator",
-        "excessive_utilities:explosive_generator",
-        "excessive_utilities:frosty_generator",
-        "excessive_utilities:halitosis_generator",
-        "excessive_utilities:heated_redstone_generator",
-        "excessive_utilities:magmatic_generator",
-        "excessive_utilities:nether_star_generator",
-        "excessive_utilities:pink_generator",
-        "excessive_utilities:potion_generator",
-        "excessive_utilities:slimy_generator",
-        "excessive_utilities:rainbow_generator_bottom_slab",
-        "excessive_utilities:rainbow_generator_top_slab"
-      ],
-      "recipes": [
-        "excessive_utilities:furnace_generator",
-        "excessive_utilities:survivalist_generator",
-        "excessive_utilities:overclocked_generator",
-        "excessive_utilities:rainbow_generator",
-        "excessive_utilities:culinary_generator",
-        "excessive_utilities:death_generator",
-        "excessive_utilities:disenchantment_generator",
-        "excessive_utilities:ender_generator",
-        "excessive_utilities:explosive_generator",
-        "excessive_utilities:frosty_generator",
-        "excessive_utilities:halitosis_generator",
-        "excessive_utilities:heated_redstone_generator",
-        "excessive_utilities:magmatic_generator",
-        "excessive_utilities:nether_star_generator",
-        "excessive_utilities:pink_generator",
-        "excessive_utilities:potion_generator",
-        "excessive_utilities:slimy_generator",
-        "excessive_utilities:rainbow_generator_bottom_slab",
-        "excessive_utilities:rainbow_generator_top_slab"
-      ]
-    },
     "ftbmaterials": {
       "items": [
         "ftbmaterials:coal_coke_gem",
