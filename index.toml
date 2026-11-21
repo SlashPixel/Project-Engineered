@@ -14,7 +14,7 @@ hash = "b70f57eadf6eec0ce43acd4c441f08feac1432826e04cb8e2736a73997c20c08"
 
 [[files]]
 file = "config/almostunified/placeholders.json"
-hash = "e5f01dd5102efc86039b077a8b766bbc3da8c20d2f644dea76444ae7c04086b0"
+hash = "a52494f388e9d280b6f3b158aa05cfb1b6c0d5e10eb80e0ac5a90c56328ffdfe"
 
 [[files]]
 file = "config/almostunified/startup.json"
@@ -30,7 +30,7 @@ hash = "9779974591ac064eff4ebd5388a97841d7098696f4b7f1d249f636432b5f77c4"
 
 [[files]]
 file = "config/almostunified/unification/materials.json"
-hash = "bc7da82cd5f3f589e53b11e4243cb4e4d8e1cc84d9ec460496a9784757ba7590"
+hash = "a75aa75ec708a95a02014bc326d5cf9874785c5f808689a8440b1a3bc5b8a1cf"
 
 [[files]]
 file = "config/ceramicbucket-server.toml"
@@ -65,6 +65,10 @@ file = "config/silentgear-common.toml"
 hash = "27d71ad6a140c95dee57d18a2cf1d243275e804d412067c8e7e83c5da3ce3a13"
 
 [[files]]
+file = "config/spark/config.json"
+hash = "230ef74f58b4ebfb809cc474e881be3462ede61d56a86437e935b4a3a1ac99f3"
+
+[[files]]
 file = "defaultconfigs/mi_uncapped_steam-server.toml"
 hash = "a73a9b03e17489afe2d1128a05a2d9510851c5c743492353274d7ec58a890b58"
 
@@ -81,6 +85,14 @@ file = "kubejs/assets/custommachinery/models/machine/clay_kiln_item.json"
 hash = "e313cf7c14558f5ac9f842ec6fed43282e184a28ebb1e459cf8d9a189a84ca76"
 
 [[files]]
+file = "kubejs/assets/custommachinery/models/machine/grafting_table.json"
+hash = "403d0ddd55bf468d41a1994e8ae47721c0f83f38b6ee994bdcaa1d5835694045"
+
+[[files]]
+file = "kubejs/assets/custommachinery/models/machine/grafting_table_item.json"
+hash = "8453ba5fa36cc1855f704d19980dbd033d7e6295ce36b09585d1e02f08ca4e4e"
+
+[[files]]
 file = "kubejs/assets/custommachinery/models/machine/rain_barrel.json"
 hash = "ca909015adbbde9f7469954e24a42d4d12b2a95b6a90d69efc7d351f39bdbaa6"
 
@@ -89,8 +101,16 @@ file = "kubejs/assets/custommachinery/models/machine/rain_barrel_item.json"
 hash = "87915256ecf68b0347af0a53d5313939a405e56062505f440758755035a1e6f3"
 
 [[files]]
+file = "kubejs/assets/custommachinery/models/machine/stone_furnace.json"
+hash = "c603d556fa82eca6125da1af34537664153c9bb9d17cfc84abd1b00c54bbe8c4"
+
+[[files]]
+file = "kubejs/assets/custommachinery/models/machine/stone_furnace_item.json"
+hash = "cacd6c8529578e22ebb29fbc567c30bed19da53d7b2deb587e58bf9858fd01a3"
+
+[[files]]
 file = "kubejs/assets/kubejs/lang/en_us.json"
-hash = "20840d4ea54777eba86f6dc00d27f1b0c8fd8da3fd6fbc35fb326ae96d6d3166"
+hash = "a3521c328b4e08c3549f9bd658741260fdf77e4568f99002f4b359e569c2f40e"
 
 [[files]]
 file = "kubejs/assets/kubejs/models/item/unfired_clay_kiln.json"
@@ -446,7 +466,7 @@ hash = "41ef172bf4192b01e59a6ed79ae563aec87ba9181c70b94c1b3e1767acb6adfa"
 
 [[files]]
 file = "kubejs/client_scripts/textures.js"
-hash = "f679c388eea5377ecb9fdb87bd1b449120a7715d6f41b5a428338f3c8f52f497"
+hash = "ff7b7f39c7c20b80c52ce3a41f747ccf3d1ea7598e438284a3d6e1657b59175c"
 
 [[files]]
 file = "kubejs/client_scripts/tooltips.js"
@@ -462,7 +482,63 @@ hash = "e00a67922942660d77c213379b5128a46c5abc894178b0be04006d325ff5f6b3"
 
 [[files]]
 file = "kubejs/config/removed_content.json"
-hash = "31e62e112584d99579bac9028ee09a2d0705ae8fee8b2719a72178d2b2ef4348"
+hash = "ee381ec6f26f5452ef20a7b8dd28c7f84aaa7880eaa83c424f5dee1f5cdf5b5b"
+
+[[files]]
+file = "kubejs/data/actuallyadditions/worldgen/processor_list/engineer_house.json"
+hash = "8cbe5ac86bd56242cd3c40513185dbdeb0cbedc2885e5b47ad50416ba35a127a"
+
+[[files]]
+file = "kubejs/data/ad_astra/tags/worldgen/biome/has_structure/oil_well.json"
+hash = "bef4d172fc1bfb34d342e79090726c4a0c272dd404783c3ea022b992e0e0415e"
+
+[[files]]
+file = "kubejs/data/custommachinery/machine/clay_kiln.json"
+hash = "91855a5fa8a728441ce5233f035cffa28d752a2d99200317f82d55764c798bdd"
+
+[[files]]
+file = "kubejs/data/custommachinery/machine/grafting_table.json"
+hash = "c332616a8930419e8af9022b4b84bed6c2ffa8d4ffc4d79dd4ac8b73556568cc"
+
+[[files]]
+file = "kubejs/data/custommachinery/machine/rain_barrel.json"
+hash = "865bbdca543eac6cd76a4f3b76d2ad5279c77c7e6ddd696004fd83d5e02147d5"
+
+[[files]]
+file = "kubejs/data/custommachinery/machine/stone_furnace.json"
+hash = "f3593838c2251c81ac5d6e79334320de8b6f3f7591d0c4f1add81c18ad19ec88"
+
+[[files]]
+file = "kubejs/data/farmersdelight/recipe/integration/silentgear/cutting/netherwood.json"
+hash = "d170f82677874b26874ec7c4068bbc40fd88f7ce09101969b03efd2cf3b9a5bf"
+
+[[files]]
+file = "kubejs/data/oritech/neoforge/biome_modifier/oil_spring.json"
+hash = "99b969132018e9da1071065a8593ba9564928b1ed0aa5ae3ab45f9dac071f7d5"
+
+[[files]]
+file = "kubejs/data/oritech/neoforge/biome_modifier/oil_spring_desert.json"
+hash = "99b969132018e9da1071065a8593ba9564928b1ed0aa5ae3ab45f9dac071f7d5"
+
+[[files]]
+file = "kubejs/data/oritech/worldgen/configured_feature/resource_node_common.json"
+hash = "a0ec53029e0af8b8a0554edc6a1d2fa430ecbff469d414228a4195abbcfcc34d"
+
+[[files]]
+file = "kubejs/data/oritech/worldgen/configured_feature/resource_node_other.json"
+hash = "ffb3b434b570421ce617c5f9cd0e9f81c1d70a5eed925e4bc5c0f2a9019b9689"
+
+[[files]]
+file = "kubejs/data/oritech/worldgen/configured_feature/resource_node_rare.json"
+hash = "9ddd2403ac610fa3a39cfdfdb410fe664c1fa2840bdf5dd54544dcc63fe15038"
+
+[[files]]
+file = "kubejs/data/silentgear/neoforge/biome_modifier/overworld_ores.json"
+hash = "999e8bdedb3a2f255c7654dde94ffa237ba343ac401ec74639037d36790d514e"
+
+[[files]]
+file = "kubejs/data/treetap/recipe/id_menril.json"
+hash = "2d5b6a91435c482f8df1d4a98ff4404c0e6feb37b87e0a65726562fc04b102e5"
 
 [[files]]
 file = "kubejs/server_scripts/gamerules.js"
@@ -474,7 +550,7 @@ hash = "3320801d7db526466be17951029db8966d3a6155100819722b62260ab3957e9e"
 
 [[files]]
 file = "kubejs/server_scripts/recipe_helpers.js"
-hash = "4ea306d34206bfe2fac765f653f4d2c95a20c5cdee57d6f39dbe59cde945cf81"
+hash = "1832f2b123d329aa45ebddfe3ef10864acee9499d79698eca50d38c52ae7b930"
 
 [[files]]
 file = "kubejs/server_scripts/removals.js"
@@ -482,19 +558,19 @@ hash = "6f2199708b2bc20a6c17304152dc3551bc7897c985ea4fdaf6ca1ea5997204dd"
 
 [[files]]
 file = "kubejs/server_scripts/tags.js"
-hash = "7ce980d39cba6f44bc52279a9d48d538c77c23b0ed0df7735fd9f43a667678b0"
+hash = "89a4715420c0f4b2bd8d0efa8fc4952b1858d62644bf879293e9d1895389c000"
 
 [[files]]
 file = "kubejs/server_scripts/tier0/alloys.js"
-hash = "8235fcea6c31d52961529db199952daddf28bc30fe10feb8cc5adee88cbb9e0e"
+hash = "5624962b4b0220d7e1740ff22c49d59682e17c5f3cdbb1e6442cc291b5b81856"
 
 [[files]]
 file = "kubejs/server_scripts/tier0/bricks.js"
-hash = "a9d51a3b163a82445e417777b5b860bf0a781a353f2633dd8784dd3af1a4be2c"
+hash = "7827363ba5fedcfb87d3255180f87783862156a82eb2deeb1cc29197e3959d80"
 
 [[files]]
 file = "kubejs/server_scripts/tier0/clay_and_bricks.js"
-hash = "b9c74bda679c74e58ee1cca300baded0dc3cab459d4112772c471dac7e1f0003"
+hash = "56228242e7e87624b15d148c1354e71e4bd1ada379fe219e0e57aeeab3f49421"
 
 [[files]]
 file = "kubejs/server_scripts/tier0/coal_coke.js"
@@ -537,8 +613,16 @@ file = "kubejs/server_scripts/tier0/glass.js"
 hash = "ba5eb09359c94528f1623d6c6d44105ff1baf25f360fdb8e1b9a8f118cf3fa89"
 
 [[files]]
+file = "kubejs/server_scripts/tier0/grafting_table.js"
+hash = "68e71e7befc3ba53f277e4eb4e282dffde2baa39de7495d8eaeeaba0ebde74fb"
+
+[[files]]
 file = "kubejs/server_scripts/tier0/kiln_recipes.js"
-hash = "01d4821336ccf852c5424a35dccd4969f6a624ccf74bd558886fae05b05e7755"
+hash = "5d22e36eecd9ccaf3f2a3e494cc853709fda0c86e878490ff106e806d109757e"
+
+[[files]]
+file = "kubejs/server_scripts/tier0/lime_mortar.js"
+hash = "ba136f5bffa597190d456332d7a19dbe14304ff02a8826e9ffda780d363ba147"
 
 [[files]]
 file = "kubejs/server_scripts/tier0/limestone_silica.js"
@@ -570,11 +654,15 @@ hash = "9dbfbafc25b1ed3914ec8fae478a4f0bcb3402e5d4c6cc3ef66b5d564390353d"
 
 [[files]]
 file = "kubejs/server_scripts/tier0/stone_furnace.js"
-hash = "e2f2dba949456d7b271eec1904ec43558cfddcdd0cb8c8e8246daa52103b1725"
+hash = "2dfc316af68b304e01d3ccba8f9611c8c7ae77010d9962a456baf9f87fbd23b4"
 
 [[files]]
 file = "kubejs/server_scripts/tier0/wrought_iron.js"
 hash = "74ab9bc53185e4f57abec387f4d3f21a28038d9164ba3c64f8dc98166fc22a67"
+
+[[files]]
+file = "kubejs/server_scripts/worldgen.js"
+hash = "45ab3bbdebb4b72710cca1a35d4518c7af497dc3ea212ca8b133d44ce4d8ac31"
 
 [[files]]
 file = "kubejs/startup_scripts/cores.js"
@@ -594,7 +682,7 @@ hash = "82699d364a687e2f07005e18b7e7c2646337b7925e9d4b2453fa15add561b58c"
 
 [[files]]
 file = "kubejs/startup_scripts/items.js"
-hash = "e43eaf91c5044bbec82e2852d0dad98a38bfd28b0a5eb85b51fadd94c729d1e0"
+hash = "3beec419cc730bd88cbfcb69f4f7be34cc9962668a7f34ac802bf86403e5450f"
 
 [[files]]
 file = "kubejs/startup_scripts/mi_cable_tiers.js"
@@ -682,6 +770,11 @@ metafile = true
 [[files]]
 file = "mods/clumps.pw.toml"
 hash = "2e6a2f8c477128a76ef059dfef7ca8a1befa2ae0ebe7ae2171e716f0c905cd00"
+metafile = true
+
+[[files]]
+file = "mods/collective.pw.toml"
+hash = "0f1348dd7b22dacc96711a4405e196bef089fee82eae14f286b1a874ce053a2d"
 metafile = true
 
 [[files]]
@@ -865,6 +958,11 @@ hash = "62637d9fa6059eee6042ffe48185a94621d4f45e0c3e77397b4e19cbbcbc59fb"
 metafile = true
 
 [[files]]
+file = "mods/hide-experimental-warning.pw.toml"
+hash = "1c1fe0928325a9cd5d4f24d1f028d4acf1f86571c3423dc7f936e816f3838c97"
+metafile = true
+
+[[files]]
 file = "mods/hostile-neural-industrialization.pw.toml"
 hash = "58715f1e32979c540ff0244ca5f72db36a6e846705d4cfc82a38f4878f594d23"
 metafile = true
@@ -1045,13 +1143,18 @@ hash = "2e9a8daaa0e0cc9cdfb67422e0f928f2db6a1f2984b8636eb2b5091c5fb23e29"
 metafile = true
 
 [[files]]
+file = "mods/notenoughrecipebook.pw.toml"
+hash = "4d4b3476c2f5770aeb002a5f87a9a59f7655fff4d4e300eed4cbbd9e39b755bd"
+metafile = true
+
+[[files]]
 file = "mods/nuclear-radiation.pw.toml"
 hash = "5b9a0918ce7e88c7c5fbf4ffdbfafccc88712935d9ef34f52ef31c9e82746883"
 metafile = true
 
 [[files]]
-file = "mods/nuclearcraft-neoteric.pw.toml"
-hash = "3cc1904a7b4c089832d6bc0c57366ec2547cbcb8b46bab0132c37da5b421c7c1"
+file = "mods/nuclearcraft-neohaul.pw.toml"
+hash = "e7d8308bf6684867f880d6a67546b2c7fa8deaa71ce238d433a92bbec8583ffd"
 metafile = true
 
 [[files]]
@@ -1110,6 +1213,11 @@ hash = "330eae6dd751b70d4761f5fb556bc476f693549f3eb42ff7f441e1cd5bfe3cfb"
 metafile = true
 
 [[files]]
+file = "mods/ponder-kjs.pw.toml"
+hash = "0704bcc5893c3f5e54570052641e758e45f0229e2e248ae0a3e424b95bc625a8"
+metafile = true
+
+[[files]]
 file = "mods/pretty-pipes-fluids.pw.toml"
 hash = "542bf3918f67ced10299c019cf14fa72f3b16e9d00b8247e6194880d471b1889"
 metafile = true
@@ -1132,6 +1240,11 @@ metafile = true
 [[files]]
 file = "mods/productive-metalworks.pw.toml"
 hash = "694d12649998576224bbaa1b13939e1fd6e099320d73a0c5304e442f3c037652"
+metafile = true
+
+[[files]]
+file = "mods/rack-it-up.pw.toml"
+hash = "994d7ee11bb048ddecf7adf20b56d6c9053266e2479d0915b84785ab84615460"
 metafile = true
 
 [[files]]
@@ -1197,6 +1310,11 @@ metafile = true
 [[files]]
 file = "mods/selene.pw.toml"
 hash = "6aba148930aeb000292b8862990ab4515ea033554b67b44dd3e59f16ef244778"
+metafile = true
+
+[[files]]
+file = "mods/shatterbyte-lib.pw.toml"
+hash = "29f523ecd3d71741f54ec5b2671d1c69840cfac79af453beb2c4222df9278019"
 metafile = true
 
 [[files]]
@@ -1275,6 +1393,11 @@ hash = "3471aa37f60afd158148e97410c12fc3ab463a846c7d6bd227a1ebafec2223aa"
 metafile = true
 
 [[files]]
+file = "mods/terrablender-neoforge.pw.toml"
+hash = "d77e4dc337b6090358c1ef01b0f99a8357e5279443e0e23e511de1be865c01c9"
+metafile = true
+
+[[files]]
 file = "mods/terralith.pw.toml"
 hash = "f083c3cdf6aadc3b033e20ba8ccc929d5e1b86a0be50b05dc638d7f76dab5024"
 metafile = true
@@ -1287,6 +1410,11 @@ metafile = true
 [[files]]
 file = "mods/titanium.pw.toml"
 hash = "01fa889082fbcae62d6dd07d4220032a1d4018edbcd82a28c54e44a8556157b2"
+metafile = true
+
+[[files]]
+file = "mods/toast-control.pw.toml"
+hash = "29d1e04030fcbdad4ee91eb9bc0b0d6b8907ffe967c9bd0543e8bb7e3dab5282"
 metafile = true
 
 [[files]]
@@ -1312,6 +1440,11 @@ metafile = true
 [[files]]
 file = "mods/yet-another-industrialization.pw.toml"
 hash = "f9fade26ff43735474f2e21acb90e382c1686e41bb00f290b89c99a6e77fd225"
+metafile = true
+
+[[files]]
+file = "mods/zerocore.pw.toml"
+hash = "f60046584d023aaa0af0e8a1f3f021acb13121f2130f7c66b85e704da4d72643"
 metafile = true
 
 [[files]]
