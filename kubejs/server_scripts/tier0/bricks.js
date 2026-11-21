@@ -10,7 +10,8 @@ const BRICKS = [
     output: 'modern_industrialization:fire_clay_brick',
     input: 'modern_industrialization:fire_clay_dust'
   },
-  { id: 'fire_brick', output: 'productivemetalworks:fire_brick', input: 'productivemetalworks:fire_clay' }
+  { id: 'fire_brick', output: 'productivemetalworks:fire_brick', input: 'productivemetalworks:fire_clay' },
+  { id: 'stone_brick', output: 'kubejs:stone_brick', input: 'minecraft:stone', count: 4 }
 ];
 
 ServerEvents.recipes(event => {

@@ -159,6 +159,43 @@ const crafting = {
     )
 };
 
+function cmItem(entry, mode, slots) {
+  return {
+    type: 'custommachinery:item',
+    mode: mode,
+    ingredient: Object.assign(ingredient(entry[0]), { count: entry[1] }),
+    slots: slots
+  };
+}
+
+function cmTool(tool) {
+  return {
+    type: 'custommachinery:durability',
+    mode: 'input',
+    ingredient: ingredient(tool.in),
+    amount: tool.damage,
+    break: true,
+    slots: tool.slots
+  };
+}
+
+const cm = {
+  recipe: (id, o) =>
+    addRecipe(
+      id,
+      {
+        type: 'custommachinery:custom_machine',
+        machine: o.machine,
+        time: o.time,
+        requirements: o.items
+          .map(entry => cmItem(entry, 'input', o.slots))
+          .concat(o.tool ? [cmTool(o.tool)] : [])
+          .concat(o.out.map(entry => cmItem(entry, 'output', o.outSlots)))
+      },
+      o
+    )
+};
+
 const cooking = {};
 
 ['smelting', 'blasting', 'smoking', 'campfire_cooking'].forEach(kind => {
@@ -176,6 +213,20 @@ const cooking = {};
       o
     );
 });
+
+const rack = {
+  drying: (id, o) =>
+    addRecipe(
+      id,
+      {
+        type: 'rackitup:drying',
+        ingredient: ingredient(o.in),
+        result: stack(o.out),
+        time: o.time
+      },
+      o
+    )
+};
 
 const pnc = {
   pressureChamber: (id, o) =>

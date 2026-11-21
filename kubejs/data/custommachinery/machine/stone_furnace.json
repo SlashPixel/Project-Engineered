@@ -1,0 +1,107 @@
+{
+  "name": {
+    "text": {
+      "translate": "Stone Furnace"
+    }
+  },
+  "appearance": {
+    "custommachinery:block": "custommachinery:machine/stone_furnace",
+    "custommachinery:item": "custommachinery:machine/stone_furnace_item"
+  },
+  "components": [
+    {
+      "type": "custommachinery:item",
+      "id": "input",
+      "mode": "input",
+      "blacklist": [
+        "minecraft:charcoal",
+        "minecraft:coal"
+      ],
+      "config": {
+        "TOP": "NONE",
+        "BOTTOM": "NONE",
+        "FRONT": "NONE",
+        "RIGHT": "INPUT",
+        "BACK": "NONE",
+        "LEFT": "INPUT",
+        "enabled": false
+      }
+    },
+    {
+      "type": "custommachinery:item_fuel",
+      "id": "fuel",
+      "mode": "input",
+      "config": {
+        "TOP": "NONE",
+        "BOTTOM": "NONE",
+        "FRONT": "NONE",
+        "RIGHT": "NONE",
+        "BACK": "INPUT",
+        "LEFT": "NONE",
+        "enabled": false
+      }
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "output",
+      "mode": "output",
+      "config": {
+        "TOP": "NONE",
+        "BOTTOM": "NONE",
+        "FRONT": "NONE",
+        "RIGHT": "OUTPUT",
+        "BACK": "NONE",
+        "LEFT": "OUTPUT",
+        "enabled": false
+      }
+    }
+  ],
+  "gui": [
+    {
+      "type": "custommachinery:background",
+      "width": 172,
+      "height": 160
+    },
+    {
+      "type": "custommachinery:player_inventory",
+      "x": 5,
+      "y": 78
+    },
+    {
+      "type": "custommachinery:progress",
+      "x": 75,
+      "y": 31
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input",
+      "x": 51,
+      "y": 21,
+      "width": 18,
+      "height": 18
+    },
+    {
+      "type": "custommachinery:fuel",
+      "x": 31,
+      "y": 47,
+      "width": 14,
+      "height": 14
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "fuel",
+      "x": 51,
+      "y": 45,
+      "width": 18,
+      "height": 18
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output",
+      "x": 105,
+      "y": 30,
+      "width": 18,
+      "height": 18
+    }
+  ]
+}

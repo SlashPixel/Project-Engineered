@@ -173,8 +173,12 @@ const CREATE_BLOCK_TAGS = [
 
 const CREATE_FLUID_TAGS = [{ tag: 'create:fan_processing_catalysts/blasting', replace: true }];
 
+const STONE_TIER_ORES = ['#c:ores/copper', '#c:ores/iron', '#c:ores/tin'];
+
 const MINECRAFT_BLOCK_TAGS = [
-  { tag: 'minecraft:needs_stone_tool', values: ['#c:ores/copper', '#c:ores/iron', '#c:ores/tin'] }
+  { tag: 'minecraft:needs_stone_tool', values: STONE_TIER_ORES },
+  { tag: 'minecraft:needs_iron_tool', remove: STONE_TIER_ORES },
+  { tag: 'minecraft:needs_diamond_tool', remove: STONE_TIER_ORES }
 ];
 
 const MINECRAFT_ITEM_TAGS = [

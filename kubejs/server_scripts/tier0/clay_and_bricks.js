@@ -64,16 +64,16 @@ ServerEvents.recipes(() => {
   });
 
   crafting.shaped('immersiveengineering:crafting/cokebrick', {
-    pattern: ['CBC', 'BSB', 'CBC'],
-    key: { C: '#c:clay', B: 'modern_industrialization:fire_clay_brick', S: '#c:sands' },
-    out: ['immersiveengineering:cokebrick', 3],
+    pattern: ['BBB', 'BMB', 'BBB'],
+    key: { B: 'modern_industrialization:fire_clay_brick', M: 'kubejs:mortar' },
+    out: ['immersiveengineering:cokebrick', 2],
     category: 'misc'
   });
 
   crafting.shaped('immersiveengineering:crafting/blastbrick', {
-    pattern: ['CBC', 'BMB', 'CBC'],
-    key: { C: '#c:clay', B: 'productivemetalworks:fire_brick', M: 'productivemetalworks:black_fire_bricks' },
-    out: ['immersiveengineering:blastbrick', 3],
+    pattern: ['BBB', 'BMB', 'BBB'],
+    key: { B: 'productivemetalworks:fire_brick', M: 'kubejs:mortar' },
+    out: ['immersiveengineering:blastbrick', 2],
     category: 'misc'
   });
 });

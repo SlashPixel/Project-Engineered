@@ -1,3 +1,9 @@
 {
-  "tooltip.kubejs.decor_furnace": "Purely decorative. Light with a flint and steel."
+  "kubejs.machine.grafting_table": "Grafting Table",
+  "tooltip.kubejs.decor_furnace": "Purely decorative. Light with a flint and steel.",
+  "item.kubejs.unfired_stone_brick": "Unfired Stone Brick",
+  "item.kubejs.stone_brick": "Stone Brick",
+  "item.kubejs.quicklime": "Quicklime",
+  "item.kubejs.slaked_lime": "Slaked Lime",
+  "item.kubejs.mortar": "Mortar"
 }

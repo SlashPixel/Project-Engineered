@@ -1,0 +1,13 @@
+name = "Rack It Up"
+filename = "rackitup-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "fc546ce462e6e7470bb648e2bc76e79264d756f1"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8567159
+project-id = 1544248

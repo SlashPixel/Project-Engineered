@@ -21,4 +21,10 @@ StartupEvents.registry('item', event => {
     .texture('kubejs:item/generated/unfired_fire_brick');
 
   event.create('unfired_clay_kiln').displayName('Unfired Clay Kiln');
+
+  event.create('unfired_stone_brick').texture('kubejs:item/generated/unfired_stone_brick');
+  event.create('stone_brick').texture('kubejs:item/generated/stone_brick');
+  event.create('quicklime').texture('kubejs:item/generated/quicklime');
+  event.create('slaked_lime').texture('kubejs:item/generated/slaked_lime');
+  event.create('mortar').texture('kubejs:item/generated/mortar');
 });

@@ -176,12 +176,52 @@
         "justdirethings:pocket_generator"
       ]
     },
+    "mekanism": {
+      "items": [
+        "mekanism:basic_universal_cable",
+        "mekanism:advanced_universal_cable",
+        "mekanism:elite_universal_cable",
+        "mekanism:ultimate_universal_cable",
+        "mekanism:basic_mechanical_pipe",
+        "mekanism:advanced_mechanical_pipe",
+        "mekanism:elite_mechanical_pipe",
+        "mekanism:ultimate_mechanical_pipe",
+        "mekanism:basic_logistical_transporter",
+        "mekanism:advanced_logistical_transporter",
+        "mekanism:elite_logistical_transporter",
+        "mekanism:ultimate_logistical_transporter",
+        "mekanism:diversion_transporter",
+        "mekanism:restrictive_transporter"
+      ],
+      "recipes": [
+        "mekanism:transmitter/universal_cable/basic",
+        "mekanism:transmitter/universal_cable/advanced",
+        "mekanism:transmitter/universal_cable/elite",
+        "mekanism:transmitter/universal_cable/ultimate",
+        "mekanism:transmitter/mechanical_pipe/basic",
+        "mekanism:transmitter/mechanical_pipe/advanced",
+        "mekanism:transmitter/mechanical_pipe/elite",
+        "mekanism:transmitter/mechanical_pipe/ultimate",
+        "mekanism:transmitter/logistical_transporter/basic",
+        "mekanism:transmitter/logistical_transporter/advanced",
+        "mekanism:transmitter/logistical_transporter/elite",
+        "mekanism:transmitter/logistical_transporter/ultimate",
+        "mekanism:transmitter/diversion_transporter",
+        "mekanism:transmitter/restrictive_transporter"
+      ]
+    },
     "mekanismgenerators": {
       "items": [
         "mekanismgenerators:wind_generator"
       ],
       "recipes": [
         "mekanismgenerators:generator/wind"
+      ]
+    },
+    "minecraft": {
+      "items": [],
+      "recipes": [
+        "minecraft:stone_bricks_from_stone_stonecutting"
       ]
     },
     "modern_industrialization": {
@@ -202,11 +242,44 @@
     "oritech": {
       "items": [
         "oritech:lava_generator_block",
-        "oritech:basic_generator_block"
+        "oritech:basic_generator_block",
+        "oritech:item_pipe",
+        "oritech:fluid_pipe",
+        "oritech:energy_pipe",
+        "oritech:superconductor",
+        "oritech:item_pipe_duct",
+        "oritech:fluid_pipe_duct",
+        "oritech:energy_pipe_duct",
+        "oritech:superconductor_duct",
+        "oritech:framed_item_pipe",
+        "oritech:framed_fluid_pipe",
+        "oritech:framed_energy_pipe",
+        "oritech:framed_superconductor",
+        "oritech:transparent_item_pipe",
+        "oritech:pipe_booster"
       ],
       "recipes": [
         "oritech:crafting/lavagen",
-        "oritech:crafting/basicgen"
+        "oritech:crafting/basicgen",
+        "oritech:item_pipe",
+        "oritech:fluid_pipe",
+        "oritech:energy_pipe",
+        "oritech:assembler/superconductor",
+        "oritech:item_pipe_duct",
+        "oritech:fluid_pipe_duct",
+        "oritech:energy_pipe_duct",
+        "oritech:superconductor_duct",
+        "oritech:framed_item_pipe",
+        "oritech:framed_fluid_pipe",
+        "oritech:framed_energy_pipe",
+        "oritech:framed_superconductor",
+        "oritech:transparent_item_pipe",
+        "oritech:pipe_booster",
+        "oritech:crafting/unduct_item",
+        "oritech:crafting/unduct_fluid",
+        "oritech:crafting/unduct_energy",
+        "oritech:crafting/unduct_superconductor",
+        "oritech:crafting/unframe_superconductor"
       ]
     },
     "pamhc2crops": {

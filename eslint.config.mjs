@@ -40,10 +40,14 @@ const kubejsGlobals = readonly([
   'LootEntry',
   'MIRegistrationEvents',
   'MIMachineEvents',
-  'MIMaterialEvents'
+  'MIMaterialEvents',
+  'CustomMachineryEvents',
+  'CMRecipeModifierBuilder',
+  'AlmostUnified',
+  'Ingredient'
 ]);
 
-const serverHelpers = readonly(['readRecipes', 'replaceRecipes', 'mi', 'crafting', 'cooking', 'pnc']);
+const serverHelpers = readonly(['readRecipes', 'replaceRecipes', 'mi', 'crafting', 'cooking', 'pnc', 'cm', 'rack']);
 const clientHelpers = readonly(['mixColors', 'recolorTexture']);
 
 export default [

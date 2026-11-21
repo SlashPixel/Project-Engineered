@@ -31,13 +31,12 @@ ServerEvents.recipes(event => {
   event.remove({ id: 'modern_industrialization:materials/bronze_dust' });
   event.remove({ id: 'modern_industrialization:materials/bronze_tiny_dust' });
 
-  event.remove({ id: 'immersiveengineering:crafting/alloybrick' });
-  event
-    .shaped(Item.of('immersiveengineering:alloybrick', 2), ['FB', 'BF'], {
-      F: 'modern_industrialization:fire_clay_brick',
-      B: '#c:bricks'
-    })
-    .id('immersiveengineering:crafting/alloybrick');
+  crafting.shaped('immersiveengineering:crafting/alloybrick', {
+    pattern: ['FBF', 'BMB', 'FBF'],
+    key: { F: 'modern_industrialization:fire_clay_brick', B: 'minecraft:brick', M: 'kubejs:mortar' },
+    out: ['immersiveengineering:alloybrick', 2],
+    category: 'misc'
+  });
 
   console.info(`[alloys] kiln: rewrote ${rewrites.length}, removed ${removals.length}`);
 });

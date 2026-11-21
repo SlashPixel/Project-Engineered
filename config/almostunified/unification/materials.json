@@ -1,8 +1,8 @@
 {
   "mod_priorities": ["minecraft", "kubejs", "modern_industrialization", "ftbmaterials"],
   "priority_overrides": {
-    "c:dusts/lithium": "nuclearcraft",
-    "c:gems/silicon": "nuclearcraft",
+    "c:dusts/lithium": "nuclearcraftneohaul",
+    "c:gems/silicon": "nuclearcraftneohaul",
     "c:ores/iridium": "ftbmaterials",
     "c:ores/platinum": "ftbmaterials",
     "c:ores/quartz": "ftbmaterials",
