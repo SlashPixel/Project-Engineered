@@ -1,0 +1,156 @@
+{
+  "ores": [
+    {
+      "id": "galena",
+      "name": "Galena",
+      "host": "deepslate",
+      "shape": "iron",
+      "main": "#7A7F87",
+      "accent": "#B8BEC6"
+    },
+    {
+      "id": "barite",
+      "name": "Barite",
+      "host": "netherrack",
+      "shape": "nether_quartz",
+      "main": "#E8E2D4",
+      "accent": "#C9C0AE"
+    },
+    {
+      "id": "bauxite",
+      "name": "Bauxite",
+      "host": "stone",
+      "shape": "copper",
+      "main": "#A0522D",
+      "accent": "#D9A066"
+    },
+    {
+      "id": "uranium",
+      "name": "Uranium",
+      "host": "deepslate",
+      "shape": "redstone",
+      "main": "#1F1F1F",
+      "accent": "#C8D84A"
+    },
+    {
+      "id": "nickel",
+      "name": "Nickel",
+      "host": "stone",
+      "shape": "lapis",
+      "main": "#7DB36A",
+      "accent": "#4E7F45"
+    },
+    {
+      "id": "silver",
+      "name": "Silver",
+      "host": "deepslate",
+      "shape": "gold",
+      "main": "#D8DCE0",
+      "accent": "#6E6E73"
+    },
+    {
+      "id": "magnetite",
+      "name": "Magnetite",
+      "host": "deepslate",
+      "shape": "coal",
+      "main": "#2C3038",
+      "accent": "#6A7180"
+    },
+    {
+      "id": "pyrolusite",
+      "name": "Pyrolusite",
+      "host": "stone",
+      "shape": "coal",
+      "main": "#3B2F2A",
+      "accent": "#5A4C44"
+    },
+    {
+      "id": "vanadinite",
+      "name": "Vanadinite",
+      "host": "stone",
+      "shape": "diamond",
+      "main": "#D9441F",
+      "accent": "#F07A3A"
+    },
+    {
+      "id": "sphalerite",
+      "name": "Sphalerite",
+      "host": "deepslate",
+      "shape": "gold",
+      "main": "#8B5A2B",
+      "accent": "#C98A3C"
+    },
+    {
+      "id": "chalcopyrite",
+      "name": "Chalcopyrite",
+      "host": "deepslate",
+      "shape": "copper",
+      "main": "#C9A23C",
+      "accent": "#6A4C9C"
+    },
+    {
+      "id": "pentlandite",
+      "name": "Pentlandite",
+      "host": "deepslate",
+      "shape": "iron",
+      "main": "#B8964A",
+      "accent": "#8C7440"
+    },
+    {
+      "id": "beryl",
+      "name": "Beryl",
+      "host": "deepslate",
+      "shape": "emerald",
+      "main": "#8FD3C1",
+      "accent": "#5FB3A0"
+    },
+    {
+      "id": "potash",
+      "name": "Potash",
+      "host": "stone",
+      "shape": "redstone",
+      "main": "#E59A8C",
+      "accent": "#F2E4DE"
+    },
+    {
+      "id": "gypsum",
+      "name": "Gypsum",
+      "host": "stone",
+      "shape": "diamond",
+      "main": "#F4F1EA",
+      "accent": "#D8D3C8"
+    },
+    {
+      "id": "kaolin",
+      "name": "Kaolin",
+      "host": "stone",
+      "shape": "copper",
+      "main": "#EDE6D6",
+      "accent": "#D6C9AE"
+    },
+    {
+      "id": "tungsten",
+      "name": "Tungsten",
+      "host": "netherrack",
+      "shape": "nether_gold",
+      "main": "#3A3330",
+      "accent": "#5C514A"
+    },
+    {
+      "id": "antimony",
+      "name": "Antimony",
+      "host": "netherrack",
+      "shape": "nether_quartz",
+      "main": "#8E949C",
+      "accent": "#BFC4CA"
+    },
+    {
+      "id": "cobaltite",
+      "name": "Cobaltite",
+      "host": "netherrack",
+      "shape": "nether_gold",
+      "main": "#C9C3C6",
+      "accent": "#D46A9A"
+    }
+  ]
+}

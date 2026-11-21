@@ -34,11 +34,31 @@ hash = "a75aa75ec708a95a02014bc326d5cf9874785c5f808689a8440b1a3bc5b8a1cf"
 
 [[files]]
 file = "config/ceramicbucket-server.toml"
-hash = "61ae9c5cbc3d29f811684d86ad19237886d0a695b97b30cc6081b67c64c112dd"
+hash = "58bfd636f3a720fa216d7cc534182f34b55f4d49f5f1925b080f0f73afa90f9e"
 
 [[files]]
 file = "config/custommachinery-common.toml"
 hash = "675b627306f1de82f7254af99ddd55e106f8082fc7b616517d4684de5f31d878"
+
+[[files]]
+file = "config/ftbquests/quests/chapter_groups.snbt"
+hash = "c9663260ba871a1e07fa13b51756fe5221970e08d2a9ae1a275a3ba7196fdbb1"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/tier_1_the_stone_age.snbt"
+hash = "ce29568586360daa39fdb4113385a33337b28383a1076b281de9fb03c246e7c2"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/tiers.snbt"
+hash = "cc7c68146eb066cfe415feb39ba9b2cfe0a76bd87066c8f9ad8483bea0f643d5"
+
+[[files]]
+file = "config/ftbquests/quests/data.snbt"
+hash = "d0b8b2f3b7bf76d3dd086390a69d6acc1ac2b28c8f356bb086e2d9f7f087c536"
+
+[[files]]
+file = "config/ftbquests/quests/lang/en_us.snbt"
+hash = "342b7b33e59e5babea2a7abd6d6f1fc542960b9f13ffad66bdc2b43bd74bf7d3"
 
 [[files]]
 file = "config/oritech-common.toml"
@@ -62,7 +82,7 @@ hash = "4c4cc3a1eec24dba0a2daa066040c5daafb01744e154cd6d4fd802aa887467ef"
 
 [[files]]
 file = "config/silentgear-common.toml"
-hash = "27d71ad6a140c95dee57d18a2cf1d243275e804d412067c8e7e83c5da3ce3a13"
+hash = "891a36a7709700e3fd87d33b3420cbac4a8dd36b757017efd01f7c52a6beb6e3"
 
 [[files]]
 file = "config/spark/config.json"
@@ -461,8 +481,12 @@ file = "kubejs/client_scripts/mi_tier_textures.js"
 hash = "f38de17b1dc75b5642ca5a0390d06859bb680744feb23bc9b22e016616670558"
 
 [[files]]
+file = "kubejs/client_scripts/ore_textures.js"
+hash = "c85730d9d19d826bffb113fa0a3b827f9ab1dc5b25c5512e0be2a20a11363436"
+
+[[files]]
 file = "kubejs/client_scripts/recolor.js"
-hash = "41ef172bf4192b01e59a6ed79ae563aec87ba9181c70b94c1b3e1767acb6adfa"
+hash = "819f5e179b1beff3d0a88ac4044b12c627f1e34386be7a40746edc91680b03ed"
 
 [[files]]
 file = "kubejs/client_scripts/textures.js"
@@ -481,8 +505,12 @@ file = "kubejs/config/common.json"
 hash = "e00a67922942660d77c213379b5128a46c5abc894178b0be04006d325ff5f6b3"
 
 [[files]]
+file = "kubejs/config/custom_ores.json"
+hash = "79d5feb0adce609ac4f539f91112a18ffaebb24fb26c46a67750580774be532a"
+
+[[files]]
 file = "kubejs/config/removed_content.json"
-hash = "ee381ec6f26f5452ef20a7b8dd28c7f84aaa7880eaa83c424f5dee1f5cdf5b5b"
+hash = "e4f9d1879e51495ff80792eeeecca87bf73b8c591fc945c16fb78b0f10448fba"
 
 [[files]]
 file = "kubejs/data/actuallyadditions/worldgen/processor_list/engineer_house.json"
@@ -549,6 +577,10 @@ file = "kubejs/server_scripts/loot.js"
 hash = "3320801d7db526466be17951029db8966d3a6155100819722b62260ab3957e9e"
 
 [[files]]
+file = "kubejs/server_scripts/ores.js"
+hash = "5235a0e325ed7efa1957a84543242d32e14f35a2e573b2cb05a1fa69f55e6b65"
+
+[[files]]
 file = "kubejs/server_scripts/recipe_helpers.js"
 hash = "1832f2b123d329aa45ebddfe3ef10864acee9499d79698eca50d38c52ae7b930"
 
@@ -558,7 +590,7 @@ hash = "6f2199708b2bc20a6c17304152dc3551bc7897c985ea4fdaf6ca1ea5997204dd"
 
 [[files]]
 file = "kubejs/server_scripts/tags.js"
-hash = "89a4715420c0f4b2bd8d0efa8fc4952b1858d62644bf879293e9d1895389c000"
+hash = "af9569e61462509847cedefdf71768a41db7edc3b6e3018d0ae27ee9e68666cb"
 
 [[files]]
 file = "kubejs/server_scripts/tier0/alloys.js"
@@ -614,7 +646,7 @@ hash = "ba5eb09359c94528f1623d6c6d44105ff1baf25f360fdb8e1b9a8f118cf3fa89"
 
 [[files]]
 file = "kubejs/server_scripts/tier0/grafting_table.js"
-hash = "68e71e7befc3ba53f277e4eb4e282dffde2baa39de7495d8eaeeaba0ebde74fb"
+hash = "5bf7064f8482d296c124adc7855c56b58d5552566333c0970e1856a5982a7a5e"
 
 [[files]]
 file = "kubejs/server_scripts/tier0/kiln_recipes.js"
@@ -662,7 +694,7 @@ hash = "74ab9bc53185e4f57abec387f4d3f21a28038d9164ba3c64f8dc98166fc22a67"
 
 [[files]]
 file = "kubejs/server_scripts/worldgen.js"
-hash = "45ab3bbdebb4b72710cca1a35d4518c7af497dc3ea212ca8b133d44ce4d8ac31"
+hash = "ae4aa83a1277c737a55dd86c0ae0cc7a0df44fe92c693dcd7b693b1d4acd53e6"
 
 [[files]]
 file = "kubejs/startup_scripts/cores.js"
@@ -691,6 +723,10 @@ hash = "1038226131cfc075107eb95c4323aafc68cee558b07f4a423bf805193e2859d9"
 [[files]]
 file = "kubejs/startup_scripts/mod_names.js"
 hash = "f655de73ae4aec7723c4e6bcacb1f3d40beb60ff1d3cc3b179cfe40d386547ca"
+
+[[files]]
+file = "kubejs/startup_scripts/ores.js"
+hash = "8d573e0a7eb220bbe9dbcea625c8c227ae7f44b6765f62b1695f8d33a215e384"
 
 [[files]]
 file = "mods/aaron.pw.toml"
@@ -878,11 +914,6 @@ hash = "34060f845cd0e451231f2ca2f9d702b890f06cf98267275ff62324f20d85dd38"
 metafile = true
 
 [[files]]
-file = "mods/excessive-utilities.pw.toml"
-hash = "81f5fb487c7675b5be4af1ed90bcd784625d302700a2fe04edae519c0a7781bb"
-metafile = true
-
-[[files]]
 file = "mods/experiencelib.pw.toml"
 hash = "832116ba3f826af7f8ccfc56d11c19a350cd152fe194f0d27c1b1c9f3db30ed7"
 metafile = true
@@ -910,6 +941,11 @@ metafile = true
 [[files]]
 file = "mods/ftb-chunks-forge.pw.toml"
 hash = "fe87173e15a7e2a7543c553708cc3f49a346bcb686cec4977fce6c3efafe4521"
+metafile = true
+
+[[files]]
+file = "mods/ftb-filter-system.pw.toml"
+hash = "8a133f808bce32c9a28edde809ec726800d5afa5c52458ed4befbd862dc9a013"
 metafile = true
 
 [[files]]
