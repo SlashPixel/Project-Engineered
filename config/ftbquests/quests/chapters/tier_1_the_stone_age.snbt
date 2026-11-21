@@ -1,0 +1,20 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tier_1_the_stone_age"
+	group: "58B1F0F3D1317E3B"
+	id: "65C2729ED1391467"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		id: "43C8C9924BD36E36"
+		tasks: [{
+			id: "59950AF4C9B442B3"
+			item: { components: { "ftbfiltersystem:filter": "item_tag(minecraft:logs)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+			type: "item"
+		}]
+		x: -9.5d
+		y: 0.0d
+	}]
+}
