@@ -35,5 +35,7 @@
   "block.modern_industrialization.t_vii_superconductor_transformer": "T-VII to SV Transformer",
   "block.modern_industrialization.superconductor_t_vii_transformer": "SV to T-VII Transformer",
   "block.modern_industrialization.superconductor_t_viii_transformer": "SV to T-VIII Transformer",
-  "block.modern_industrialization.t_viii_superconductor_transformer": "T-VIII to SV Transformer"
+  "block.modern_industrialization.t_viii_superconductor_transformer": "T-VIII to SV Transformer",
+  "block.modern_industrialization.steam": "Low Pressure Steam",
+  "item.modern_industrialization.steam_bucket": "Low Pressure Steam Bucket"
 }

@@ -7,14 +7,107 @@
 	images: [ ]
 	order_index: 0
 	quest_links: [ ]
-	quests: [{
-		id: "43C8C9924BD36E36"
-		tasks: [{
-			id: "59950AF4C9B442B3"
-			item: { components: { "ftbfiltersystem:filter": "item_tag(minecraft:logs)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-			type: "item"
-		}]
-		x: -9.5d
-		y: 0.0d
-	}]
+	quests: [
+		{
+			dependencies: ["3A3859ED61D58A91"]
+			id: "1D8ACB9E83E871EC"
+			rewards: [{
+				id: "4BEF9E6D0228CF97"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "3DB9DA1EEA96F0A9"
+				item: { count: 1, id: "farmersdelight:flint_knife" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1D8ACB9E83E871EC"]
+			id: "6512D8D430935253"
+			rewards: [{
+				id: "0D0EE282665722F3"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "03B62B274E7E61B2"
+				item: { count: 1, id: "silentgear:template_board" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6512D8D430935253"]
+			id: "667B01B1CBE34D73"
+			rewards: [{
+				id: "41DFC87B8774EA6C"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					id: "51D1E4B9C20B14B9"
+					item: { count: 1, id: "silentgear:pickaxe_template" }
+					type: "item"
+				}
+				{
+					id: "1CA0CAB2444E16D8"
+					item: { count: 1, id: "silentgear:axe_template" }
+					type: "item"
+				}
+				{
+					id: "405D91BD76FD84DB"
+					item: { count: 1, id: "silentgear:sword_template" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["667B01B1CBE34D73"]
+			id: "3D66F76EACF15F76"
+			rewards: [{
+				id: "7BE7E441BC9BE884"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "1142B2B9794A70E1"
+				item: { count: 1, id: "minecraft:campfire" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3D66F76EACF15F76"]
+			dependency_requirement: "one_completed"
+			id: "0685B558BC4CF3C1"
+			rewards: [{
+				id: "116B9C5C0C60211B"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					id: "74160F06C8990340"
+					item: { count: 1, id: "kubejs:unfired_clay_kiln" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3CA5E8DC35C5994F"
+					item: { components: { "custommachinery:machine": "custommachinery:clay_kiln" }, count: 1, id: "custommachinery:custom_machine_item" }
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: 2.5d
+		}
+	]
 }

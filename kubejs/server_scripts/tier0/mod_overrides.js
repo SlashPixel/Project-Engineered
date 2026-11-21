@@ -17,4 +17,18 @@ ServerEvents.recipes(() => {
     out: 'pneumaticcraft:universal_sensor',
     category: 'misc'
   });
+
+  crafting.shaped('minecraft:bucket', {
+    pattern: ['P P', ' P '],
+    key: { P: '#c:plates/iron' },
+    out: 'minecraft:bucket',
+    category: 'misc'
+  });
+
+  crafting.shaped('minecraft:hopper', {
+    pattern: ['PGP', 'PCP', ' P '],
+    key: { P: '#c:plates/iron', G: '#c:gears/iron', C: 'minecraft:chest' },
+    out: 'minecraft:hopper',
+    category: 'misc'
+  });
 });

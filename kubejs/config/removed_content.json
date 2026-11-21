@@ -25,7 +25,8 @@
       ],
       "recipes": [
         "ad_astra:coal_generator",
-        "ad_astra:alloying/steel_ingot_from_alloying_iron_ingot_and_barrier"
+        "ad_astra:alloying/steel_ingot_from_alloying_iron_ingot_and_barrier",
+        "ad_astra:steel_ingot"
       ]
     },
     "ae2": {
@@ -65,13 +66,16 @@
       ],
       "recipes": [
         "ftbmaterials:steel_ingot_from_smelting_steel_dust",
-        "ftbmaterials:steel_ingot_from_blasting_steel_dust"
+        "ftbmaterials:steel_ingot_from_blasting_steel_dust",
+        "ftbmaterials:steel_ingot"
       ]
     },
     "immersiveengineering": {
       "items": [
         "immersiveengineering:blastbrick_reinforced",
-        "immersiveengineering:slab_blastbrick_reinforced"
+        "immersiveengineering:slab_blastbrick_reinforced",
+        "immersiveengineering:cokebrick",
+        "immersiveengineering:slab_cokebrick"
       ],
       "recipes": [
         "immersiveengineering:arc_recycling_list",
@@ -80,7 +84,11 @@
         "immersiveengineering:crafting/blastbrick_reinforced_to_slab",
         "immersiveengineering:smelting/ingot_steel_from_dust",
         "immersiveengineering:smelting/ingot_steel_from_dust_from_blasting",
-        "immersiveengineering:arcfurnace/dust_steel"
+        "immersiveengineering:arcfurnace/dust_steel",
+        "immersiveengineering:crafting/nugget_steel_to_ingot_steel",
+        "immersiveengineering:crafting/cokebrick",
+        "immersiveengineering:crafting/cokebrick_from_slab",
+        "immersiveengineering:crafting/cokebrick_to_slab"
       ]
     },
     "industrialforegoing": {
@@ -173,7 +181,8 @@
         "mekanism:transmitter/restrictive_transporter",
         "mekanism:processing/steel/enriched_iron_to_dust",
         "mekanism:processing/steel/ingot/from_dust_smelting",
-        "mekanism:processing/steel/ingot/from_dust_blasting"
+        "mekanism:processing/steel/ingot/from_dust_blasting",
+        "mekanism:processing/steel/ingot/from_nuggets"
       ]
     },
     "mekanismgenerators": {
@@ -288,11 +297,19 @@
     "pneumaticcraft": {
       "items": [
         "pneumaticcraft:pneumatic_dynamo",
-        "pneumaticcraft:seismic_sensor"
+        "pneumaticcraft:seismic_sensor",
+        "pneumaticcraft:small_tank",
+        "pneumaticcraft:medium_tank",
+        "pneumaticcraft:large_tank",
+        "pneumaticcraft:huge_tank"
       ],
       "recipes": [
         "pneumaticcraft:seismic_sensor",
-        "pneumaticcraft:pneumatic_dynamo"
+        "pneumaticcraft:pneumatic_dynamo",
+        "pneumaticcraft:small_tank",
+        "pneumaticcraft:medium_tank",
+        "pneumaticcraft:large_tank",
+        "pneumaticcraft:huge_tank"
       ]
     },
     "productivemetalworks": {
@@ -322,9 +339,19 @@
     },
     "silentgear": {
       "items": [
-        "silentgear:flax_seeds"
+        "silentgear:flax_seeds",
+        "silentgear:stone_anvil"
       ],
-      "recipes": []
+      "recipes": [
+        "silentgear:stone_anvil"
+      ]
+    },
+    "treetap": {
+      "items": [],
+      "recipes": [
+        "treetap:ceramic_bucket_mod_example",
+        "treetap:syrup_from_maple_pams"
+      ]
     },
     "yet_another_industrialization": {
       "items": [

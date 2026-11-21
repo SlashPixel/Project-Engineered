@@ -63,10 +63,10 @@ ServerEvents.recipes(() => {
     out: [['modern_industrialization:fire_clay_dust', 6]]
   });
 
-  crafting.shaped('immersiveengineering:crafting/cokebrick', {
+  crafting.shaped('kubejs:fire_clay_bricks_from_mortar', {
     pattern: ['BBB', 'BMB', 'BBB'],
     key: { B: 'modern_industrialization:fire_clay_brick', M: 'kubejs:mortar' },
-    out: ['immersiveengineering:cokebrick', 2],
+    out: ['modern_industrialization:fire_clay_bricks', 2],
     category: 'misc'
   });
 

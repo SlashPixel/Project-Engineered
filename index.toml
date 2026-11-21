@@ -34,7 +34,7 @@ hash = "a75aa75ec708a95a02014bc326d5cf9874785c5f808689a8440b1a3bc5b8a1cf"
 
 [[files]]
 file = "config/ceramicbucket-server.toml"
-hash = "61ae9c5cbc3d29f811684d86ad19237886d0a695b97b30cc6081b67c64c112dd"
+hash = "58bfd636f3a720fa216d7cc534182f34b55f4d49f5f1925b080f0f73afa90f9e"
 
 [[files]]
 file = "config/custommachinery-common.toml"
@@ -42,23 +42,23 @@ hash = "675b627306f1de82f7254af99ddd55e106f8082fc7b616517d4684de5f31d878"
 
 [[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
-hash = "532c48369c9c1ac3782352a51cecb9363143df440f9034ce9586e4a9ed0eb9b0"
+hash = "c9663260ba871a1e07fa13b51756fe5221970e08d2a9ae1a275a3ba7196fdbb1"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tier_1_the_stone_age.snbt"
-hash = "9c9e894814a56d157ed2aa09a918665f0d9301893a8560c33a44ebed36ab754a"
+hash = "28c90ec796f7cc7763da253919878a4b1e528e1c44c40491008fdb397a36cfee"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tiers.snbt"
-hash = "998943a70c4a5fdef90d75c5ac947f05681cc05191a7d7279e94ed5d980ae950"
+hash = "cc7c68146eb066cfe415feb39ba9b2cfe0a76bd87066c8f9ad8483bea0f643d5"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
-hash = "fdc99aa4bb3ee5fd51a5a9f39b7a1d50d6d4d6b19b8526d23ba130e4d493310a"
+hash = "d0b8b2f3b7bf76d3dd086390a69d6acc1ac2b28c8f356bb086e2d9f7f087c536"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "808680ee9d62f1af9bdff01c6870ccd83d84e7e9ed28d126f04fc4de01e5f416"
+hash = "f87215a3665713297a1ac3cb518893f4aca199e16531c0f843a4672316646fb4"
 
 [[files]]
 file = "config/oritech-common.toml"
@@ -81,8 +81,16 @@ file = "config/remi/stack_groups/ceramic_buckets.json"
 hash = "4c4cc3a1eec24dba0a2daa066040c5daafb01744e154cd6d4fd802aa887467ef"
 
 [[files]]
+file = "config/remi/stack_groups/dyed_foundry_components.json"
+hash = "5fe7624866e0ac76da5c962fcb436a3fc37d174239cec0dabfdb0ea4e99b5462"
+
+[[files]]
+file = "config/remi/stack_groups/mekanism_creative_tanks.json"
+hash = "f27f8498902e156f3a66a0f0e380031d863517bd8cc85ba02cbf5378fdcb03b7"
+
+[[files]]
 file = "config/silentgear-common.toml"
-hash = "27d71ad6a140c95dee57d18a2cf1d243275e804d412067c8e7e83c5da3ce3a13"
+hash = "891a36a7709700e3fd87d33b3420cbac4a8dd36b757017efd01f7c52a6beb6e3"
 
 [[files]]
 file = "config/spark/config.json"
@@ -137,8 +145,24 @@ file = "kubejs/assets/kubejs/models/item/unfired_clay_kiln.json"
 hash = "b889c002bae808f8c43bafec09f0325a390fdc7ec6194c5e8c3a3d892f6890cf"
 
 [[files]]
+file = "kubejs/assets/mi_tweaks/blockstates/primitive_coke_oven.json"
+hash = "a8f188e16ef6f36c188a77cd1f8960d73d0af2129529dc02e7b3b5e7de012548"
+
+[[files]]
+file = "kubejs/assets/mi_tweaks/lang/en_us.json"
+hash = "6a03cb4465f231a757ee33c0e8def6898da524569d81dbce21e3689210a30075"
+
+[[files]]
+file = "kubejs/assets/mi_tweaks/models/block/primitive_coke_oven.json"
+hash = "985330fcd9cb510ba62b9154f40bdcba58770dd8a2af25ded7bff6dbe99a8897"
+
+[[files]]
+file = "kubejs/assets/mi_tweaks/models/item/primitive_coke_oven.json"
+hash = "22fbacd55f9cb5fdb34a607d5b3f6cef0fbfb0eb81b056fc19a32f46b4986505"
+
+[[files]]
 file = "kubejs/assets/modern_industrialization/lang/en_us.json"
-hash = "8c73aa4d2b25811ea6e37e72fb27a09e7548b86675275a6344186912906267fb"
+hash = "0626d5208c7c188435e09cebdcf804120f9f51ff115cbfb4358528c46b87ca74"
 
 [[files]]
 file = "kubejs/assets/modern_industrialization/models/block/ev_t_iv_transformer.json"
@@ -510,7 +534,7 @@ hash = "6b1f8e34adc9a83435ff9c62220b6141bd7dd7b7d1ec19944e6934d62432495f"
 
 [[files]]
 file = "kubejs/config/removed_content.json"
-hash = "e4f9d1879e51495ff80792eeeecca87bf73b8c591fc945c16fb78b0f10448fba"
+hash = "5724ff1a5da6055ca74b33be5a7260e029d50feba9e4918c4b8a47d36862a796"
 
 [[files]]
 file = "kubejs/data/actuallyadditions/worldgen/processor_list/engineer_house.json"
@@ -597,12 +621,16 @@ file = "kubejs/server_scripts/tier0/alloys.js"
 hash = "5624962b4b0220d7e1740ff22c49d59682e17c5f3cdbb1e6442cc291b5b81856"
 
 [[files]]
+file = "kubejs/server_scripts/tier0/brick_blocks.js"
+hash = "9426f69dd3ded9a218e511d78ca535959c5b3c2dd593e758848e488c7f10beb1"
+
+[[files]]
 file = "kubejs/server_scripts/tier0/bricks.js"
 hash = "7827363ba5fedcfb87d3255180f87783862156a82eb2deeb1cc29197e3959d80"
 
 [[files]]
 file = "kubejs/server_scripts/tier0/clay_and_bricks.js"
-hash = "56228242e7e87624b15d148c1354e71e4bd1ada379fe219e0e57aeeab3f49421"
+hash = "39da368b880026e7ab179712d3c4925e0e268bac959a8533a13aace9ec88c2c7"
 
 [[files]]
 file = "kubejs/server_scripts/tier0/coal_coke.js"
@@ -669,6 +697,14 @@ file = "kubejs/server_scripts/tier0/ore_smelting.js"
 hash = "4bd40a241f596207dc9ef0b0fe67ba932b8e6d65dce9c393e1bb3d1e3783663e"
 
 [[files]]
+file = "kubejs/server_scripts/tier0/pnc_tanks.js"
+hash = "ce5caffd7b65b0ccec9039ed4f7c176a43d398b8180060d46828b4ec4166fd48"
+
+[[files]]
+file = "kubejs/server_scripts/tier0/primitive_coke_oven.js"
+hash = "eb8b235abf10c777e0307e5ce61ba9f1ceb130a601fbe7d6aff906a097778372"
+
+[[files]]
 file = "kubejs/server_scripts/tier0/productive_metalworks.js"
 hash = "8063c71bbb8987c6a7769379f3d1fc2a0412c0a3a26bfeeffe233efe466c8903"
 
@@ -681,12 +717,24 @@ file = "kubejs/server_scripts/tier0/remove_furnace.js"
 hash = "c61967c409e8a0b7c69cc6045ae2ce0f486ceffd365786f1a429758dab4e8684"
 
 [[files]]
+file = "kubejs/server_scripts/tier0/silentgear_anvil.js"
+hash = "13b5f7f49300352939ae1a5706c3d8e8cd82abc8d0df5c36396741eafaa09232"
+
+[[files]]
 file = "kubejs/server_scripts/tier0/steel_chain.js"
 hash = "9dbfbafc25b1ed3914ec8fae478a4f0bcb3402e5d4c6cc3ef66b5d564390353d"
 
 [[files]]
 file = "kubejs/server_scripts/tier0/stone_furnace.js"
 hash = "2dfc316af68b304e01d3ccba8f9611c8c7ae77010d9962a456baf9f87fbd23b4"
+
+[[files]]
+file = "kubejs/server_scripts/tier0/treetap.js"
+hash = "a07b50b2ee1c1622bddf36581d11f7cc1cba9586e366211f8d40e89d0be70d66"
+
+[[files]]
+file = "kubejs/server_scripts/tier0/wood_yields.js"
+hash = "bf664bef6b94858e6c115b44e05b34c1a22120befba68ae70510f4bbc332cf59"
 
 [[files]]
 file = "kubejs/server_scripts/tier0/wrought_iron.js"
@@ -727,6 +775,10 @@ hash = "f655de73ae4aec7723c4e6bcacb1f3d40beb60ff1d3cc3b179cfe40d386547ca"
 [[files]]
 file = "kubejs/startup_scripts/ores.js"
 hash = "89b3c50baf804d2ab4a47672746cf697521316b2d51d93231ca825c8df61e417"
+
+[[files]]
+file = "kubejs/startup_scripts/primitive_coke_oven.js"
+hash = "89de7875c51f4d4b7ce5ad274114765391996b74a76aef63d9c1dda73732b444"
 
 [[files]]
 file = "mods/aaron.pw.toml"

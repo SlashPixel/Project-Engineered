@@ -1,0 +1,7 @@
+{
+  "id": "project_engineered:mekanism_creative_tanks",
+  "type": "remi:regex",
+  "name": "Mekanism Creative Tanks",
+  "priority": 10,
+  "regex": "mekanism:creative_(fluid|chemical)_tank"
+}

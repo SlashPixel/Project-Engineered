@@ -1,0 +1,7 @@
+{
+  "id": "project_engineered:dyed_foundry_components",
+  "type": "remi:regex",
+  "name": "Dyed Foundry Components",
+  "priority": 10,
+  "regex": "productivemetalworks:(?!black_)[a-z_]+_foundry_(capacitor|controller|drain|tank|window)"
+}
