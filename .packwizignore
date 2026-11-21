@@ -38,6 +38,7 @@ emi.json
 !config/spark/**
 config/spark/tmp/**
 config/spark/tmp-client/**
+config/spark/activity.json
 
 kubejs/config/web_server.json
 patchouli_data.json
